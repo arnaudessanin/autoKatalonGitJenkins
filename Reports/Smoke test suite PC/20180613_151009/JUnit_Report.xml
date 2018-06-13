@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke test suite PC" time="48" tests="1" failures="0" errors="0">
+   <testsuite name="Smoke test suite PC" tests="1" failures="0" errors="0" time="48" timestamp="2018-06-13 15:10:15" hostname="Test - PCWIN81.home" id="Test Suites/Smoke test suite PC">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\Smoke test suite PC\\20180613_151009"/>
+         <property name="logFiles" value="C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\Smoke test suite PC\\20180613_151009\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Test - PCWIN81.home"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.79"/>
+         <property name="hostAddress" value="192.168.1.61"/>
+         <property name="sessionId" value="20e71c7aaa950ce32f5bfdfe42874d13"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/VOD/Functional Test/Smoke Test/PC/09.03.02.02 Texte pour un utilisateur Desktop" classname="Test Cases/VOD/Functional Test/Smoke Test/PC/09.03.02.02 Texte pour un utilisateur Desktop" status="PASSED">
+         <system-out><![CDATA[2018-06-13 15:10:16 - [TEST_CASE][PASSED] - Test Cases/VOD/Functional Test/Smoke Test/PC/09.03.02.02 Texte pour un utilisateur Desktop: Test Cases/VOD/Functional Test/Smoke Test/PC/09.03.02.02 Texte pour un utilisateur Desktop
+
+2018-06-13 15:10:16 - [TEST_STEP][PASSED] - vodkeyword.vod_identification.idVOD: Wait for page load successfully
+
+2018-06-13 15:10:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://login-tb1.staging.orange.fr/?return_url=https%3A%2F%2Fovo.qualif1.orange.fr%2F%23vod%2Fhome'
+
+2018-06-13 15:10:49 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-13 15:10:50 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Identification page object/login_input' is present
+
+2018-06-13 15:10:50 - [MESSAGE][PASSED] - Text 'vodpcqualifb@orange.fr' is set on object 'Object Repository/VOD Objects/PC/Identification page object/login_input'
+
+2018-06-13 15:10:51 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Identification page object/btn_continuer' is clicked on
+
+2018-06-13 15:10:51 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Identification page object/saissisez mot de passe input' is present
+
+2018-06-13 15:10:51 - [MESSAGE][PASSED] - Text 'Passwd1' is set on object 'Object Repository/VOD Objects/PC/Identification page object/saissisez mot de passe input'
+
+2018-06-13 15:10:52 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Identification page object/btn_continuer' is clicked on
+
+2018-06-13 15:10:52 - [MESSAGE][PASSED] - Authentication of client vodpcqualifb@orange.fr is successful
+
+2018-06-13 15:10:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-13 15:10:52 - [TEST_STEP][PASSED] - vodkeyword.vod_identification.menuConvergentVOD: Menu convergeant 'Mes vidéos' accessed
+
+2018-06-13 15:10:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-13 15:11:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/VOD Objects/PC/Home Page apres Identification/Menu convergeant (mc)/mc Mes videos' is: 'Mes vidéos'
+
+2018-06-13 15:11:02 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Home Page apres Identification/Menu convergeant (mc)/mc Mes videos' is clicked on
+
+2018-06-13 15:11:02 - [MESSAGE][PASSED] - Menu convergeant 'Mes vidéos' accessed
+
+2018-06-13 15:11:02 - [TEST_STEP][PASSED] - Statement - titre_banner = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(VOD Objects/PC/Menu Convergeant Mes videos/titre banner-marketing)): Text of object 'Object Repository/VOD Objects/PC/Menu Convergeant Mes videos/titre banner-marketing' is: 'Voir et revoir vos vidéos louées ou achetées'
+
+2018-06-13 15:11:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/VOD Objects/PC/Menu Convergeant Mes videos/titre banner-marketing' is: 'Voir et revoir vos vidéos louées ou achetées'
+
+2018-06-13 15:11:02 - [TEST_STEP][PASSED] - Statement - titre1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(VOD Objects/PC/Menu Convergeant Mes videos/titre1 banner-marketing)): Text of object 'Object Repository/VOD Objects/PC/Menu Convergeant Mes videos/titre1 banner-marketing' is: 'Retrouvez et visionnez les vidéos louées ou achetées sur ordinateur, TV, tablette, smartphone et Clé TV.'
+
+2018-06-13 15:11:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/VOD Objects/PC/Menu Convergeant Mes videos/titre1 banner-marketing' is: 'Retrouvez et visionnez les vidéos louées ou achetées sur ordinateur, TV, tablette, smartphone et Clé TV.'
+
+2018-06-13 15:11:02 - [TEST_STEP][PASSED] - Statement - titre2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(VOD Objects/PC/Menu Convergeant Mes videos/titre2 banner-marketing)): Text of object 'Object Repository/VOD Objects/PC/Menu Convergeant Mes videos/titre2 banner-marketing' is: 'Téléchargez-les sur le lecteur VOD Orange pour les visionner sans connexion.'
+
+2018-06-13 15:11:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/VOD Objects/PC/Menu Convergeant Mes videos/titre2 banner-marketing' is: 'Téléchargez-les sur le lecteur VOD Orange pour les visionner sans connexion.'
+
+2018-06-13 15:11:02 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Voir et revoir vos vidéos louées ou achetées' and expected text 'Voir et revoir vos vidéos louées ou achetées' are matched 
+
+2018-06-13 15:11:02 - [MESSAGE][PASSED] - Actual text 'Voir et revoir vos vidéos louées ou achetées' and expected text 'Voir et revoir vos vidéos louées ou achetées' are matched 
+
+2018-06-13 15:11:02 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Retrouvez et visionnez les vidéos louées ou achetées sur ordinateur, TV, tablette, smartphone et Clé TV.' and expected text 'Retrouvez et visionnez les vidéos louées ou achetées sur ordinateur, TV, tablette, smartphone et Clé TV.' are matched 
+
+2018-06-13 15:11:02 - [MESSAGE][PASSED] - Actual text 'Retrouvez et visionnez les vidéos louées ou achetées sur ordinateur, TV, tablette, smartphone et Clé TV.' and expected text 'Retrouvez et visionnez les vidéos louées ou achetées sur ordinateur, TV, tablette, smartphone et Clé TV.' are matched 
+
+2018-06-13 15:11:02 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Téléchargez-les sur le lecteur VOD Orange pour les visionner sans connexion.' and expected text 'Téléchargez-les sur le lecteur VOD Orange pour les visionner sans connexion.' are matched 
+
+2018-06-13 15:11:02 - [MESSAGE][PASSED] - Actual text 'Téléchargez-les sur le lecteur VOD Orange pour les visionner sans connexion.' and expected text 'Téléchargez-les sur le lecteur VOD Orange pour les visionner sans connexion.' are matched 
+
+2018-06-13 15:11:02 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-13 15:11:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-13 15:10:15 - [TEST_SUITE][PASSED] - Smoke test suite PC: Test Cases/VOD/Functional Test/Smoke Test/PC/09.03.02.02 Texte pour un utilisateur Desktop]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

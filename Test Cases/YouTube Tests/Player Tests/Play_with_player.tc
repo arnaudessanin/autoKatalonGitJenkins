@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Play_with_player</name>
+   <tag>Functional</tag>
+   <comment>Close browser</comment>
+   <testCaseGuid>6c639105-8a19-45a1-8952-73c9594c7dc9</testCaseGuid>
+</TestCaseEntity>

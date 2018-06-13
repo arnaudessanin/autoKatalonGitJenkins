@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke test suite android,Chrome 67.0.3396.87,,2018-06-13 10:25:55,2018-06-13 10:26:55,"59,162s",PASSED
+,,,,,,
+Test Cases/VOD/Functional Test/Smoke Test/Mobile/Android/09.03.02.02 Texte pour un utilisateur Mobile,Chrome 67.0.3396.87,,2018-06-13 10:25:56,2018-06-13 10:26:55,"58,357s",PASSED
+vodkeyword.vod_identification.androidAuth,Chrome 67.0.3396.87,Connexion utilisateur EW ,2018-06-13 10:25:57,2018-06-13 10:26:49,"52,419s",PASSED
+vodkeyword.vod_identification.androidmenuConvergentVOD,Chrome 67.0.3396.87,Affichage composant Mes vid\u00E9os,2018-06-13 10:26:49,2018-06-13 10:26:51,"1,945s",PASSED
+Statement - titre_banner = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(VOD Objects/PC/Menu Convergeant Mes videos/titre banner-marketing)),Chrome 67.0.3396.87,Verification texte en surimpression ,2018-06-13 10:26:51,2018-06-13 10:26:51,"0,218s",PASSED
+Statement - titre1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(VOD Objects/PC/Menu Convergeant Mes videos/titre1 banner-marketing)),Chrome 67.0.3396.87,,2018-06-13 10:26:51,2018-06-13 10:26:52,"0,299s",PASSED
+Statement - titre2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(VOD Objects/PC/Menu Convergeant Mes videos/titre2 banner-marketing)),Chrome 67.0.3396.87,,2018-06-13 10:26:52,2018-06-13 10:26:52,"0,213s",PASSED
+verifyMatch,Chrome 67.0.3396.87,Verify match,2018-06-13 10:26:52,2018-06-13 10:26:52,"0,029s",PASSED
+verifyMatch,Chrome 67.0.3396.87,,2018-06-13 10:26:52,2018-06-13 10:26:52,"0,002s",PASSED
+verifyMatch,Chrome 67.0.3396.87,,2018-06-13 10:26:52,2018-06-13 10:26:52,"0,004s",PASSED
+closeBrowser,Chrome 67.0.3396.87,close browser,2018-06-13 10:26:52,2018-06-13 10:26:55,"2,795s",PASSED

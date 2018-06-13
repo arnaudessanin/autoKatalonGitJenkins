@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_480p</name>
+   <tag></tag>
+   <elementGuidId>b5786eec-87b0-43da-8f2d-f0fd704f202b</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>480p</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ytp-id-17&quot;)/div[@class=&quot;ytp-panel ytp-quality-menu&quot;]/div[@class=&quot;ytp-panel-menu&quot;]/div[@class=&quot;ytp-menuitem&quot;]/div[@class=&quot;ytp-menuitem-label&quot;]/div[1]/span[1]</value>
+   </webElementProperties>
+</WebElementEntity>

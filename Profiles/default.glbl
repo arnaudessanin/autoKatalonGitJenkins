@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'vodpcqualifb@orange.fr'</initValue>
+      <name>user_compte</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Passwd1'</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://ovo.qualif1.orange.fr/#vod/movieDescription/ANGRYBIRDSXW0103160'</initValue>
+      <name>angry_bird_cover</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://ovo.qualif1.orange.fr/#vod/movieDescription/JEUNEETJOLIW0083722'</initValue>
+      <name>jeune_et_jolie_sans_cover</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

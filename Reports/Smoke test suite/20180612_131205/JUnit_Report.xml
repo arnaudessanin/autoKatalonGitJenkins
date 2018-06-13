@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke test suite" time="121" tests="2" failures="1" errors="0">
+   <testsuite name="Smoke test suite" tests="2" failures="1" errors="0" time="121" timestamp="2018-06-12 13:12:07" hostname="Test - PCWIN81.home" id="Test Suites/Smoke test suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\Smoke test suite\\20180612_131205"/>
+         <property name="logFiles" value="C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\Smoke test suite\\20180612_131205\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\Smoke test suite\\20180612_131205\\1528801994214.png, C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\Smoke test suite\\20180612_131205\\1528802016917.png"/>
+         <property name="hostName" value="Test - PCWIN81.home"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.79"/>
+         <property name="hostAddress" value="192.168.1.61"/>
+         <property name="sessionId" value="63bee0cc471f6e5c2d49da835082a865"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/VOD/Functional Test/Smoke Test/PC/09.03.02.02 Texte pour un utilisateur Desktop" classname="Test Cases/VOD/Functional Test/Smoke Test/PC/09.03.02.02 Texte pour un utilisateur Desktop" status="PASSED">
+         <system-out><![CDATA[2018-06-12 13:12:09 - [TEST_CASE][PASSED] - Test Cases/VOD/Functional Test/Smoke Test/PC/09.03.02.02 Texte pour un utilisateur Desktop: Test Cases/VOD/Functional Test/Smoke Test/PC/09.03.02.02 Texte pour un utilisateur Desktop
+
+2018-06-12 13:12:09 - [TEST_STEP][PASSED] - vodkeyword.vod_identification.idVOD: Wait for page load successfully
+
+2018-06-12 13:12:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://login-tb1.staging.orange.fr/?return_url=https%3A%2F%2Fovo.qualif1.orange.fr%2F%23vod%2Fhome'
+
+2018-06-12 13:12:37 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-12 13:12:37 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Identification page object/login_input' is present
+
+2018-06-12 13:12:37 - [MESSAGE][PASSED] - Text 'vodpcqualifb@orange.fr' is set on object 'Object Repository/VOD Objects/PC/Identification page object/login_input'
+
+2018-06-12 13:12:37 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Identification page object/btn_continuer' is clicked on
+
+2018-06-12 13:12:38 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Identification page object/saissisez mot de passe input' is present
+
+2018-06-12 13:12:38 - [MESSAGE][PASSED] - Text 'Passwd1' is set on object 'Object Repository/VOD Objects/PC/Identification page object/saissisez mot de passe input'
+
+2018-06-12 13:12:38 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Identification page object/btn_continuer' is clicked on
+
+2018-06-12 13:12:38 - [MESSAGE][PASSED] - Authentication of client vodpcqualifb@orange.fr is successful
+
+2018-06-12 13:12:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-12 13:12:38 - [TEST_STEP][PASSED] - vodkeyword.vod_identification.menuConvergentVOD: Menu convergeant 'Mes vidéos' accessed
+
+2018-06-12 13:12:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-12 13:12:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/VOD Objects/PC/Home Page apres Identification/Menu convergeant (mc)/mc Mes videos' is: 'Mes vidéos'
+
+2018-06-12 13:12:57 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Home Page apres Identification/Menu convergeant (mc)/mc Mes videos' is clicked on
+
+2018-06-12 13:12:57 - [MESSAGE][PASSED] - Menu convergeant 'Mes vidéos' accessed
+
+2018-06-12 13:12:57 - [TEST_STEP][PASSED] - Statement - titre_banner = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(VOD Objects/PC/Menu Convergeant Mes videos/titre banner-marketing)): Text of object 'Object Repository/VOD Objects/PC/Menu Convergeant Mes videos/titre banner-marketing' is: 'Voir et revoir vos vidéos louées ou achetées'
+
+2018-06-12 13:12:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/VOD Objects/PC/Menu Convergeant Mes videos/titre banner-marketing' is: 'Voir et revoir vos vidéos louées ou achetées'
+
+2018-06-12 13:12:57 - [TEST_STEP][PASSED] - Statement - titre1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(VOD Objects/PC/Menu Convergeant Mes videos/titre1 banner-marketing)): Text of object 'Object Repository/VOD Objects/PC/Menu Convergeant Mes videos/titre1 banner-marketing' is: 'Retrouvez et visionnez les vidéos louées ou achetées sur ordinateur, TV, tablette, smartphone et Clé TV.'
+
+2018-06-12 13:12:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/VOD Objects/PC/Menu Convergeant Mes videos/titre1 banner-marketing' is: 'Retrouvez et visionnez les vidéos louées ou achetées sur ordinateur, TV, tablette, smartphone et Clé TV.'
+
+2018-06-12 13:12:57 - [TEST_STEP][PASSED] - Statement - titre2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(VOD Objects/PC/Menu Convergeant Mes videos/titre2 banner-marketing)): Text of object 'Object Repository/VOD Objects/PC/Menu Convergeant Mes videos/titre2 banner-marketing' is: 'Téléchargez-les sur le lecteur VOD Orange pour les visionner sans connexion.'
+
+2018-06-12 13:12:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/VOD Objects/PC/Menu Convergeant Mes videos/titre2 banner-marketing' is: 'Téléchargez-les sur le lecteur VOD Orange pour les visionner sans connexion.'
+
+2018-06-12 13:12:57 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Voir et revoir vos vidéos louées ou achetées' and expected text 'Voir et revoir vos vidéos louées ou achetées' are matched 
+
+2018-06-12 13:12:57 - [MESSAGE][PASSED] - Actual text 'Voir et revoir vos vidéos louées ou achetées' and expected text 'Voir et revoir vos vidéos louées ou achetées' are matched 
+
+2018-06-12 13:12:57 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Retrouvez et visionnez les vidéos louées ou achetées sur ordinateur, TV, tablette, smartphone et Clé TV.' and expected text 'Retrouvez et visionnez les vidéos louées ou achetées sur ordinateur, TV, tablette, smartphone et Clé TV.' are matched 
+
+2018-06-12 13:12:57 - [MESSAGE][PASSED] - Actual text 'Retrouvez et visionnez les vidéos louées ou achetées sur ordinateur, TV, tablette, smartphone et Clé TV.' and expected text 'Retrouvez et visionnez les vidéos louées ou achetées sur ordinateur, TV, tablette, smartphone et Clé TV.' are matched 
+
+2018-06-12 13:12:57 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Téléchargez-les sur le lecteur VOD Orange pour les visionner sans connexion.' and expected text 'Téléchargez-les sur le lecteur VOD Orange pour les visionner sans connexion.' are matched 
+
+2018-06-12 13:12:57 - [MESSAGE][PASSED] - Actual text 'Téléchargez-les sur le lecteur VOD Orange pour les visionner sans connexion.' and expected text 'Téléchargez-les sur le lecteur VOD Orange pour les visionner sans connexion.' are matched 
+
+2018-06-12 13:12:57 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-12 13:12:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/VOD/Functional Test/Smoke Test/PC/13.01.Structure du player" classname="Test Cases/VOD/Functional Test/Smoke Test/PC/13.01.Structure du player" status="FAILED">
+         <failure type="FAILED" message="zone info programme is not displayed"/>
+         <system-out><![CDATA[2018-06-12 13:12:58 - [TEST_CASE][FAILED] - Test Cases/VOD/Functional Test/Smoke Test/PC/13.01.Structure du player: Test Cases/VOD/Functional Test/Smoke Test/PC/13.01.Structure du player FAILED because (of) zone info programme is not displayed
+
+2018-06-12 13:12:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-12 13:13:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-12 13:13:02 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-12 13:13:03 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-12 13:13:03 - [TEST_STEP][PASSED] - vodkeyword.vod_identification.playVODContenu: vodkeyword.vod_identification.playVODContenu is PASSED
+
+2018-06-12 13:13:13 - [MESSAGE][PASSED] - Navigate to 'https://ovo.qualif1.orange.fr/#vod/movieDescription/ANGRYBIRDSXW0103160' successfully
+
+2018-06-12 13:13:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-12 13:13:14 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is present and visible in viewport
+
+2018-06-12 13:13:14 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is clicked on
+
+2018-06-12 13:13:15 - [MESSAGE][WARNING] - Object 'Object Repository/VOD Objects/PC/Video Player/button regarder' is NOT visible
+[[ATTACHMENT|C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\Smoke test suite\\20180612_131205\\1528801994214.png]]
+
+2018-06-12 13:13:15 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Video Player/play triangle' is clicked on
+
+2018-06-12 13:13:15 - [MESSAGE][PASSED] - vodkeyword.vod_identification.playVODContenu is PASSED
+
+2018-06-12 13:13:15 - [TEST_STEP][FAILED] - vodkeyword.vod_identification.PlayerVOD_Structure: zone info programme is not displayed
+
+2018-06-12 13:13:15 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/Barre menu player/barre menu' is present and visible in viewport
+
+2018-06-12 13:13:15 - [MESSAGE][PASSED] - player menu is displayed
+
+2018-06-12 13:13:15 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/player' is present and visible in viewport
+
+2018-06-12 13:13:15 - [MESSAGE][PASSED] - flux vidéo is displayed
+
+2018-06-12 13:13:16 - [MESSAGE][WARNING] - Object 'Object Repository/VOD Objects/PC/Video Player/Zone Info Prog/zone info programme' is not present
+
+2018-06-12 13:13:16 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/Barre de control player/barre de control' is present and visible in viewport
+
+2018-06-12 13:13:16 - [MESSAGE][PASSED] - barre de control is displayed
+
+2018-06-12 13:13:16 - [MESSAGE][FAILED] - zone info programme is not displayed
+
+2018-06-12 13:13:16 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-12 13:13:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-12 13:13:21 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-12 13:13:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-06-12 13:12:58 - [TEST_CASE][FAILED] - Test Cases/VOD/Functional Test/Smoke Test/PC/13.01.Structure du player: Test Cases/VOD/Functional Test/Smoke Test/PC/13.01.Structure du player FAILED because (of) zone info programme is not displayed]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/VOD/Functional Test/Smoke Test/PC/13.02.Masquage des informations OSD" classname="Test Cases/VOD/Functional Test/Smoke Test/PC/13.02.Masquage des informations OSD" status="PASSED">
+         <system-out><![CDATA[2018-06-12 13:13:22 - [TEST_CASE][PASSED] - Test Cases/VOD/Functional Test/Smoke Test/PC/13.02.Masquage des informations OSD: Test Cases/VOD/Functional Test/Smoke Test/PC/13.02.Masquage des informations OSD
+
+2018-06-12 13:13:22 - [TEST_STEP][PASSED] - Comment - "Prerequis": null
+
+2018-06-12 13:13:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-12 13:13:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-12 13:13:25 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-12 13:13:26 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-12 13:13:26 - [TEST_STEP][PASSED] - vodkeyword.vod_identification.playVODContenu: vodkeyword.vod_identification.playVODContenu is PASSED
+
+2018-06-12 13:13:36 - [MESSAGE][PASSED] - Navigate to 'https://ovo.qualif1.orange.fr/#vod/movieDescription/ANGRYBIRDSXW0103160' successfully
+
+2018-06-12 13:13:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-12 13:13:36 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is present and visible in viewport
+
+2018-06-12 13:13:36 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is clicked on
+
+2018-06-12 13:13:38 - [MESSAGE][WARNING] - Object 'Object Repository/VOD Objects/PC/Video Player/button regarder' is NOT visible
+[[ATTACHMENT|C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\Smoke test suite\\20180612_131205\\1528802016917.png]]
+
+2018-06-12 13:13:38 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Video Player/play triangle' is clicked on
+
+2018-06-12 13:13:38 - [MESSAGE][PASSED] - vodkeyword.vod_identification.playVODContenu is PASSED
+
+2018-06-12 13:13:38 - [TEST_STEP][PASSED] - Statement - video = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(VOD Objects/PC/Video Player/player): Finding Test Object with id 'Object Repository/VOD Objects/PC/Video Player/player'
+
+2018-06-12 13:13:38 - [TEST_STEP][PASSED] - Statement - If (CustomKeywords.vodkeyword.vod_identification.IsVODPlayingOnFirstTime(video)): Player IB is opened and video is playing
+
+2018-06-12 13:13:53 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-06-12 13:13:53 - [MESSAGE][PASSED] - Execute JavaScript 'return arguments[0].currentTime;' successfully
+
+2018-06-12 13:13:53 - [MESSAGE][PASSED] - vodkeyword.vod_identification.IsVODPlayingOnFirstTime is PASSED
+
+2018-06-12 13:13:53 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markPassed("Player IB is opened and video is playing"): Player IB is opened and video is playing
+
+2018-06-12 13:13:53 - [MESSAGE][PASSED] - Player IB is opened and video is playing
+
+2018-06-12 13:13:53 - [TEST_STEP][PASSED] - Comment - "STEP 2": null
+
+2018-06-12 13:13:53 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/VOD Objects/PC/Video Player/Barre de control player/play button' is hovered
+
+2018-06-12 13:13:54 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Video Player/Barre de control player/play button' is hovered
+
+2018-06-12 13:13:54 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-06-12 13:13:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-06-12 13:13:55 - [TEST_STEP][PASSED] - vodkeyword.vod_identification.PlayerVOD_Structure: barre de control is displayed
+
+2018-06-12 13:13:55 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/Barre menu player/barre menu' is present and visible in viewport
+
+2018-06-12 13:13:55 - [MESSAGE][PASSED] - player menu is displayed
+
+2018-06-12 13:13:55 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/player' is present and visible in viewport
+
+2018-06-12 13:13:55 - [MESSAGE][PASSED] - flux vidéo is displayed
+
+2018-06-12 13:13:55 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/Zone Info Prog/zone info programme' is present and visible in viewport
+
+2018-06-12 13:13:55 - [MESSAGE][PASSED] - zone info programme is displayed
+
+2018-06-12 13:13:55 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/Barre de control player/barre de control' is present and visible in viewport
+
+2018-06-12 13:13:55 - [MESSAGE][PASSED] - barre de control is displayed
+
+2018-06-12 13:13:55 - [TEST_STEP][PASSED] - Comment - "STEP 3": null
+
+2018-06-12 13:13:55 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-12 13:14:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-12 13:14:00 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/VOD Objects/PC/Video Player/Barre menu player/barre menu' is hovered
+
+2018-06-12 13:14:00 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Video Player/Barre menu player/barre menu' is hovered
+
+2018-06-12 13:14:00 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-06-12 13:14:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-06-12 13:14:01 - [TEST_STEP][PASSED] - vodkeyword.vod_identification.PlayerVOD_Structure: barre de control is displayed
+
+2018-06-12 13:14:01 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/Barre menu player/barre menu' is present and visible in viewport
+
+2018-06-12 13:14:01 - [MESSAGE][PASSED] - player menu is displayed
+
+2018-06-12 13:14:01 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/player' is present and visible in viewport
+
+2018-06-12 13:14:01 - [MESSAGE][PASSED] - flux vidéo is displayed
+
+2018-06-12 13:14:02 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/Zone Info Prog/zone info programme' is present and visible in viewport
+
+2018-06-12 13:14:02 - [MESSAGE][PASSED] - zone info programme is displayed
+
+2018-06-12 13:14:02 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/Barre de control player/barre de control' is present and visible in viewport
+
+2018-06-12 13:14:02 - [MESSAGE][PASSED] - barre de control is displayed
+
+2018-06-12 13:14:02 - [TEST_STEP][PASSED] - Comment - "STEP 4": null
+
+2018-06-12 13:14:02 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/VOD Objects/PC/Video Player/Barre menu player/barre menu' is hovered
+
+2018-06-12 13:14:02 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Video Player/Barre menu player/barre menu' is hovered
+
+2018-06-12 13:14:02 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-06-12 13:14:08 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-06-12 13:14:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/VOD Objects/PC/Video Player/Barre menu player/barre menu masquage' is present
+
+2018-06-12 13:14:08 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/Barre menu player/barre menu masquage' is present
+
+2018-06-12 13:14:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/VOD Objects/PC/Video Player/Barre de control player/barre de control masquage' is present
+
+2018-06-12 13:14:08 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/Barre de control player/barre de control masquage' is present
+
+2018-06-12 13:14:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/VOD Objects/PC/Video Player/Zone Info Prog/zone info prog masquage' is present
+
+2018-06-12 13:14:08 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/Zone Info Prog/zone info prog masquage' is present
+
+2018-06-12 13:14:08 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-12 13:14:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-12 13:12:07 - [TEST_SUITE][FAILED] - Smoke test suite: Test Cases/VOD/Functional Test/Smoke Test/PC/13.01.Structure du player FAILED because (of) zone info programme is not displayed]]></system-out>
+      <system-err><![CDATA[2018-06-12 13:12:07 - [TEST_SUITE][FAILED] - Smoke test suite: Test Cases/VOD/Functional Test/Smoke Test/PC/13.01.Structure du player FAILED because (of) zone info programme is not displayed]]></system-err>
+   </testsuite>
+</testsuites>
