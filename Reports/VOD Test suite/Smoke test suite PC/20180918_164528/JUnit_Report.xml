@@ -1,0 +1,1144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke test suite PC" time="262" tests="2" failures="3" errors="1">
+   <testsuite name="Smoke test suite PC" tests="2" failures="3" errors="1" time="262" timestamp="2018-09-18 16:47:27" hostname="PCWIN81$ - PCWIN81.home" id="Test Suites/VOD Test suite/Smoke test suite PC">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\VOD Test suite\\Smoke test suite PC\\20180918_164528"/>
+         <property name="logFiles" value="C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\VOD Test suite\\Smoke test suite PC\\20180918_164528\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\VOD Test suite\\Smoke test suite PC\\20180918_164528\\1537282097732.png, C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\VOD Test suite\\Smoke test suite PC\\20180918_164528\\1537282098623.png, C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\VOD Test suite\\Smoke test suite PC\\20180918_164528\\1537282122308.png, C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\VOD Test suite\\Smoke test suite PC\\20180918_164528\\1537282155320.png, C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\VOD Test suite\\Smoke test suite PC\\20180918_164528\\1537282183208.png, C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\VOD Test suite\\Smoke test suite PC\\20180918_164528\\1537282243320.png, C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\VOD Test suite\\Smoke test suite PC\\20180918_164528\\1537282301563.png, C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\VOD Test suite\\Smoke test suite PC\\20180918_164528\\1537282306999.png"/>
+         <property name="hostName" value="PCWIN81$ - PCWIN81.home"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.1.61"/>
+         <property name="sessionId" value="bb294ad5c0b9bf084123258700d81304"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/VOD/Functional Test/Smoke Test/PC/09.03.02.02 Texte pour un utilisateur Desktop" classname="Test Cases/VOD/Functional Test/Smoke Test/PC/09.03.02.02 Texte pour un utilisateur Desktop" status="ERROR">
+         <error type="ERROR" message="Test Cases/VOD/Functional Test/Smoke Test/PC/09.03.02.02 Texte pour un utilisateur Desktop FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepErrorException: Web page is not loading, check your connection or menu Mes vidéos chosen does not exist
+	at com.kms.katalon.core.util.KeywordUtil.markErrorAndStop(KeywordUtil.java:70)
+	at com.kms.katalon.core.util.KeywordUtil$markErrorAndStop$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at vodpckeywords.vodpc_MesVideos.gotoMesVideos(vodpc_MesVideos.groovy:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at vodpckeywords.vodpc_MesVideos.invokeMethod(vodpc_MesVideos.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1527171131179.run(Script1527171131179.groovy:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537281928135.run(TempTestSuite1537281928135.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-09-18 16:47:28 - [TEST_CASE][ERROR] - Test Cases/VOD/Functional Test/Smoke Test/PC/09.03.02.02 Texte pour un utilisateur Desktop: Test Cases/VOD/Functional Test/Smoke Test/PC/09.03.02.02 Texte pour un utilisateur Desktop FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepErrorException: Web page is not loading, check your connection or menu Mes vidéos chosen does not exist
+	at com.kms.katalon.core.util.KeywordUtil.markErrorAndStop(KeywordUtil.java:70)
+	at com.kms.katalon.core.util.KeywordUtil$markErrorAndStop$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at vodpckeywords.vodpc_MesVideos.gotoMesVideos(vodpc_MesVideos.groovy:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at vodpckeywords.vodpc_MesVideos.invokeMethod(vodpc_MesVideos.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1527171131179.run(Script1527171131179.groovy:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537281928135.run(TempTestSuite1537281928135.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-09-18 16:47:29 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Browser is opened with url: ''
+
+2018-09-18 16:47:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-18 16:47:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-18 16:47:40 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_connection.connectUser: Object: 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is clicked on
+
+2018-09-18 16:48:03 - [MESSAGE][PASSED] - Navigate to 'https://login-tb1.staging.orange.fr/?return_url=https%3A%2F%2Fovo.qualif1.orange.fr%2F%23vod%2Fhome' successfully
+
+2018-09-18 16:48:04 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Identification page object/login_input' is present
+
+2018-09-18 16:48:05 - [MESSAGE][PASSED] - Text 'vodpcqualifb@orange.fr' is set on object 'Object Repository/VOD Objects/PC/Identification page object/login_input'
+
+2018-09-18 16:48:05 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Identification page object/btn_continuer' is clicked on
+
+2018-09-18 16:48:06 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Identification page object/saissisez mot de passe input' is present
+
+2018-09-18 16:48:06 - [MESSAGE][PASSED] - Text 'Passwd1' is set on object 'Object Repository/VOD Objects/PC/Identification page object/saissisez mot de passe input'
+
+2018-09-18 16:48:06 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Identification page object/btn_continuer' is clicked on
+
+2018-09-18 16:48:06 - [MESSAGE][PASSED] - Authentication of client vodpcqualifb@orange.fr is successful
+
+2018-09-18 16:48:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-18 16:48:16 - [MESSAGE][PASSED] - Current window's url is: 'https://ovo.qualif1.orange.fr/#vod/home'
+
+2018-09-18 16:48:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-18 16:48:17 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is present and visible in viewport
+
+2018-09-18 16:48:17 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is clicked on
+
+2018-09-18 16:48:17 - [TEST_STEP][ERROR] - vodpckeywords.vodpc_MesVideos.gotoMesVideos: Web page is not loading, check your connection or menu Mes vidéos chosen does not exist
+
+2018-09-18 16:48:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-18 16:48:18 - [MESSAGE][FAILED] - Object 'Object Repository/VOD Objects/PC/Home Page apres Identification/Menu convergeant (mc)/mc Mes videos' is NOT visible
+[[ATTACHMENT|C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\VOD Test suite\\Smoke test suite PC\\20180918_164528\\1537282097732.png]]
+
+2018-09-18 16:48:18 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/VOD Objects/PC/Home Page apres Identification/Menu convergeant (mc)/mc Mes videos' is visible (Root cause: Object 'Object Repository/VOD Objects/PC/Home Page apres Identification/Menu convergeant (mc)/mc Mes videos' is NOT visible)
+[[ATTACHMENT|C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\VOD Test suite\\Smoke test suite PC\\20180918_164528\\1537282098623.png]]
+
+2018-09-18 16:48:18 - [MESSAGE][ERROR] - Web page is not loading, check your connection or menu Mes vidéos chosen does not exist
+
+2018-09-18 16:48:19 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2018-09-18 16:48:19 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-18 16:48:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-09-18 16:47:28 - [TEST_CASE][ERROR] - Test Cases/VOD/Functional Test/Smoke Test/PC/09.03.02.02 Texte pour un utilisateur Desktop: Test Cases/VOD/Functional Test/Smoke Test/PC/09.03.02.02 Texte pour un utilisateur Desktop FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepErrorException: Web page is not loading, check your connection or menu Mes vidéos chosen does not exist
+	at com.kms.katalon.core.util.KeywordUtil.markErrorAndStop(KeywordUtil.java:70)
+	at com.kms.katalon.core.util.KeywordUtil$markErrorAndStop$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at vodpckeywords.vodpc_MesVideos.gotoMesVideos(vodpc_MesVideos.groovy:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at vodpckeywords.vodpc_MesVideos.invokeMethod(vodpc_MesVideos.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1527171131179.run(Script1527171131179.groovy:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537281928135.run(TempTestSuite1537281928135.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/VOD/Functional Test/Smoke Test/PC/13.01.Structure du player" classname="Test Cases/VOD/Functional Test/Smoke Test/PC/13.01.Structure du player" status="PASSED">
+         <system-out><![CDATA[2018-09-18 16:48:20 - [TEST_CASE][PASSED] - Test Cases/VOD/Functional Test/Smoke Test/PC/13.01.Structure du player: Test Cases/VOD/Functional Test/Smoke Test/PC/13.01.Structure du player
+
+2018-09-18 16:48:20 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Browser is opened with url: ''
+
+2018-09-18 16:48:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-18 16:48:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-18 16:48:26 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_HTML5_Player.playVODContenu: vodpckeywords.vodpc_HTML5_Player.playVODContenu is PASSED
+
+2018-09-18 16:48:41 - [MESSAGE][PASSED] - Navigate to 'https://ovo.qualif1.orange.fr/#vod/movieDescription/ANGRYBIRDSXW0103160' successfully
+
+2018-09-18 16:48:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-18 16:48:41 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is present and visible in viewport
+
+2018-09-18 16:48:42 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is clicked on
+
+2018-09-18 16:48:42 - [MESSAGE][WARNING] - Object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/button regarder' is NOT visible
+[[ATTACHMENT|C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\VOD Test suite\\Smoke test suite PC\\20180918_164528\\1537282122308.png]]
+
+2018-09-18 16:48:42 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/play triangle' is visible
+
+2018-09-18 16:48:43 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/play triangle' is clicked on
+
+2018-09-18 16:48:43 - [MESSAGE][PASSED] - vodpckeywords.vodpc_HTML5_Player.playVODContenu is PASSED
+
+2018-09-18 16:48:43 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_HTML5_Player.playerIB_opened: Player IB ouvert et vidéo en lecture
+
+2018-09-18 16:48:58 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-09-18 16:48:59 - [MESSAGE][PASSED] - Execute JavaScript 'return arguments[0].currentTime;' successfully
+
+2018-09-18 16:48:59 - [MESSAGE][PASSED] - Player IB ouvert et vidéo en lecture
+
+2018-09-18 16:48:59 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_HTML5_Player.PlayerVOD_Structure: barre de contrôle présent
+
+2018-09-18 16:48:59 - [MESSAGE][PASSED] - Execute JavaScript 'var evObj = document.createEvent('MouseEvents');evObj.initMouseEvent("mouseover",true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);arguments[0].dispatchEvent(evObj);' successfully
+
+2018-09-18 16:48:59 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/Barre menu player/barre menu' is present and visible in viewport
+
+2018-09-18 16:48:59 - [MESSAGE][PASSED] - barre de menu présent
+
+2018-09-18 16:48:59 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/player' is present and visible in viewport
+
+2018-09-18 16:48:59 - [MESSAGE][PASSED] - flux vidéo présent
+
+2018-09-18 16:48:59 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/Zone Info Prog/zone info programme' is present and visible in viewport
+
+2018-09-18 16:48:59 - [MESSAGE][PASSED] - zone info programme présent
+
+2018-09-18 16:48:59 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/Barre de control player/barre de control' is present and visible in viewport
+
+2018-09-18 16:48:59 - [MESSAGE][PASSED] - barre de contrôle présent
+
+2018-09-18 16:48:59 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-18 16:49:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-18 16:49:04 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2018-09-18 16:49:04 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-18 16:49:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/VOD/Functional Test/Smoke Test/PC/13.02.Masquage des informations OSD" classname="Test Cases/VOD/Functional Test/Smoke Test/PC/13.02.Masquage des informations OSD" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Player IB n'est pas ouvert
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:24)
+	at com.kms.katalon.core.util.KeywordUtil$markFailedAndStop$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at vodpckeywords.vodpc_HTML5_Player.playerIB_opened(vodpc_HTML5_Player.groovy:252)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at vodpckeywords.vodpc_HTML5_Player.invokeMethod(vodpc_HTML5_Player.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1527583765211.run(Script1527583765211.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537281928135.run(TempTestSuite1537281928135.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-09-18 16:49:05 - [TEST_CASE][FAILED] - Test Cases/VOD/Functional Test/Smoke Test/PC/13.02.Masquage des informations OSD: Test Cases/VOD/Functional Test/Smoke Test/PC/13.02.Masquage des informations OSD FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Player IB n'est pas ouvert
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:24)
+	at com.kms.katalon.core.util.KeywordUtil$markFailedAndStop$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at vodpckeywords.vodpc_HTML5_Player.playerIB_opened(vodpc_HTML5_Player.groovy:252)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at vodpckeywords.vodpc_HTML5_Player.invokeMethod(vodpc_HTML5_Player.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1527583765211.run(Script1527583765211.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537281928135.run(TempTestSuite1537281928135.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-09-18 16:49:05 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Browser is opened with url: ''
+
+2018-09-18 16:49:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-18 16:49:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-18 16:49:08 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_HTML5_Player.playVODContenu: vodpckeywords.vodpc_HTML5_Player.playVODContenu is PASSED
+
+2018-09-18 16:49:15 - [MESSAGE][PASSED] - Navigate to 'https://ovo.qualif1.orange.fr/#vod/movieDescription/ANGRYBIRDSXW0103160' successfully
+
+2018-09-18 16:49:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-18 16:49:15 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is present and visible in viewport
+
+2018-09-18 16:49:15 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is clicked on
+
+2018-09-18 16:49:16 - [MESSAGE][WARNING] - Object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/button regarder' is NOT visible
+[[ATTACHMENT|C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\VOD Test suite\\Smoke test suite PC\\20180918_164528\\1537282155320.png]]
+
+2018-09-18 16:49:16 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/play triangle' is visible
+
+2018-09-18 16:49:16 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/play triangle' is clicked on
+
+2018-09-18 16:49:16 - [MESSAGE][PASSED] - vodpckeywords.vodpc_HTML5_Player.playVODContenu is PASSED
+
+2018-09-18 16:49:16 - [TEST_STEP][FAILED] - vodpckeywords.vodpc_HTML5_Player.playerIB_opened: Player IB n'est pas ouvert
+
+2018-09-18 16:49:31 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-09-18 16:49:31 - [MESSAGE][PASSED] - Execute JavaScript 'return arguments[0].currentTime;' successfully
+
+2018-09-18 16:49:31 - [MESSAGE][FAILED] - Player IB n'est pas ouvert
+
+2018-09-18 16:49:31 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2018-09-18 16:49:31 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-18 16:49:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-09-18 16:49:05 - [TEST_CASE][FAILED] - Test Cases/VOD/Functional Test/Smoke Test/PC/13.02.Masquage des informations OSD: Test Cases/VOD/Functional Test/Smoke Test/PC/13.02.Masquage des informations OSD FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Player IB n'est pas ouvert
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:24)
+	at com.kms.katalon.core.util.KeywordUtil$markFailedAndStop$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at vodpckeywords.vodpc_HTML5_Player.playerIB_opened(vodpc_HTML5_Player.groovy:252)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at vodpckeywords.vodpc_HTML5_Player.invokeMethod(vodpc_HTML5_Player.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1527583765211.run(Script1527583765211.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537281928135.run(TempTestSuite1537281928135.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/VOD/Functional Test/Smoke Test/PC/13.06.08 Raccourci barre espace" classname="Test Cases/VOD/Functional Test/Smoke Test/PC/13.06.08 Raccourci barre espace" status="PASSED">
+         <system-out><![CDATA[2018-09-18 16:49:32 - [TEST_CASE][PASSED] - Test Cases/VOD/Functional Test/Smoke Test/PC/13.06.08 Raccourci barre espace: Test Cases/VOD/Functional Test/Smoke Test/PC/13.06.08 Raccourci barre espace
+
+2018-09-18 16:49:32 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Browser is opened with url: ''
+
+2018-09-18 16:49:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-18 16:49:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-18 16:49:36 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_HTML5_Player.playVODContenu: vodpckeywords.vodpc_HTML5_Player.playVODContenu is PASSED
+
+2018-09-18 16:49:42 - [MESSAGE][PASSED] - Navigate to 'https://ovo.qualif1.orange.fr/#vod/movieDescription/ANGRYBIRDSXW0103160' successfully
+
+2018-09-18 16:49:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-18 16:49:43 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is present and visible in viewport
+
+2018-09-18 16:49:43 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is clicked on
+
+2018-09-18 16:49:44 - [MESSAGE][WARNING] - Object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/button regarder' is NOT visible
+[[ATTACHMENT|C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\VOD Test suite\\Smoke test suite PC\\20180918_164528\\1537282183208.png]]
+
+2018-09-18 16:49:44 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/play triangle' is visible
+
+2018-09-18 16:49:44 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/play triangle' is clicked on
+
+2018-09-18 16:49:44 - [MESSAGE][PASSED] - vodpckeywords.vodpc_HTML5_Player.playVODContenu is PASSED
+
+2018-09-18 16:49:44 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_HTML5_Player.playerIB_opened: Player IB ouvert et vidéo en lecture
+
+2018-09-18 16:49:59 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-09-18 16:49:59 - [MESSAGE][PASSED] - Execute JavaScript 'return arguments[0].currentTime;' successfully
+
+2018-09-18 16:49:59 - [MESSAGE][PASSED] - Player IB ouvert et vidéo en lecture
+
+2018-09-18 16:49:59 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_HTML5_Player.raccourci_barre_espace: Le player est en Pause
+
+2018-09-18 16:49:59 - [MESSAGE][PASSED] - Execute JavaScript 'return arguments[0].paused;' successfully
+
+2018-09-18 16:50:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-18 16:50:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-18 16:50:05 - [MESSAGE][PASSED] - Execute JavaScript 'return arguments[0].paused;' successfully
+
+2018-09-18 16:50:05 - [MESSAGE][PASSED] - Le player est en Pause
+
+2018-09-18 16:50:05 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_HTML5_Player.raccourci_barre_espace: Le player est en vitesse normale
+
+2018-09-18 16:50:05 - [MESSAGE][PASSED] - Execute JavaScript 'var evObj = document.createEvent('MouseEvents');evObj.initMouseEvent("mouseover",true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);arguments[0].dispatchEvent(evObj);' successfully
+
+2018-09-18 16:50:05 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Video Player/Barre de control player/avance rapide' is clicked on
+
+2018-09-18 16:50:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-18 16:50:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-18 16:50:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-18 16:50:13 - [MESSAGE][PASSED] - Execute JavaScript 'return arguments[0].paused;' successfully
+
+2018-09-18 16:50:13 - [MESSAGE][PASSED] - Le player est en vitesse normale
+
+2018-09-18 16:50:13 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_HTML5_Player.raccourci_barre_espace: Le player est en vitesse normale
+
+2018-09-18 16:50:13 - [MESSAGE][PASSED] - Execute JavaScript 'return arguments[0].paused;' successfully
+
+2018-09-18 16:50:13 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].pause();' successfully
+
+2018-09-18 16:50:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-18 16:50:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-18 16:50:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-18 16:50:20 - [MESSAGE][PASSED] - Execute JavaScript 'return arguments[0].paused;' successfully
+
+2018-09-18 16:50:20 - [MESSAGE][PASSED] - Le player est en vitesse normale
+
+2018-09-18 16:50:20 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2018-09-18 16:50:20 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-18 16:50:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/VOD/Functional Test/Smoke Test/PC/13.06.06 Avance et retour rapides" classname="Test Cases/VOD/Functional Test/Smoke Test/PC/13.06.06 Avance et retour rapides" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Player IB n'est pas ouvert
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:24)
+	at com.kms.katalon.core.util.KeywordUtil$markFailedAndStop$1.call(Unknown Source)
+	at vodpckeywords.vodpc_HTML5_Player.playerIB_opened(vodpc_HTML5_Player.groovy:252)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at vodpckeywords.vodpc_HTML5_Player.invokeMethod(vodpc_HTML5_Player.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1531916404261.run(Script1531916404261.groovy:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537281928135.run(TempTestSuite1537281928135.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-09-18 16:50:21 - [TEST_CASE][FAILED] - Test Cases/VOD/Functional Test/Smoke Test/PC/13.06.06 Avance et retour rapides: Test Cases/VOD/Functional Test/Smoke Test/PC/13.06.06 Avance et retour rapides FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Player IB n'est pas ouvert
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:24)
+	at com.kms.katalon.core.util.KeywordUtil$markFailedAndStop$1.call(Unknown Source)
+	at vodpckeywords.vodpc_HTML5_Player.playerIB_opened(vodpc_HTML5_Player.groovy:252)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at vodpckeywords.vodpc_HTML5_Player.invokeMethod(vodpc_HTML5_Player.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1531916404261.run(Script1531916404261.groovy:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537281928135.run(TempTestSuite1537281928135.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-09-18 16:50:21 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Browser is opened with url: ''
+
+2018-09-18 16:50:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-18 16:50:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-18 16:50:25 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_connection.connectUser: Object: 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is clicked on
+
+2018-09-18 16:50:30 - [MESSAGE][PASSED] - Navigate to 'https://login-tb1.staging.orange.fr/?return_url=https%3A%2F%2Fovo.qualif1.orange.fr%2F%23vod%2Fhome' successfully
+
+2018-09-18 16:50:30 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Identification page object/login_input' is present
+
+2018-09-18 16:50:30 - [MESSAGE][PASSED] - Text 'vodpcqualifb@orange.fr' is set on object 'Object Repository/VOD Objects/PC/Identification page object/login_input'
+
+2018-09-18 16:50:30 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Identification page object/btn_continuer' is clicked on
+
+2018-09-18 16:50:31 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Identification page object/saissisez mot de passe input' is present
+
+2018-09-18 16:50:31 - [MESSAGE][PASSED] - Text 'Passwd1' is set on object 'Object Repository/VOD Objects/PC/Identification page object/saissisez mot de passe input'
+
+2018-09-18 16:50:31 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Identification page object/btn_continuer' is clicked on
+
+2018-09-18 16:50:31 - [MESSAGE][PASSED] - Authentication of client vodpcqualifb@orange.fr is successful
+
+2018-09-18 16:50:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-18 16:50:41 - [MESSAGE][PASSED] - Current window's url is: 'https://ovo.qualif1.orange.fr/#vod/home'
+
+2018-09-18 16:50:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-18 16:50:41 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is present and visible in viewport
+
+2018-09-18 16:50:41 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is clicked on
+
+2018-09-18 16:50:41 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_HTML5_Player.playVODContenu: vodpckeywords.vodpc_HTML5_Player.playVODContenu is PASSED
+
+2018-09-18 16:50:42 - [MESSAGE][PASSED] - Navigate to 'https://ovo.qualif1.orange.fr/#vod/movieDescription/ANGRYBIRDSXW0103160' successfully
+
+2018-09-18 16:50:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-18 16:50:44 - [MESSAGE][WARNING] - Object 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is present but is not visible in viewport
+[[ATTACHMENT|C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\VOD Test suite\\Smoke test suite PC\\20180918_164528\\1537282243320.png]]
+
+2018-09-18 16:50:44 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/button regarder' is visible
+
+2018-09-18 16:50:44 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/button regarder' is clicked on
+
+2018-09-18 16:50:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-18 16:50:49 - [MESSAGE][PASSED] - vodpckeywords.vodpc_HTML5_Player.playVODContenu is PASSED
+
+2018-09-18 16:50:49 - [TEST_STEP][FAILED] - vodpckeywords.vodpc_HTML5_Player.playerIB_opened: Player IB n'est pas ouvert
+
+2018-09-18 16:51:04 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-09-18 16:51:05 - [MESSAGE][PASSED] - Execute JavaScript 'return arguments[0].currentTime;' successfully
+
+2018-09-18 16:51:05 - [MESSAGE][FAILED] - Player IB n'est pas ouvert
+
+2018-09-18 16:51:05 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2018-09-18 16:51:05 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-18 16:51:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-09-18 16:50:21 - [TEST_CASE][FAILED] - Test Cases/VOD/Functional Test/Smoke Test/PC/13.06.06 Avance et retour rapides: Test Cases/VOD/Functional Test/Smoke Test/PC/13.06.06 Avance et retour rapides FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Player IB n'est pas ouvert
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:24)
+	at com.kms.katalon.core.util.KeywordUtil$markFailedAndStop$1.call(Unknown Source)
+	at vodpckeywords.vodpc_HTML5_Player.playerIB_opened(vodpc_HTML5_Player.groovy:252)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at vodpckeywords.vodpc_HTML5_Player.invokeMethod(vodpc_HTML5_Player.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1531916404261.run(Script1531916404261.groovy:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537281928135.run(TempTestSuite1537281928135.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/VOD/Functional Test/Smoke Test/PC/09.01.01. Acces utilisateur non authentifie" classname="Test Cases/VOD/Functional Test/Smoke Test/PC/09.01.01. Acces utilisateur non authentifie" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/VOD Objects/PC/Home Page apres Identification/Menu convergeant (mc)/mc Mes videos' is visible (Root cause: Object 'Object Repository/VOD Objects/PC/Home Page apres Identification/Menu convergeant (mc)/mc Mes videos' is NOT visible)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$7.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at vodpckeywords.vodpc_MesVideos.accesUtilisateurNonAuthentifie(vodpc_MesVideos.groovy:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at vodpckeywords.vodpc_MesVideos.invokeMethod(vodpc_MesVideos.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1533632840635.run(Script1533632840635.groovy:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537281928135.run(TempTestSuite1537281928135.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-09-18 16:51:06 - [TEST_CASE][FAILED] - Test Cases/VOD/Functional Test/Smoke Test/PC/09.01.01. Acces utilisateur non authentifie: Test Cases/VOD/Functional Test/Smoke Test/PC/09.01.01. Acces utilisateur non authentifie FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/VOD Objects/PC/Home Page apres Identification/Menu convergeant (mc)/mc Mes videos' is visible (Root cause: Object 'Object Repository/VOD Objects/PC/Home Page apres Identification/Menu convergeant (mc)/mc Mes videos' is NOT visible)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$7.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at vodpckeywords.vodpc_MesVideos.accesUtilisateurNonAuthentifie(vodpc_MesVideos.groovy:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at vodpckeywords.vodpc_MesVideos.invokeMethod(vodpc_MesVideos.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1533632840635.run(Script1533632840635.groovy:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537281928135.run(TempTestSuite1537281928135.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-09-18 16:51:06 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Browser is opened with url: ''
+
+2018-09-18 16:51:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-18 16:51:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-18 16:51:12 - [TEST_STEP][FAILED] - vodpckeywords.vodpc_MesVideos.accesUtilisateurNonAuthentifie: Unable to verify object 'Object Repository/VOD Objects/PC/Home Page apres Identification/Menu convergeant (mc)/mc Mes videos' is visible (Root cause: Object 'Object Repository/VOD Objects/PC/Home Page apres Identification/Menu convergeant (mc)/mc Mes videos' is NOT visible)
+
+2018-09-18 16:51:37 - [MESSAGE][PASSED] - Navigate to 'https://ovo.qualif1.orange.fr/#vod/home' successfully
+
+2018-09-18 16:51:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-18 16:51:46 - [MESSAGE][FAILED] - Object 'Object Repository/VOD Objects/PC/Home Page apres Identification/Menu convergeant (mc)/mc Mes videos' is NOT visible
+[[ATTACHMENT|C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\VOD Test suite\\Smoke test suite PC\\20180918_164528\\1537282301563.png]]
+
+2018-09-18 16:51:47 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/VOD Objects/PC/Home Page apres Identification/Menu convergeant (mc)/mc Mes videos' is visible (Root cause: Object 'Object Repository/VOD Objects/PC/Home Page apres Identification/Menu convergeant (mc)/mc Mes videos' is NOT visible)
+[[ATTACHMENT|C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\VOD Test suite\\Smoke test suite PC\\20180918_164528\\1537282306999.png]]
+
+2018-09-18 16:51:47 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/VOD Objects/PC/Home Page apres Identification/Menu convergeant (mc)/mc Mes videos' is visible (Root cause: Object 'Object Repository/VOD Objects/PC/Home Page apres Identification/Menu convergeant (mc)/mc Mes videos' is NOT visible)
+
+2018-09-18 16:51:47 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2018-09-18 16:51:47 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-18 16:51:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-09-18 16:51:06 - [TEST_CASE][FAILED] - Test Cases/VOD/Functional Test/Smoke Test/PC/09.01.01. Acces utilisateur non authentifie: Test Cases/VOD/Functional Test/Smoke Test/PC/09.01.01. Acces utilisateur non authentifie FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/VOD Objects/PC/Home Page apres Identification/Menu convergeant (mc)/mc Mes videos' is visible (Root cause: Object 'Object Repository/VOD Objects/PC/Home Page apres Identification/Menu convergeant (mc)/mc Mes videos' is NOT visible)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$7.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at vodpckeywords.vodpc_MesVideos.accesUtilisateurNonAuthentifie(vodpc_MesVideos.groovy:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at vodpckeywords.vodpc_MesVideos.invokeMethod(vodpc_MesVideos.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1533632840635.run(Script1533632840635.groovy:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537281928135.run(TempTestSuite1537281928135.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-18 16:47:27 - [TEST_SUITE][ERROR] - Smoke test suite PC: Test Cases/VOD/Functional Test/Smoke Test/PC/09.03.02.02 Texte pour un utilisateur Desktop FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepErrorException: Web page is not loading, check your connection or menu Mes vidéos chosen does not exist
+	at com.kms.katalon.core.util.KeywordUtil.markErrorAndStop(KeywordUtil.java:70)
+	at com.kms.katalon.core.util.KeywordUtil$markErrorAndStop$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at vodpckeywords.vodpc_MesVideos.gotoMesVideos(vodpc_MesVideos.groovy:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at vodpckeywords.vodpc_MesVideos.invokeMethod(vodpc_MesVideos.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1527171131179.run(Script1527171131179.groovy:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537281928135.run(TempTestSuite1537281928135.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-09-18 16:47:27 - [TEST_SUITE][ERROR] - Smoke test suite PC: Test Cases/VOD/Functional Test/Smoke Test/PC/09.03.02.02 Texte pour un utilisateur Desktop FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepErrorException: Web page is not loading, check your connection or menu Mes vidéos chosen does not exist
+	at com.kms.katalon.core.util.KeywordUtil.markErrorAndStop(KeywordUtil.java:70)
+	at com.kms.katalon.core.util.KeywordUtil$markErrorAndStop$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at vodpckeywords.vodpc_MesVideos.gotoMesVideos(vodpc_MesVideos.groovy:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at vodpckeywords.vodpc_MesVideos.invokeMethod(vodpc_MesVideos.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1527171131179.run(Script1527171131179.groovy:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537281928135.run(TempTestSuite1537281928135.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Test - Validate - InQC</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'10051'</initValue>
+      <name>cycle_id</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>position des tests</description>
+      <initValue>['1', '2', '3']</initValue>
+      <name>positions</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

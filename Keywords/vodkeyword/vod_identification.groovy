@@ -70,7 +70,7 @@ class vod_identification {
 	def idVOD(String user, String passwd) {
 
 		/*
-		 * 
+		 *  
 		 */
 
 		//Open browser to authentication page
@@ -200,9 +200,9 @@ class vod_identification {
 		 * Cette méthode permet de choisir le menu comvergeant que l'on souhaite accéder
 		 * en entrant le nom exacte. Seules sont disponibles les options : mes vidéos,
 		 * mes favoris et mon compte prépayé.
-		 * Les étapes du script: On attend que la page se charge puis on appelle la methode
-		 * trouver_menu qui retourne l'objet permetant d'identifier le menu. Ensuite cet objet
-		 * est cliqué s'il existe.
+		 * Les étapes du script: On attend que la page se charge, on clique sur le menu toggle (car mobile)
+		 *  puis on appelle la methode trouver_menu qui retourne l'objet permettant d'identifier le menu
+		 *  Ensuite cet objet est cliqué s'il existe.
 		 */
 
 		//Menu convergeant Object
@@ -223,7 +223,7 @@ class vod_identification {
 
 			WebUI.waitForPageLoad(timeout)
 
-			//Click on menu
+			//Click on menu toggle (car mobile)
 			WebUI.click(findTestObject('Object Repository/VOD Objects/Mobile/Android/Home page authen/menu convergeant'))
 
 			//match menu with Object we have
@@ -269,7 +269,7 @@ class vod_identification {
 		 */
 
 		TestObject video_menu = findTestObject('VOD Objects/PC/Video Player/Barre menu player/barre menu')
-		TestObject flux_video = findTestObject('VOD Objects/PC/Video Player/player')
+		TestObject flux_video = findTestObject('VOD Objects/PC/Video Player/zone de flux video/player')
 		TestObject zone_info_prog = findTestObject('VOD Objects/PC/Video Player/Zone Info Prog/zone info programme')
 		TestObject barre_controle = findTestObject('VOD Objects/PC/Video Player/Barre de control player/barre de control')
 		int attend = 1
@@ -389,11 +389,11 @@ class vod_identification {
 		}
 
 		'Play video'
-		if (WebUI.verifyElementVisible(findTestObject('VOD Objects/PC/Video Player/button regarder'), FailureHandling.OPTIONAL)){
-			WebUI.click(findTestObject('VOD Objects/PC/Video Player/button regarder'))
+		if (WebUI.verifyElementVisible(findTestObject('VOD Objects/PC/Video Player/zone de flux video/button regarder'), FailureHandling.OPTIONAL)){
+			WebUI.click(findTestObject('VOD Objects/PC/Video Player/zone de flux video/button regarder'))
 		}
 		else{
-			WebUI.click(findTestObject('VOD Objects/PC/Video Player/play triangle'))
+			WebUI.click(findTestObject('VOD Objects/PC/Video Player/zone de flux video/play triangle'))
 		}
 
 	}

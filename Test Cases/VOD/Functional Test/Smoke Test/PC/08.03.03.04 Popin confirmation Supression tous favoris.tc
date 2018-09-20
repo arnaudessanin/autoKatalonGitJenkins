@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>08.03.03.04 Popin confirmation Supression tous favoris</name>
+   <tag>Functional</tag>
+   <comment></comment>
+   <testCaseGuid>385bd69f-2fb5-4b2d-8eb8-8ca5b9a66921</testCaseGuid>
+</TestCaseEntity>

@@ -19,39 +19,36 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-//STEP 1
-//***** Description: Etant donné un utilisateur EW, lorsqu'il se connecte
-//***** Expected: Vérifier que l'utilisateur est connecté ****
-
-'Connexion utilisateur EW '
-CustomKeywords.'vodkeyword.vod_identification.idVOD'(user_compte, password)
-
-//STEP 2
-// **** Description: Afficher le composant Mes vidéos (user EW)
-// **** Expected: vérifier qu'un texte en surimpression de l'image est affiché avec:
-//					- Titre << Voir et revoir vos vidéos louées ou achetées >>
-//					- les libellés << Retrouvez et visionnez les vidéos louées ou achetées sur ordinateur, TV, 
-//					  tablette, smartphone et Clé TV. >>
-//					- et << Téléchargez-les sur le lectur VOD Orange pour les visionner sans connexion. >>
-'Affichage composant Mes vidéos'
-CustomKeywords.'vodkeyword.vod_identification.menuConvergentVOD'('Mes vidéos')
-
-'Verification texte en surimpression '
-String titre_banner = WebUI.getText(findTestObject('VOD Objects/PC/Menu Convergeant Mes videos/titre banner-marketing'))
-String titre1 = WebUI.getText(findTestObject('VOD Objects/PC/Menu Convergeant Mes videos/titre1 banner-marketing'))
-String titre2 = WebUI.getText(findTestObject('VOD Objects/PC/Menu Convergeant Mes videos/titre2 banner-marketing'))
-
-'Verify match'
-WebUI.verifyMatch(titre_banner, "Voir et revoir vos vidéos louées ou achetées" , false)
-
-WebUI.verifyMatch(titre1, "Retrouvez et visionnez les vidéos louées ou achetées sur ordinateur, TV, tablette, smartphone et Clé TV." , false)
-
-WebUI.verifyMatch(titre2, "Téléchargez-les sur le lecteur VOD Orange pour les visionner sans connexion." , false)
-
-'close browser'
-WebUI.closeBrowser()
+/*
+ * STEP 1: Etant donné un utilisateur EW, lorsqu'il se connecte
+ *	Expected: Vérifier que l'utilisateur est connecté 
+ *
+ */
 
 
- 
+'STEP 1: Lorsqu\'un utilisateur EW se connecte --> vérification connexion utilisateur EW '
+CustomKeywords.'vodpckeywords.vodpc_connection.connectUser'(user_compte, password)
+
+/*
+* STEP 2: Afficher le composant Mes vidéos (user EW)
+* 		Expected: vérifier qu'un texte en surimpression de l'image est affiché avec:
+*					- Titre << Voir et revoir vos vidéos louées ou achetées >>
+*					- les libellés << Retrouvez et visionnez les vidéos louées ou achetées sur ordinateur, TV, 
+*					  tablette, smartphone et Clé TV. >>
+*					- et << Téléchargez-les sur le lectur VOD Orange pour les visionner sans connexion. >>
+*/
+
+'STEP 2: Affichage composant Mes vidéos --> vérifier que : (voir les étapes suivantes)'
+CustomKeywords.'vodpckeywords.vodpc_MesVideos.gotoMesVideos'()
+
+'--> Verify match title :Voir et revoir vos vidéos louées ou achetées '
+WebUI.verifyMatch(WebUI.getText(findTestObject('VOD Objects/PC/Menu Convergeant Mes videos/titre banner-marketing')), VOD_VID_BANNER_EW_TITLE , false)
+
+'--> Verify match text1 :Retrouvez et visionnez les vidéos louées ou achetées sur ordinateur, TV, tablette, smartphone et Clé TV. '
+WebUI.verifyMatch(WebUI.getText(findTestObject('VOD Objects/PC/Menu Convergeant Mes videos/titre1 banner-marketing')), VOD_VID_BANNER_EW_TEXT1  , false)
+
+'--> Verify match text2 :Téléchargez-les sur le lecteur VOD Orange pour les visionner sans connexion.'
+WebUI.verifyMatch(WebUI.getText(findTestObject('VOD Objects/PC/Menu Convergeant Mes videos/titre2 banner-marketing')), VOD_VID_BANNER_EW_TEXT2 , false)
+
 
 

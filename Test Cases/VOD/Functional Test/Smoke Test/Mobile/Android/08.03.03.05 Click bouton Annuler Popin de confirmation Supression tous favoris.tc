@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>08.03.03.05 Click bouton Annuler Popin de confirmation Supression tous favoris</name>
+   <tag>Functional</tag>
+   <comment></comment>
+   <testCaseGuid>f6fc1ca2-3d7a-45c0-bec1-db03ec5df7ea</testCaseGuid>
+</TestCaseEntity>

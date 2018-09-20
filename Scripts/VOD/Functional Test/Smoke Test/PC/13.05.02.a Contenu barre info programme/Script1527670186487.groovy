@@ -20,57 +20,62 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.util.KeywordUtil as console
 
-//Pr�requis
-// **** Description : Etre dans l'un des cas suivants:
-// - Avoir une vid�o lou�e ou achet�e en cours de validit� 
-// - ou lancer une bande annonce d'un contenu disposant avec cover (Angry Bird)
-// - disposer d'un contenu sans cover
-// - " " " non �pisode 
-// - " " " ayant un code CSA 1
-// - " " " " " " " " " diff�rent de 1
-// **** Expected : A la suite de l'une de ces actions, le player IB s'afiche
+/*
+ * Prérequis : Etre dans l'un des cas suivants:
+ * 				- être en fin de processus d'achat ou de location de contenu
+ * 				- avoir auparavant loué ou acheté un contenu et le lancer depuis "Mes vidéos" (il est donc encore
+ * 					encours de validité)
+ * 				- lancer la bande annonce d'un contenu 
+ * 				- Disposer d'un contenu avec cover
+ * 				- disposer d'un contenu sans cover 
+ * 				- disposer d'un contenu non épisode
+ * 				- disposer d'un contenu ayant un code CSA 1
+ * 				- disposer d'un contenu ayant un code différent de 1
+ * 	Expected : Suite à l'un des actions, le player IB est affiché
+ * 
+ */ 
+CustomKeywords.'vodpckeywords.vodpc_HTML5_Player.playVODContenu'(GlobalVariable.angry_bird_cover)
 
-'Open browser'
-WebUI.openBrowser("")
+'Prerequis: Ouvrir une bande annonce --> Verifier que le player IB est lancé'
+CustomKeywords.'vodpckeywords.vodpc_HTML5_Player.playerIB_opened'()
 
-'Maximize windows'
-WebUI.maximizeWindow()
+/*
+ * Step 2: Consulter la barre info programme d'un contenu ayant une cover
+ *  Expected : Verifier que la barre info programme contient a gauche la cover de cette video
+ *			  Les informations sont a droite de cette cover (a commencer par le titre)
+ */
 
-'Play VOD content angry bird'
-CustomKeywords.'vodkeyword.vod_identification.playVODContenu'(GlobalVariable.angry_bird_cover)
+'Step 2: consulter barre info programme d\'un contenu ayant une cover --> verification cover, titre et genre'
+CustomKeywords.'vodpckeywords.vodpc_HTML5_Player.zip_verif_cover_titre_genre'("cover","titre","genre")
 
-'definir le tag video'
-TestObject video = findTestObject('VOD Objects/PC/Video Player/player')
-
-'Check if player IB has started'
-if (CustomKeywords.'vodkeyword.vod_identification.IsVODPlayingOnFirstTime'(video)) {
-	console.markPassed("Player IB is opened and video is playing")
-}
-else{
-	console.markFailedAndStop("Player IB not opened")
-}
-
-//STEP 2
-//**** Description: Consulter la barre info programme d'un contenu ayant une cover *****
-//**** Expected : Verifier que la barre info programme contient a gauche la cover de cette video
-//				  Les informations sont a droite de cette cover (a commencer par le titre) ****
-
-'Zone Info Programme: Verification cover, titre et genre'
-CustomKeywords.'vodkeyword.vod_identification.zip_verif_cover_titre_genre'()
-
-//STEP 3
-//**** Description: Consulter la barre info programme d'un contenu n'ayant pas de cover *****
-//**** Expected : Verifier que la barre info programme contient a gauche Les informations   
-//				   de cette vidéo (a commencer par le titre) ****
-
-'Lancer un contenu sans cover'
+/*
+ * Step 3 :  Consulter la barre info programme d'un contenu n'ayant pas de cover
+ * 	Expected : Verifier que la barre info programme contient a gauche les informations de cette vidéo (a commencer par le titre)
+ */
 CustomKeywords.'vodkeyword.vod_identification.playVODContenu'(GlobalVariable.jeune_et_jolie_sans_cover)
+WebUI.delay(15) // ce delay est indispensable puisque ce contenu a un code CSA différent de 1 donc il faut retarder de x sec
 
-'delay 5s'
-WebUI.delay(5)
+'Step 3: consulter barre info programme d\'un contenu n\'ayant pas une cover --> verification pas cover, titre et genre'
+CustomKeywords.'vodpckeywords.vodpc_HTML5_Player.zip_verif_cover_titre_genre'("sans cover","titre","genre")
 
-'Verifier qu il n y a pas de cover'
-CustomKeywords.'vodkeyword.vod_identification.zip_verif_cover_titre_genre'()
+/*
+ * Step 4 :  Consulter la barre info programme d'un contenu non épisode
+ * 	Expected : Verifier que la la première ligne contient le titre de la vidéo
+ */
+CustomKeywords.'vodpckeywords.vodpc_HTML5_Player.playVODContenu'(GlobalVariable.angry_bird_cover)
+WebUI.delay(5) // attendre un peu que la vidéo commence avant de chercher à savoir le titre
+
+'Step 4: consulter barre info programme d\'un contenu non épisode --> verification du titre de la vidéo'
+CustomKeywords.'vodpckeywords.vodpc_HTML5_Player.zip_verif_cover_titre_genre'("rien","titre","rien") 
+
+/*
+ * Step 5 : Consulter la barre info programme d'un contenu avec un code CSA différent de 1
+ * 	Expected : Vérifier que l'icône CSA est affichée dans la barre d'info programme, à droite du titre
+ */
+CustomKeywords.'vodkeyword.vod_identification.playVODContenu'(GlobalVariable.jeune_et_jolie_sans_cover)
+WebUI.delay(10) // ce delay est indispensable puisque ce contenu a un code CSA différent de 1 donc il faut retarder de x sec
 
 
+'Step 5 : Vérifier que l\'icône CSA est affichée dans la barre d\'info programme, à droite du titre'
+CustomKeywords.'vodpckeywords.vodpc_HTML5_Player.codeCSA_barre_info_programme'()
 

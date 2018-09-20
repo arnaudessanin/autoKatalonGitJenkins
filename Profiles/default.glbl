@@ -24,4 +24,9 @@
       <initValue>'https://ovo.qualif1.orange.fr/#vod/movieDescription/JEUNEETJOLIW0083722'</initValue>
       <name>jeune_et_jolie_sans_cover</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>test suite cycle id in QC</description>
+      <initValue>'10051'</initValue>
+      <name>test_validate_in_qc</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

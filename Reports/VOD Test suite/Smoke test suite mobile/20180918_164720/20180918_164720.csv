@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke test suite mobile,Chrome 69.0.3497.91,,2018-09-18 16:47:27,2018-09-18 17:05:56,"18m - 29,021s",FAILED
+,,,,,,
+Test Cases/VOD/Functional Test/Smoke Test/Mobile/Android/09.03.02.02 Texte pour un utilisateur Mobile,Chrome 69.0.3497.91,,2018-09-18 16:47:28,2018-09-18 16:55:59,"8m - 30,646s",FAILED
+Start listener action : BeforeTestCase,Chrome 69.0.3497.91,,2018-09-18 16:47:28,2018-09-18 16:55:58,"8m - 30,289s",ERROR
+vodmobilekeywords.vodmobile_connection.connectUser,Chrome 69.0.3497.91,Connexion utilisateur EW ,2018-09-18 16:55:58,2018-09-18 16:55:59,"0,057s",FAILED
+Start listener action : AfterTestCase,Chrome 69.0.3497.91,,2018-09-18 16:55:59,2018-09-18 16:55:59,"0,019s",PASSED
+,,,,,,
+Test Cases/VOD/Functional Test/Smoke Test/Mobile/Android/13.01.Structure du player,Chrome 69.0.3497.91,,2018-09-18 16:55:59,2018-09-18 16:57:10,"1m - 11,605s",PASSED
+Start listener action : BeforeTestCase,Chrome 69.0.3497.91,,2018-09-18 16:55:59,2018-09-18 16:56:19,"20,192s",PASSED
+vodmobilekeywords.vodmobile_HTML5_Player.playVODContenu,Chrome 69.0.3497.91,Prerequis: Lancer la bande annonce d'un contenu,2018-09-18 16:56:19,2018-09-18 16:56:44,"24,758s",PASSED
+vodpckeywords.vodpc_HTML5_Player.playerIB_opened,Chrome 69.0.3497.91,STEP 2 : Le player IB VOD s'affiche --> vérifier que le player IB VOD s'affiche,2018-09-18 16:56:44,2018-09-18 16:56:59,"15,382s",PASSED
+vodpckeywords.vodpc_HTML5_Player.PlayerVOD_Structure,Chrome 69.0.3497.91,"STEP 3 : vérifier qu'il est composé de : barre de menus, zone de flux, zone info programme, barre de contrôle",2018-09-18 16:56:59,2018-09-18 16:57:01,"1,984s",PASSED
+delay,Chrome 69.0.3497.91,,2018-09-18 16:57:01,2018-09-18 16:57:06,"5,002s",PASSED
+Start listener action : AfterTestCase,Chrome 69.0.3497.91,,2018-09-18 16:57:06,2018-09-18 16:57:10,"4,091s",PASSED
+,,,,,,
+Test Cases/VOD/Functional Test/Smoke Test/Mobile/Android/13.06.06 Avance et retour rapides,Chrome 69.0.3497.91,,2018-09-18 16:57:10,2018-09-18 16:57:41,"30,993s",FAILED
+Start listener action : BeforeTestCase,Chrome 69.0.3497.91,,2018-09-18 16:57:10,2018-09-18 16:57:41,"30,610s",ERROR
+callTestCase,Chrome 69.0.3497.91,,2018-09-18 16:57:41,2018-09-18 16:57:41,"0,236s",FAILED
+Start listener action : AfterTestCase,Chrome 69.0.3497.91,,2018-09-18 16:57:41,2018-09-18 16:57:41,"0,003s",PASSED
+,,,,,,
+Test Cases/VOD/Functional Test/Smoke Test/Mobile/Android/13.06.08 Raccourci barre espace,Chrome 69.0.3497.91,,2018-09-18 16:57:41,2018-09-18 17:05:22,"7m - 41,076s",ERROR
+Start listener action : BeforeTestCase,Chrome 69.0.3497.91,,2018-09-18 16:57:41,2018-09-18 17:05:22,"7m - 40,921s",ERROR
+vodmobilekeywords.vodmobile_HTML5_Player.playVODContenu,Chrome 69.0.3497.91,,2018-09-18 17:05:22,2018-09-18 17:05:22,"0,001s",ERROR
+Start listener action : AfterTestCase,Chrome 69.0.3497.91,,2018-09-18 17:05:22,2018-09-18 17:05:22,"0,002s",PASSED
+,,,,,,
+Test Cases/VOD/Functional Test/Smoke Test/Mobile/Android/09.01.01. Acces utilisateur non authentifie,Chrome 69.0.3497.91,,2018-09-18 17:05:22,2018-09-18 17:05:56,"34,089s",FAILED
+Start listener action : BeforeTestCase,Chrome 69.0.3497.91,,2018-09-18 17:05:22,2018-09-18 17:05:39,"16,361s",PASSED
+vodmobilekeywords.vodmobile_MesVideos.accesUtilisateurNonAuthentifie,Chrome 69.0.3497.91,Un utilisateur non authentifié demande l'accès à la page Mes Vidéos --> Vérifier que la popin Redirection Authentification s'affiche,2018-09-18 17:05:39,2018-09-18 17:05:54,"14,927s",FAILED
+Start listener action : AfterTestCase,Chrome 69.0.3497.91,,2018-09-18 17:05:54,2018-09-18 17:05:56,"2,655s",PASSED

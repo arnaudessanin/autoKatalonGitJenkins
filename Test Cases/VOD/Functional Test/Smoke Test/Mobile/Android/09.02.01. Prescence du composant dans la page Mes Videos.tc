@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>09.02.01. Prescence du composant dans la page Mes Videos</name>
+   <tag>Functional</tag>
+   <comment></comment>
+   <testCaseGuid>f4ed9f64-4ddc-441c-be20-d97403df68da</testCaseGuid>
+</TestCaseEntity>

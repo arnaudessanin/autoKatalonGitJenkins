@@ -3,20 +3,41 @@
    <description></description>
    <name>09.03.02.02 Texte pour un utilisateur Desktop</name>
    <tag>Functional</tag>
-   <comment>Verification texte en surimpression </comment>
+   <comment></comment>
    <testCaseGuid>0436d9ec-b008-40f0-a9b2-1ed113e940b4</testCaseGuid>
    <variable>
-      <defaultValue>'vodpcqualifb@orange.fr'</defaultValue>
+      <defaultValue>findTestData('dataTest').getValue(1, 1)</defaultValue>
       <description></description>
       <id>a9e7024d-ef5f-424a-b4e8-cdd5dcc78221</id>
       <masked>false</masked>
       <name>user_compte</name>
    </variable>
    <variable>
-      <defaultValue>'Passwd1'</defaultValue>
+      <defaultValue>findTestData('dataTest').getValue(2, 1)</defaultValue>
       <description></description>
       <id>ab5e772a-1940-4de7-bdf9-d1ee0da93ba8</id>
       <masked>false</masked>
       <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Wording VOD/MesVideos').getValue(2, 23)</defaultValue>
+      <description></description>
+      <id>5511d08f-9187-4977-8ed1-84aa96f52355</id>
+      <masked>false</masked>
+      <name>VOD_VID_BANNER_EW_TITLE</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Wording VOD/MesVideos').getValue(2, 24)</defaultValue>
+      <description></description>
+      <id>ac1e72f1-81f9-4627-a770-de8570254195</id>
+      <masked>false</masked>
+      <name>VOD_VID_BANNER_EW_TEXT1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Wording VOD/MesVideos').getValue(2, 25)</defaultValue>
+      <description></description>
+      <id>84e0268c-8da3-44f3-87f4-4aaf4fad0064</id>
+      <masked>false</masked>
+      <name>VOD_VID_BANNER_EW_TEXT2</name>
    </variable>
 </TestCaseEntity>

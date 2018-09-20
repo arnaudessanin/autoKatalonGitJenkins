@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke test suite PC,Chrome 69.0.3497.100,,2018-09-18 16:47:27,2018-09-18 16:51:49,"4m - 22,015s",ERROR
+,,,,,,
+Test Cases/VOD/Functional Test/Smoke Test/PC/09.03.02.02 Texte pour un utilisateur Desktop,Chrome 69.0.3497.100,,2018-09-18 16:47:28,2018-09-18 16:48:20,"51,800s",ERROR
+Start listener action : BeforeTestCase,Chrome 69.0.3497.100,,2018-09-18 16:47:29,2018-09-18 16:47:39,"10,276s",PASSED
+vodpckeywords.vodpc_connection.connectUser,Chrome 69.0.3497.100,STEP 1: Lorsqu'un utilisateur EW se connecte --> vérification connexion utilisateur EW ,2018-09-18 16:47:40,2018-09-18 16:48:17,"37,292s",PASSED
+vodpckeywords.vodpc_MesVideos.gotoMesVideos,Chrome 69.0.3497.100,STEP 2: Affichage composant Mes vidéos --> vérifier que : (voir les étapes suivantes),2018-09-18 16:48:17,2018-09-18 16:48:18,"1,374s",ERROR
+Start listener action : AfterTestCase,Chrome 69.0.3497.100,,2018-09-18 16:48:19,2018-09-18 16:48:20,"1,180s",PASSED
+,,,,,,
+Test Cases/VOD/Functional Test/Smoke Test/PC/13.01.Structure du player,Chrome 69.0.3497.100,,2018-09-18 16:48:20,2018-09-18 16:49:05,"44,862s",PASSED
+Start listener action : BeforeTestCase,Chrome 69.0.3497.100,,2018-09-18 16:48:20,2018-09-18 16:48:26,"6,032s",PASSED
+vodpckeywords.vodpc_HTML5_Player.playVODContenu,Chrome 69.0.3497.100,Prerequis: Lancer la bande annonce d'un contenu,2018-09-18 16:48:26,2018-09-18 16:48:43,"17,485s",PASSED
+vodpckeywords.vodpc_HTML5_Player.playerIB_opened,Chrome 69.0.3497.100,STEP 2 : Le player IB VOD s'affiche --> vérifier que le player IB VOD s'affiche,2018-09-18 16:48:43,2018-09-18 16:48:59,"15,130s",PASSED
+vodpckeywords.vodpc_HTML5_Player.PlayerVOD_Structure,Chrome 69.0.3497.100,"STEP 3 : vérifier qu'il est composé de : barre de menus, zone de flux, zone info programme, barre de contrôle",2018-09-18 16:48:59,2018-09-18 16:48:59,"0,292s",PASSED
+delay,Chrome 69.0.3497.100,,2018-09-18 16:48:59,2018-09-18 16:49:04,"5,002s",PASSED
+Start listener action : AfterTestCase,Chrome 69.0.3497.100,,2018-09-18 16:49:04,2018-09-18 16:49:05,"0,763s",PASSED
+,,,,,,
+Test Cases/VOD/Functional Test/Smoke Test/PC/13.02.Masquage des informations OSD,Chrome 69.0.3497.100,,2018-09-18 16:49:05,2018-09-18 16:49:32,"27,765s",FAILED
+Start listener action : BeforeTestCase,Chrome 69.0.3497.100,,2018-09-18 16:49:05,2018-09-18 16:49:08,"3,735s",PASSED
+vodpckeywords.vodpc_HTML5_Player.playVODContenu,Chrome 69.0.3497.100,,2018-09-18 16:49:08,2018-09-18 16:49:16,"7,976s",PASSED
+vodpckeywords.vodpc_HTML5_Player.playerIB_opened,Chrome 69.0.3497.100,Prerequis: Ouvrir une bande annonce --> Verifier que le player IB est lancé,2018-09-18 16:49:16,2018-09-18 16:49:31,"15,048s",FAILED
+Start listener action : AfterTestCase,Chrome 69.0.3497.100,,2018-09-18 16:49:31,2018-09-18 16:49:32,"0,847s",PASSED
+,,,,,,
+Test Cases/VOD/Functional Test/Smoke Test/PC/13.06.08 Raccourci barre espace,Chrome 69.0.3497.100,,2018-09-18 16:49:32,2018-09-18 16:50:21,"48,293s",PASSED
+Start listener action : BeforeTestCase,Chrome 69.0.3497.100,,2018-09-18 16:49:32,2018-09-18 16:49:35,"2,980s",PASSED
+vodpckeywords.vodpc_HTML5_Player.playVODContenu,Chrome 69.0.3497.100,,2018-09-18 16:49:36,2018-09-18 16:49:44,"8,320s",PASSED
+vodpckeywords.vodpc_HTML5_Player.playerIB_opened,Chrome 69.0.3497.100,Prerequis: Ouvrir une bande annonce --> Verifier que le player IB est lancé,2018-09-18 16:49:44,2018-09-18 16:49:59,"15,052s",PASSED
+vodpckeywords.vodpc_HTML5_Player.raccourci_barre_espace,Chrome 69.0.3497.100,Step 2 : Le player lit un contenu a vitesse normale. Appuyer sur la barre espace du clavier --> Vérifier que le player passe en Pause,2018-09-18 16:49:59,2018-09-18 16:50:05,"6,281s",PASSED
+vodpckeywords.vodpc_HTML5_Player.raccourci_barre_espace,Chrome 69.0.3497.100,Step 3 : Le player lit un contenu en vitesse accélérée. Appuyer sur la barre espace du clavier --> Vérifier que le player repasse à vitesse normale,2018-09-18 16:50:05,2018-09-18 16:50:13,"7,272s",PASSED
+vodpckeywords.vodpc_HTML5_Player.raccourci_barre_espace,Chrome 69.0.3497.100,Step 4 : Le player est en pause. Appuyer sur la barre espace du clavier --> Vérifier que le player repasse à vitesse normale,2018-09-18 16:50:13,2018-09-18 16:50:20,"7,144s",PASSED
+Start listener action : AfterTestCase,Chrome 69.0.3497.100,,2018-09-18 16:50:20,2018-09-18 16:50:21,"1,078s",PASSED
+,,,,,,
+Test Cases/VOD/Functional Test/Smoke Test/PC/13.06.06 Avance et retour rapides,Chrome 69.0.3497.100,,2018-09-18 16:50:21,2018-09-18 16:51:06,"45,621s",FAILED
+Start listener action : BeforeTestCase,Chrome 69.0.3497.100,,2018-09-18 16:50:21,2018-09-18 16:50:25,"3,926s",PASSED
+vodpckeywords.vodpc_connection.connectUser,Chrome 69.0.3497.100,,2018-09-18 16:50:25,2018-09-18 16:50:41,"16,360s",PASSED
+vodpckeywords.vodpc_HTML5_Player.playVODContenu,Chrome 69.0.3497.100,,2018-09-18 16:50:41,2018-09-18 16:50:49,"7,707s",PASSED
+vodpckeywords.vodpc_HTML5_Player.playerIB_opened,Chrome 69.0.3497.100,Prerequis: Ouvrir une bande annonce --> Verifier que le player IB est lancé,2018-09-18 16:50:49,2018-09-18 16:51:05,"16,462s",FAILED
+Start listener action : AfterTestCase,Chrome 69.0.3497.100,,2018-09-18 16:51:05,2018-09-18 16:51:06,"1,018s",PASSED
+,,,,,,
+Test Cases/VOD/Functional Test/Smoke Test/PC/09.01.01. Acces utilisateur non authentifie,Chrome 69.0.3497.100,,2018-09-18 16:51:06,2018-09-18 16:51:49,"42,978s",FAILED
+Start listener action : BeforeTestCase,Chrome 69.0.3497.100,,2018-09-18 16:51:06,2018-09-18 16:51:12,"5,738s",PASSED
+vodpckeywords.vodpc_MesVideos.accesUtilisateurNonAuthentifie,Chrome 69.0.3497.100,Un utilisateur non authentifié demande l'accès à la page Mes Vidéos --> Vérifier que la popin Redirection Authentification s'affiche,2018-09-18 16:51:12,2018-09-18 16:51:47,"34,875s",FAILED
+Start listener action : AfterTestCase,Chrome 69.0.3497.100,,2018-09-18 16:51:47,2018-09-18 16:51:49,"2,236s",PASSED

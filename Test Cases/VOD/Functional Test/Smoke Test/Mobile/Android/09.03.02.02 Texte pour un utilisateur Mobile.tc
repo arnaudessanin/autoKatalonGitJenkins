@@ -3,7 +3,7 @@
    <description></description>
    <name>09.03.02.02 Texte pour un utilisateur Mobile</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Verification texte en surimpression </comment>
    <testCaseGuid>0b4d14fb-3b0d-4e2f-a4d6-4a37882d813b</testCaseGuid>
    <variable>
       <defaultValue>findTestData('dataTest').getValue(1, 1)</defaultValue>

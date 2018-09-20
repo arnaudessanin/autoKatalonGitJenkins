@@ -1,0 +1,206 @@
+[35m[Appium][39m Appium support for versions of node < 8 has been deprecated and will be removed in a future version. Please upgrade!
+[35m[Appium][39m Welcome to Appium v1.8.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 4233
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   chromeDriverPort: 4235
+[35m[Appium][39m   tmpDir: C:\Users\Test\AppData\Local\Temp\\Katalon\Appium\Temp1537281243136
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:4233
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m71 ms - 83[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"browserName":"Chrome","deviceId":"041604a8c5231902","deviceName":"samsung SM-G920F (Android 7.0)","newCommandTimeout":1800,"platform":"ANDROID","platformName":"Android","udid":"041604a8c5231902"},"capabilities":{"desiredCapabilities":{"browserName":"Chrome","deviceId":"041604a8c5231902","deviceName":"samsung SM-G920F (Android 7.0)","newCommandTimeout":1800,"platform":"ANDROID","platformName":"Android","udid":"041604a8c5231902"},"firstMatch":[{"browserName":"Chrome","platformName":"android"}]}}[39m
+[35m[Appium][39m Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
+[35m[Appium][39m The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["browserName","deviceId","deviceName","newCommandTimeout","platform","platformName","udid"]. Falling back to JSONWP protocol.
+[35m[Appium][39m Creating new AndroidDriver (v2.4.1) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   browserName: Chrome
+[35m[Appium][39m   deviceId: 041604a8c5231902
+[35m[Appium][39m   deviceName: samsung SM-G920F (Android 7.0)
+[35m[Appium][39m   newCommandTimeout: 1800
+[35m[Appium][39m   platform: ANDROID
+[35m[Appium][39m   platformName: Android
+[35m[Appium][39m   udid: 041604a8c5231902
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by appium: deviceId, platform.
+[35m[BaseDriver][39m Session created with session id: 294b4c4c-bdf2-43cd-8130-c94af05bb4b7
+[35m[AndroidDriver][39m Java version is: 1.8.0_102
+[35m[AndroidDriver][39m We're going to run a Chrome-based session
+[35m[AndroidDriver][39m Chrome-type package and activity are com.android.chrome and com.google.android.apps.chrome.Main
+[35m[ADB][39m Checking whether adb is present
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\Test\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/Test/.katalon/tools/android_sdk/build-tools/28.0.0
+[35m[ADB][39m Using adb.exe from C:\Users\Test\.katalon\tools\android_sdk\platform-tools\adb.exe
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: 041604a8c5231902
+[35m[ADB][39m Checking whether adb is present
+[35m[ADB][39m Using adb.exe from C:\Users\Test\.katalon\tools\android_sdk\platform-tools\adb.exe
+[35m[AndroidDriver][39m App file was not listed, instead we're going to run com.android.chrome directly on the device
+[35m[AndroidDriver][39m Starting Android session
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from C:\Users\Test\.katalon\tools\android_sdk\build-tools\28.0.0\aapt.exe
+[35m[AndroidDriver][39m setDeviceLanguageCountry requires language or country.
+[35m[AndroidDriver][39m Got language: 'null' and country: 'null'
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from C:\Users\Test\.katalon\tools\android_sdk\build-tools\28.0.0\aapt.exe
+[35m[ADB][39m Getting device platform version
+[35m[AndroidDriver][39m No app sent in, not parsing package/activity
+[35m[ADB][39m No uiautomator process found to kill, continuing...
+[35m[AndroidBootstrap][39m Android bootstrap socket is now connected
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[AndroidDriver][39m Starting a chrome-based browser session
+[35m[Chromedriver][39m Set chromedriver binary as: C:/Users/Test/AppData/Roaming/npm/node_modules/appium/node_modules/appium-chromedriver/chromedriver/win/chromedriver.exe
+[35m[Chromedriver][39m No old chromedrivers seemed to exist
+[35m[Chromedriver][39m Spawning chromedriver with: C:/Users/Test/AppData/Roaming/npm/node_modules/appium/node_modules/appium-chromedriver/chromedriver/win/chromedriver.exe --url-base=wd/hub --port=4235 --adb-port=5037 --verbose
+[35m[Appium][39m New AndroidDriver session created successfully, session 294b4c4c-bdf2-43cd-8130-c94af05bb4b7 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m15706 ms - 781[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m35 ms - 55[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7/timeouts[39m
+[35m[HTTP][39m [90m{"type":"implicit","ms":30000}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[35m[JSONWP Proxy][39m Replacing sessionId b1a11528f953231f4252ee1a7627c39b with 294b4c4c-bdf2-43cd-8130-c94af05bb4b7
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7/timeouts [39m[32m200[39m [90m7 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7/timeouts[39m
+[35m[HTTP][39m [90m{"type":"implicit","ms":0}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[35m[JSONWP Proxy][39m Replacing sessionId b1a11528f953231f4252ee1a7627c39b with 294b4c4c-bdf2-43cd-8130-c94af05bb4b7
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7/timeouts [39m[32m200[39m [90m4 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7/execute[39m
+[35m[HTTP][39m [90m{"script":"return navigator.sayswho= (function() { var ua= navigator.userAgent, tem, M= ua.match(/(opera|chrome|safari|firefox|msie|trident)\\/?\\s*(\\.?\\d+(\\.\\d+)*)/i) || []; if (/trident/i.test(M[1])) {     tem=  /\\brv[ :]+(\\d+)/g.exec(ua) || [];     return 'IE '+(tem[1] || ''); } if(M[1]=== 'Chrome') {     tem= ua.match(/\\b(OPR|Edge)\\/(\\d+)/);     if(tem!= null) return tem.slice(1).join(' ').replace('OPR', 'Opera'); } M= M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?']; if((tem= ua.match(/version\\/(\\d+)/i))!= null) M.splice(1, 1, tem[1]); return M.join(' ').replace('MSIE', 'IE');})();","args":[]}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[35m[JSONWP Proxy][39m Replacing sessionId b1a11528f953231f4252ee1a7627c39b with 294b4c4c-bdf2-43cd-8130-c94af05bb4b7
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7/execute [39m[32m200[39m [90m143 ms - 93[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7/url[39m
+[35m[HTTP][39m [90m{"url":"https://ovo.qualif1.orange.fr/#vod/home"}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[35m[JSONWP Proxy][39m Replacing sessionId b1a11528f953231f4252ee1a7627c39b with 294b4c4c-bdf2-43cd-8130-c94af05bb4b7
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7/url [39m[32m200[39m [90m12397 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7/execute[39m
+[35m[HTTP][39m [90m{"script":"return document.readyState","args":[]}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[35m[JSONWP Proxy][39m Replacing sessionId b1a11528f953231f4252ee1a7627c39b with 294b4c4c-bdf2-43cd-8130-c94af05bb4b7
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7/execute [39m[32m200[39m [90m32 ms - 82[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7/elements[39m
+[35m[HTTP][39m [90m{"using":"css selector","value":"div.wptv-icon.menu-icon"}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[35m[JSONWP Proxy][39m Replacing sessionId b1a11528f953231f4252ee1a7627c39b with 294b4c4c-bdf2-43cd-8130-c94af05bb4b7
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7/elements [39m[32m200[39m [90m95 ms - 108[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[35m[JSONWP Proxy][39m Replacing sessionId b1a11528f953231f4252ee1a7627c39b with 294b4c4c-bdf2-43cd-8130-c94af05bb4b7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7 [39m[32m200[39m [90m5 ms - 719[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[35m[JSONWP Proxy][39m Replacing sessionId b1a11528f953231f4252ee1a7627c39b with 294b4c4c-bdf2-43cd-8130-c94af05bb4b7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7 [39m[32m200[39m [90m7 ms - 719[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[35m[JSONWP Proxy][39m Replacing sessionId b1a11528f953231f4252ee1a7627c39b with 294b4c4c-bdf2-43cd-8130-c94af05bb4b7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7 [39m[32m200[39m [90m8 ms - 719[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[35m[JSONWP Proxy][39m Replacing sessionId b1a11528f953231f4252ee1a7627c39b with 294b4c4c-bdf2-43cd-8130-c94af05bb4b7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7 [39m[32m200[39m [90m5 ms - 719[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[35m[JSONWP Proxy][39m Replacing sessionId b1a11528f953231f4252ee1a7627c39b with 294b4c4c-bdf2-43cd-8130-c94af05bb4b7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7 [39m[32m200[39m [90m3 ms - 719[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[35m[JSONWP Proxy][39m Replacing sessionId b1a11528f953231f4252ee1a7627c39b with 294b4c4c-bdf2-43cd-8130-c94af05bb4b7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7 [39m[32m200[39m [90m4 ms - 719[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7/element/0.5516682803892847-1/click[39m
+[35m[HTTP][39m [90m{"id":"0.5516682803892847-1"}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[35m[JSONWP Proxy][39m Replacing sessionId b1a11528f953231f4252ee1a7627c39b with 294b4c4c-bdf2-43cd-8130-c94af05bb4b7
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7/element/0.5516682803892847-1/click [39m[32m200[39m [90m578 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//nav//ul[@class=\"wptv-menu\"]/li[@class=\"wptv-menu-item\"][2]"}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[35m[JSONWP Proxy][39m Replacing sessionId b1a11528f953231f4252ee1a7627c39b with 294b4c4c-bdf2-43cd-8130-c94af05bb4b7
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7/elements [39m[32m200[39m [90m238 ms - 108[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[35m[JSONWP Proxy][39m Replacing sessionId b1a11528f953231f4252ee1a7627c39b with 294b4c4c-bdf2-43cd-8130-c94af05bb4b7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7 [39m[32m200[39m [90m9 ms - 719[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[35m[JSONWP Proxy][39m Replacing sessionId b1a11528f953231f4252ee1a7627c39b with 294b4c4c-bdf2-43cd-8130-c94af05bb4b7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7 [39m[32m200[39m [90m13 ms - 719[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[35m[JSONWP Proxy][39m Replacing sessionId b1a11528f953231f4252ee1a7627c39b with 294b4c4c-bdf2-43cd-8130-c94af05bb4b7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7 [39m[32m200[39m [90m5 ms - 719[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[35m[JSONWP Proxy][39m Replacing sessionId b1a11528f953231f4252ee1a7627c39b with 294b4c4c-bdf2-43cd-8130-c94af05bb4b7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7 [39m[32m200[39m [90m4 ms - 719[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[35m[JSONWP Proxy][39m Replacing sessionId b1a11528f953231f4252ee1a7627c39b with 294b4c4c-bdf2-43cd-8130-c94af05bb4b7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7 [39m[32m200[39m [90m3 ms - 719[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[35m[JSONWP Proxy][39m Replacing sessionId b1a11528f953231f4252ee1a7627c39b with 294b4c4c-bdf2-43cd-8130-c94af05bb4b7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7 [39m[32m200[39m [90m3 ms - 719[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7/element/0.5516682803892847-2/displayed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[35m[JSONWP Proxy][39m Replacing sessionId b1a11528f953231f4252ee1a7627c39b with 294b4c4c-bdf2-43cd-8130-c94af05bb4b7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7/element/0.5516682803892847-2/displayed [39m[32m200[39m [90m467 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[35m[JSONWP Proxy][39m Replacing sessionId b1a11528f953231f4252ee1a7627c39b with 294b4c4c-bdf2-43cd-8130-c94af05bb4b7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7/screenshot [39m[32m200[39m [90m1441 ms - 283166[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[35m[JSONWP Proxy][39m Replacing sessionId b1a11528f953231f4252ee1a7627c39b with 294b4c4c-bdf2-43cd-8130-c94af05bb4b7
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7/screenshot [39m[32m200[39m [90m719 ms - 283166[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session 294b4c4c-bdf2-43cd-8130-c94af05bb4b7 from our master session list
+[35m[ADB][39m No uiautomator process found to kill, continuing...
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/294b4c4c-bdf2-43cd-8130-c94af05bb4b7 [39m[32m200[39m [90m2801 ms - 76[39m
+[35m[HTTP][39m [90m[39m

@@ -23,7 +23,8 @@ import internal.GlobalVariable as GlobalVariable
 //***** Description: Etant donné un utilisateur EW, lorsqu'il se connecte
 //***** Expected: Vérifier que l'utilisateur est connecté ****
 'Connexion utilisateur EW '
-CustomKeywords.'vodkeyword.vod_identification.androidAuth'(user_compte, password)
+//CustomKeywords.'vodkeyword.vod_identification.androidAuth'(user_compte, password)
+CustomKeywords.'vodmobilekeywords.vodmobile_connection.connectUser'(user_compte, password)
 
 //STEP 2
 // **** Description: Afficher le composant Mes vidéos (user EW)
@@ -33,24 +34,23 @@ CustomKeywords.'vodkeyword.vod_identification.androidAuth'(user_compte, password
 //					  tablette, smartphone et Clé TV. >>
 //					- et << Téléchargez-les sur le lectur VOD Orange pour les visionner sans connexion. >>
 'Affichage composant Mes vidéos'
-CustomKeywords.'vodkeyword.vod_identification.androidmenuConvergentVOD'('Mes vidéos')
+//CustomKeywords.'vodkeyword.vod_identification.androidmenuConvergentVOD'('Mes vidéos')
+CustomKeywords.'vodmobilekeywords.vodmobile_MesVideos.gotoMesVideos'()
 
 'Verification texte en surimpression '
+/*
 String titre_banner = WebUI.getText(findTestObject('VOD Objects/PC/Menu Convergeant Mes videos/titre banner-marketing'))
-
 String titre1 = WebUI.getText(findTestObject('VOD Objects/PC/Menu Convergeant Mes videos/titre1 banner-marketing'))
-
 String titre2 = WebUI.getText(findTestObject('VOD Objects/PC/Menu Convergeant Mes videos/titre2 banner-marketing'))
+*/
+'Verify match: Voir et revoir vos vidéos louées ou achetées'
+WebUI.verifyMatch(WebUI.getText(findTestObject('VOD Objects/PC/Menu Convergeant Mes videos/titre banner-marketing')), 'Voir et revoir vos vidéos louées ou achetées', false)
 
-'Verify match'
-WebUI.verifyMatch(titre_banner, 'Voir et revoir vos vidéos louées ou achetées', false)
-
-WebUI.verifyMatch(titre1, 'Retrouvez et visionnez les vidéos louées ou achetées sur ordinateur, TV, tablette, smartphone et Clé TV.', 
+'Verify match: Retrouvez et visionnez les vidéos louées ou achetées sur ordinateur, TV, tablette, smartphone et Clé TV.'
+WebUI.verifyMatch(WebUI.getText(findTestObject('VOD Objects/PC/Menu Convergeant Mes videos/titre1 banner-marketing')), 'Retrouvez et visionnez les vidéos louées ou achetées sur ordinateur, TV, tablette, smartphone et Clé TV.', 
     false)
 
-WebUI.verifyMatch(titre2, 'Pour télécharger les vidéos que vous avez louées ou achetées,vous devez utiliser l\'application TV d\'Orange.', 
+'Verify match: Pour télécharger les vidéos que vous avez louées ou achetées,vous devez utiliser l\'application TV d\'Orange.'
+WebUI.verifyMatch(WebUI.getText(findTestObject('VOD Objects/PC/Menu Convergeant Mes videos/titre2 banner-marketing')), "Pour télécharger les vidéos que vous avez louées ou achetées,vous devez utiliser l'application TV d'Orange.", 
     false)
-
-'close browser'
-WebUI.closeBrowser()
 

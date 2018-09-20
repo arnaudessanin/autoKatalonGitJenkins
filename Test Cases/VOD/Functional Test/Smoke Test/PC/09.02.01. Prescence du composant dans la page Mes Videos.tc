@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>09.02.01. Prescence du composant dans la page Mes Videos</name>
+   <tag>Functional</tag>
+   <comment>Step 1 : Un utilisateur authentifié accède à la page Mes vidéos --> Vérifier que le composant MesVidéos s'affiche dans la page Mes Vidéos</comment>
+   <testCaseGuid>c3f0300a-cf36-4cea-8f62-2708c61edfec</testCaseGuid>
+</TestCaseEntity>

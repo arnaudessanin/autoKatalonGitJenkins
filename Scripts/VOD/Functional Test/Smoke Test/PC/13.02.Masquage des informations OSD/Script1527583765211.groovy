@@ -1,4 +1,4 @@
- import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -20,91 +20,40 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.util.KeywordUtil as console
 
-//Prerequis 
-//***** Description: Avoir un contenu lou� ou achet� en cours de validit� dans "Mes Vid�os"
-//					 ou lancer la bande annonce d'un contenu
-//***** Expected: Afficher le player IB **** 
-'Prerequis'
+/*
+ * Prerequis : Avoir un contenu loué ou acheté en cours de validit� dans "Mes Videos" ou lancer la bande annonce d'un contenu
+ * 		Expected: Afficher le player IB
+ */
+CustomKeywords.'vodpckeywords.vodpc_HTML5_Player.playVODContenu'(GlobalVariable.angry_bird_cover)
 
-'Open browser'
-WebUI.openBrowser('')
+'Prerequis: Ouvrir une bande annonce --> Verifier que le player IB est lancé'
+CustomKeywords.'vodpckeywords.vodpc_HTML5_Player.playerIB_opened'()
 
-'maximize window'
-WebUI.maximizeWindow()
+/*
+ * STEP 2: Utiliser sa souris (deplacement au dessus du player, ou clic sur des controles)
+ * 		Expected : Des informations (les différentes barres) sont affichées au-dessus de la video
+ */
 
-'play content'
-CustomKeywords.'vodkeyword.vod_identification.playVODContenu'(GlobalVariable.angry_bird_cover)
+'STEP 2 : Affichage au dessus de la vidéo --> player menu, zone info programme, zone de flux, barre de controle'
+CustomKeywords.'vodpckeywords.vodpc_HTML5_Player.PlayerVOD_Structure'()
 
-'Verifier que le player est lancé'
-TestObject video = findTestObject('VOD Objects/PC/Video Player/player')
+/*
+ * STEP 3 : Faire en sorte que le curseur survole la barre d'information programme ou la barre de controle.
+ * 		Expected : Des informations sont affichees au-dessus de la video
+ */
 
-'Verifier que le player est lancé'
-if (CustomKeywords.'vodkeyword.vod_identification.IsVODPlayingOnFirstTime'(video)) {
-    //if it plays the first time it opens
-    console.markPassed('Player IB is opened and video is playing')
-} else {
-    console.markFailedAndStop('Player IB not opened')
-}
-
-//STEP 2
-//**** Description: Utiliser sa souris (deplacement au dessus du player, ou clic sur des controles) *****
-//**** Expected : Des informations (les diff�rentes barres) sont affich�es au-dessus de la video **** 
-'STEP 2'
-
-'mouse hover on play button'
-WebUI.mouseOver(findTestObject('VOD Objects/PC/Video Player/Barre de control player/play button'))
-
-'delay 1s'
-WebUI.delay(1)
-
-'Check player structure'
-CustomKeywords.'vodkeyword.vod_identification.PlayerVOD_Structure'()
-
-//STEP 3
-//**** Description: Faire en sorte que le curseur survole la barre d'information programme ou la barre 
-//                  de controle.
-//**** Expected : Des informations sont affichees au-dessus de la video
-'STEP 3'
-
-'delay 5s'
-WebUI.delay(5)
-
-'mouse hover on menu'
-WebUI.mouseOver(findTestObject('VOD Objects/PC/Video Player/Barre menu player/barre menu'))
-
-'delay 1s'
-WebUI.delay(1)
-
-'Check player structure'
-CustomKeywords.'vodkeyword.vod_identification.PlayerVOD_Structure'()
-
-//STEP 4
-//**** Description: Laisser passer 5 secondes concecutives pendant laquelle:
-//                  - l'utilisateur ne joue pas avec la souris,
-//	                - et le curseur ne survole ni la barre de menu, ni la barre d'information, 
-//                    ni la barre de controle
-//**** Expected : Verifier que la barre de menu, la zone info programme et la bare de controle 
-//                s'efaccent automatiquement. L'ensemble de la zone player est alors dediée à 
-//                jouer le flux video. 
-'STEP 4'
-
-'mouse hover on menu'
-WebUI.mouseOver(findTestObject('VOD Objects/PC/Video Player/Barre menu player/barre menu'))
-
-'delay 7s'
 WebUI.delay(6)
 
-'Verify barre menu not present'
-WebUI.verifyElementPresent(findTestObject('VOD Objects/PC/Video Player/Barre menu player/barre menu masquage'), 
-    1, FailureHandling.CONTINUE_ON_FAILURE)
+'STEP 3: Survole barre info programme --> Affichage au dessus de la vidéo: player menu, zone info programme, zone de flux, barre de controle'
+CustomKeywords.'vodpckeywords.vodpc_HTML5_Player.PlayerVOD_Structure'()
 
-'Verify barre de control not present'
-WebUI.verifyElementPresent(findTestObject('VOD Objects/PC/Video Player/Barre de control player/barre de control masquage'), 
-    1, FailureHandling.CONTINUE_ON_FAILURE)
+/*
+ * Step 4 : Laisser passer 5 secondes concecutives pendant laquelle:
+ * 			- l'utilisateur ne joue pas avec la souris,
+ * 			- et le curseur ne survole ni la barre de menu, ni la barre d'information, ni la barre de controle
+ * 		Expected : Verifier que la barre de menu, la zone info programme et la bare de controle s'efaccent automatiquement. 
+ * 					L'ensemble de la zone player est alors dediée à jouer le flux video.
+ */
 
-'Verifiy zip not present'
-WebUI.verifyElementPresent(findTestObject('VOD Objects/PC/Video Player/Zone Info Prog/zone info prog masquage'), 
-    1, FailureHandling.CONTINUE_ON_FAILURE)
-
-'Close browser'
-WebUI.closeBrowser()
+'STEP 4: Laissez passer 5 sec --> vérifier que la barre de menu, la zone info programme et la barre de controle s\'efaccent automatiquement'
+CustomKeywords.'vodpckeywords.vodpc_HTML5_Player.PlayerVOD_Structure_Masquee'()
