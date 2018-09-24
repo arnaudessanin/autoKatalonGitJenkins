@@ -3,6 +3,8 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
+import org.testng.annotations.AfterMethod
+
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
@@ -32,7 +34,10 @@ class Test_integration_qc {
 	String password = "7acyFOI//"
 	//initialiser cette variable qui servira de compteur
 	int position_of_test_in_test_suite
-
+	String run_id;
+	String number_of_test_steps;
+	
+	
 	@BeforeTestSuite
 	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
 		
@@ -53,8 +58,19 @@ class Test_integration_qc {
 	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
 		//incrementer
 		position_of_test_in_test_suite++
+		
+		// get test position
 		String position = GlobalVariable.positions[position_of_test_in_test_suite - 1]
-		CustomKeywords.'qc_api_client.ClientApi.testHttpClientCreateTestRun'(GlobalVariable.cycle_id,position)
+		
+		//get test run id after creating the test run
+		run_id = CustomKeywords.'qc_api_client.ClientApi.testHttpClientCreateTestRun'(GlobalVariable.cycle_id,position)
+		
+		println run_id
+		//get all test run steps created
+		//trouver un moyen de recupérer les numéros des steps et les mettre à jour sur QC
+		number_of_test_steps = CustomKeywords.'qc_api_client.ClientApi.testHttpClientGetAllTestSteps'(run_id)
+		
+		WebUI.openBrowser("")
 		
 
 
@@ -73,6 +89,14 @@ class Test_integration_qc {
 		
 		if(status != "PASSED"){
 			status = "failed"
+		}
+		else{
+			
+			for(int i=1;i<=Integer.parseInt(number_of_test_steps);i++){
+				//trouver un moyen de recupérer les numéros des steps et les mettre à jour sur QC
+				CustomKeywords.'qc_api_client.ClientApi.testHttpClientValidateStep'(run_id, String.valueOf(i), status)
+			}
+			
 		}
 		
 		CustomKeywords.'qc_api_client.ClientApi.testHttpClientValidateTest'(cycle_id,status)

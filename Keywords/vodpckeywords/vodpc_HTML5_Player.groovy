@@ -48,7 +48,6 @@ import com.kms.katalon.core.mobile.helper.MobileElementCommonHelper
 import com.kms.katalon.core.util.KeywordUtil as console
 
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
-import myutilities.usefulKeyword as usefulKeyword
 
 public class vodpc_HTML5_Player {
 

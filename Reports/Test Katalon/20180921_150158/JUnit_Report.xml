@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Katalon" time="8" tests="1" failures="0" errors="0">
+   <testsuite name="Test Katalon" tests="1" failures="0" errors="0" time="8" timestamp="2018-09-21 15:02:00" hostname="Test - PCWIN81.home" id="Test Suites/Test Katalon">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\Test Katalon\\20180921_150158"/>
+         <property name="logFiles" value="C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\Test Katalon\\20180921_150158\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Test - PCWIN81.home"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.1.61"/>
+         <property name="sessionId" value="f0ee9a498798f49310241c4bbf0db78b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/New Test/test 2" classname="Test Cases/New Test/test 2" status="PASSED">
+         <system-out><![CDATA[2018-09-21 15:02:00 - [TEST_CASE][PASSED] - Test Cases/New Test/test 2: Test Cases/New Test/test 2
+
+2018-09-21 15:02:00 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Browser is opened with url: ''
+
+2018-09-21 15:02:00 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-21 15:02:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-21 15:02:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://login-tb1.staging.orange.fr/?return_url=https%3A%2F%2Fovo.qualif1.orange.fr%2F%23vod%2Fhome' successfully
+
+2018-09-21 15:02:06 - [MESSAGE][PASSED] - Navigate to 'https://login-tb1.staging.orange.fr/?return_url=https%3A%2F%2Fovo.qualif1.orange.fr%2F%23vod%2Fhome' successfully
+
+2018-09-21 15:02:06 - [TEST_STEP][PASSED] - setText: Text 'vodpcqualifc@orange.fr' is set on object 'Object Repository/Home page test/OVO authent/user compte'
+
+2018-09-21 15:02:06 - [MESSAGE][PASSED] - Text 'vodpcqualifc@orange.fr' is set on object 'Object Repository/Home page test/OVO authent/user compte'
+
+2018-09-21 15:02:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Home page test/OVO authent/btn continuer' is clicked on
+
+2018-09-21 15:02:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Home page test/OVO authent/btn continuer' is clicked on
+
+2018-09-21 15:02:07 - [TEST_STEP][PASSED] - setText: Text 'Passwd1' is set on object 'Object Repository/Home page test/OVO authent/input password'
+
+2018-09-21 15:02:07 - [MESSAGE][PASSED] - Text 'Passwd1' is set on object 'Object Repository/Home page test/OVO authent/input password'
+
+2018-09-21 15:02:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Home page test/OVO authent/btn continuer' is clicked on
+
+2018-09-21 15:02:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Home page test/OVO authent/btn continuer' is clicked on
+
+2018-09-21 15:02:07 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-09-21 15:02:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-21 15:02:07 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2018-09-21 15:02:07 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-21 15:02:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-21 15:02:00 - [TEST_SUITE][PASSED] - Test Katalon: Test Cases/New Test/test 2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

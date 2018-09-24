@@ -86,7 +86,7 @@ public class vodmobile_connection {
 
 		//authen success
 		console.markPassed("Authentication of client "+user+" is successful")
-		
+
 		// call infoPage() if ../info is present in url
 		infoPage()
 
@@ -104,13 +104,13 @@ public class vodmobile_connection {
 
 
 	}
-	
+
 	void infoPage(){
-		
+
 		WebUI.delay(2)
-		
+
 		if(WebUI.getUrl() == "https://login-tb1.staging.orange.fr/info"){
-			
+
 			WebUI.navigateToUrl("https://ovo.qualif1.orange.fr/#vod/home")
 		}
 	}

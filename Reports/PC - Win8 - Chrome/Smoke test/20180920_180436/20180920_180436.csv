@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke test,,,2018-09-20 18:04:39,2018-09-20 18:05:06,"26,849s",FAILED
+,,,,,,
+Test Cases/Test integration avec qc/testplan 1,,,2018-09-20 18:04:42,2018-09-20 18:05:06,"24,086s",FAILED
+Start listener action : sampleBeforeTestCase,,,2018-09-20 18:04:42,2018-09-20 18:04:43,"0,804s",PASSED
+openBrowser,,,2018-09-20 18:04:43,2018-09-20 18:05:05,"21,755s",FAILED
+Start listener action : sampleAfterTestCase,,,2018-09-20 18:05:05,2018-09-20 18:05:06,"1,366s",PASSED

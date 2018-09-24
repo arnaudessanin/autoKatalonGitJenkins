@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke test,Chrome 69.0.3497.100,,2018-09-20 10:45:52,2018-09-20 10:50:09,"4m - 17,783s",PASSED
+,,,,,,
+Test Cases/Test integration avec qc/testplan 1,Chrome 69.0.3497.100,,2018-09-20 10:46:11,2018-09-20 10:47:59,"1m - 47,849s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 69.0.3497.100,,2018-09-20 10:46:12,2018-09-20 10:46:15,"3,412s",PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-09-20 10:46:15,2018-09-20 10:47:20,"1m - 5,380s",PASSED
+navigateToUrl,Chrome 69.0.3497.100,,2018-09-20 10:47:20,2018-09-20 10:47:47,"26,547s",PASSED
+delay,Chrome 69.0.3497.100,,2018-09-20 10:47:47,2018-09-20 10:47:52,"5,040s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 69.0.3497.100,,2018-09-20 10:47:52,2018-09-20 10:47:59,"7,120s",PASSED
+,,,,,,
+Test Cases/Test integration avec qc/testplan 3,Chrome 69.0.3497.100,,2018-09-20 10:47:59,2018-09-20 10:49:07,"1m - 7,334s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 69.0.3497.100,,2018-09-20 10:47:59,2018-09-20 10:48:04,"4,191s",PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-09-20 10:48:04,2018-09-20 10:48:11,"7,160s",PASSED
+navigateToUrl,Chrome 69.0.3497.100,,2018-09-20 10:48:11,2018-09-20 10:48:52,"41,042s",PASSED
+waitForPageLoad,Chrome 69.0.3497.100,,2018-09-20 10:48:52,2018-09-20 10:48:53,"0,897s",PASSED
+delay,Chrome 69.0.3497.100,,2018-09-20 10:48:53,2018-09-20 10:48:58,"5,004s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 69.0.3497.100,,2018-09-20 10:48:58,2018-09-20 10:49:07,"8,827s",PASSED
+,,,,,,
+Test Cases/Test integration avec qc/testplan 2,Chrome 69.0.3497.100,,2018-09-20 10:49:07,2018-09-20 10:50:09,"1m - 2,597s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 69.0.3497.100,,2018-09-20 10:49:07,2018-09-20 10:49:12,"4,807s",PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-09-20 10:49:12,2018-09-20 10:49:17,"5,523s",PASSED
+navigateToUrl,Chrome 69.0.3497.100,,2018-09-20 10:49:17,2018-09-20 10:50:04,"47,178s",PASSED
+waitForPageLoad,Chrome 69.0.3497.100,,2018-09-20 10:50:04,2018-09-20 10:50:04,"0,018s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 69.0.3497.100,,2018-09-20 10:50:04,2018-09-20 10:50:09,"4,871s",PASSED

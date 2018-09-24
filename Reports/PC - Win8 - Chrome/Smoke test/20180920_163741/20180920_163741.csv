@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke test,Chrome 69.0.3497.100,,2018-09-20 16:37:43,2018-09-20 16:40:06,"2m - 22,911s",PASSED
+,,,,,,
+Test Cases/Test integration avec qc/testplan 1,Chrome 69.0.3497.100,,2018-09-20 16:37:47,2018-09-20 16:38:22,"35,436s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 69.0.3497.100,,2018-09-20 16:37:47,2018-09-20 16:37:53,"6,100s",PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-09-20 16:37:53,2018-09-20 16:37:56,"2,774s",PASSED
+navigateToUrl,Chrome 69.0.3497.100,,2018-09-20 16:37:56,2018-09-20 16:38:05,"9,338s",PASSED
+delay,Chrome 69.0.3497.100,,2018-09-20 16:38:05,2018-09-20 16:38:10,"5,023s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 69.0.3497.100,,2018-09-20 16:38:10,2018-09-20 16:38:22,"12,026s",FAILED
+,,,,,,
+Test Cases/Test integration avec qc/testplan 3,Chrome 69.0.3497.100,,2018-09-20 16:38:22,2018-09-20 16:38:57,"34,088s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 69.0.3497.100,,2018-09-20 16:38:22,2018-09-20 16:38:29,"7,057s",PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-09-20 16:38:30,2018-09-20 16:38:32,"2,271s",PASSED
+navigateToUrl,Chrome 69.0.3497.100,,2018-09-20 16:38:32,2018-09-20 16:38:49,"16,869s",PASSED
+waitForPageLoad,Chrome 69.0.3497.100,,2018-09-20 16:38:49,2018-09-20 16:38:49,"0,047s",PASSED
+delay,Chrome 69.0.3497.100,,2018-09-20 16:38:49,2018-09-20 16:38:54,"5,002s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 69.0.3497.100,,2018-09-20 16:38:54,2018-09-20 16:38:57,"2,709s",FAILED
+,,,,,,
+Test Cases/Test integration avec qc/testplan 2,Chrome 69.0.3497.100,,2018-09-20 16:38:57,2018-09-20 16:40:06,"1m - 9,338s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 69.0.3497.100,,2018-09-20 16:38:57,2018-09-20 16:39:02,"5,306s",PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-09-20 16:39:02,2018-09-20 16:39:04,"2,092s",PASSED
+navigateToUrl,Chrome 69.0.3497.100,,2018-09-20 16:39:04,2018-09-20 16:39:42,"37,882s",PASSED
+waitForPageLoad,Chrome 69.0.3497.100,,2018-09-20 16:39:42,2018-09-20 16:39:42,"0,017s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 69.0.3497.100,,2018-09-20 16:39:42,2018-09-20 16:40:06,"23,888s",FAILED

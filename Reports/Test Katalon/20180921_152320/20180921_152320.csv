@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Katalon,,,2018-09-21 15:23:26,2018-09-21 15:24:31,"1m - 4,665s",FAILED
+,,,,,,
+Test Cases/New Test/test 2,,,2018-09-21 15:23:27,2018-09-21 15:24:31,"1m - 3,666s",FAILED
+Start listener action : BeforeTestCase,,,2018-09-21 15:23:29,2018-09-21 15:24:31,"1m - 1,278s",ERROR
+test.katalon.connect.ConnectUser,,Step 1 : Connect user EW --> Verify user EW connected,2018-09-21 15:24:31,2018-09-21 15:24:31,"0,028s",FAILED
+Start listener action : AfterTestCase,,,2018-09-21 15:24:31,2018-09-21 15:24:31,"0,015s",PASSED

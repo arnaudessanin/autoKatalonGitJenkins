@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke test" time="64" tests="1" failures="1" errors="0">
+   <testsuite name="Smoke test" tests="1" failures="1" errors="0" time="64" timestamp="2018-09-24 11:09:01" hostname="Test - 192.168.231.227" id="Test Suites/PC - Win8 - Chrome/Smoke test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\PC - Win8 - Chrome\\Smoke test\\20180924_110858"/>
+         <property name="logFiles" value="C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\PC - Win8 - Chrome\\Smoke test\\20180924_110858\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Test - 192.168.231.227"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.231.227"/>
+         <property name="sessionId" value="23ad31854d639a9c4637b0edd382657c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Test integration avec qc/testplan 1" classname="Test Cases/Test integration avec qc/testplan 1" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'www.google.com' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PCWIN81', ip: '192.168.231.227', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:183)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1536834780809.run(Script1536834780809.groovy:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537780138976.run(TempTestSuite1537780138976.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-09-24 11:09:08 - [TEST_CASE][FAILED] - Test Cases/Test integration avec qc/testplan 1: Test Cases/Test integration avec qc/testplan 1 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'www.google.com' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PCWIN81', ip: '192.168.231.227', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:183)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1536834780809.run(Script1536834780809.groovy:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537780138976.run(TempTestSuite1537780138976.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-09-24 11:09:08 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: qc_api_client.ClientApi.testHttpClientGetAllTestSteps is PASSED
+
+2018-09-24 11:09:08 - [TEST_STEP][PASSED] - Statement - (position_of_test_in_test_suite++): null
+
+2018-09-24 11:09:08 - [TEST_STEP][PASSED] - Statement - position = positions[position_of_test_in_test_suite - 1]: null
+
+2018-09-24 11:09:08 - [TEST_STEP][PASSED] - Statement - run_id = CustomKeywords.qc_api_client.ClientApi.testHttpClientCreateTestRun(cycle_id, position): Test run created with ID: 4110
+
+2018-09-24 11:09:16 - [MESSAGE][PASSED] - Test run created with ID: 4110
+
+2018-09-24 11:09:16 - [TEST_STEP][PASSED] - Statement - println(run_id): null
+
+2018-09-24 11:09:16 - [TEST_STEP][PASSED] - qc_api_client.ClientApi.testHttpClientGetAllTestSteps: qc_api_client.ClientApi.testHttpClientGetAllTestSteps is PASSED
+
+2018-09-24 11:09:34 - [MESSAGE][PASSED] - qc_api_client.ClientApi.testHttpClientGetAllTestSteps is PASSED
+
+2018-09-24 11:09:34 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to 'www.google.com' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PCWIN81', ip: '192.168.231.227', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-09-24 11:09:34 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-09-24 11:09:34 - [MESSAGE][FAILED] - Unable to navigate to 'www.google.com' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PCWIN81', ip: '192.168.231.227', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-09-24 11:09:34 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2018-09-24 11:09:34 - [TEST_STEP][PASSED] - Statement - status = testCaseContext.getTestCaseStatus(): null
+
+2018-09-24 11:09:34 - [TEST_STEP][PASSED] - Statement - cycle_id = cycle_id: null
+
+2018-09-24 11:09:34 - [TEST_STEP][PASSED] - Statement - If (status != "PASSED"): null
+
+2018-09-24 11:09:34 - [TEST_STEP][PASSED] - Statement - status = "failed": null
+
+2018-09-24 11:09:34 - [TEST_STEP][PASSED] - qc_api_client.ClientApi.testHttpClientValidateStep: Step 2 updated with status Failed
+
+2018-09-24 11:09:37 - [MESSAGE][PASSED] - Step 2 updated with status Failed
+
+2018-09-24 11:09:37 - [TEST_STEP][PASSED] - qc_api_client.ClientApi.testHttpClientValidateTest:  Le test a été mis à jour sur QC avec le stauts : failed
+
+2018-09-24 11:09:37 - [MESSAGE][PASSED] -  Le test a été mis à jour sur QC avec le stauts : failed
+
+2018-09-24 11:09:37 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-24 11:09:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-09-24 11:09:08 - [TEST_CASE][FAILED] - Test Cases/Test integration avec qc/testplan 1: Test Cases/Test integration avec qc/testplan 1 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'www.google.com' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PCWIN81', ip: '192.168.231.227', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:183)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1536834780809.run(Script1536834780809.groovy:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537780138976.run(TempTestSuite1537780138976.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test integration avec qc/testplan 3" classname="Test Cases/Test integration avec qc/testplan 3" status="PASSED">
+         <system-out><![CDATA[2018-09-24 11:09:37 - [TEST_CASE][PASSED] - Test Cases/Test integration avec qc/testplan 3: Test Cases/Test integration avec qc/testplan 3
+
+2018-09-24 11:09:37 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: qc_api_client.ClientApi.testHttpClientGetAllTestSteps is PASSED
+
+2018-09-24 11:09:37 - [TEST_STEP][PASSED] - Statement - (position_of_test_in_test_suite++): null
+
+2018-09-24 11:09:37 - [TEST_STEP][PASSED] - Statement - position = positions[position_of_test_in_test_suite - 1]: null
+
+2018-09-24 11:09:37 - [TEST_STEP][PASSED] - Statement - run_id = CustomKeywords.qc_api_client.ClientApi.testHttpClientCreateTestRun(cycle_id, position): Test run created with ID: 4111
+
+2018-09-24 11:09:39 - [MESSAGE][PASSED] - Test run created with ID: 4111
+
+2018-09-24 11:09:39 - [TEST_STEP][PASSED] - Statement - println(run_id): null
+
+2018-09-24 11:09:39 - [TEST_STEP][PASSED] - qc_api_client.ClientApi.testHttpClientGetAllTestSteps: qc_api_client.ClientApi.testHttpClientGetAllTestSteps is PASSED
+
+2018-09-24 11:09:39 - [MESSAGE][PASSED] - qc_api_client.ClientApi.testHttpClientGetAllTestSteps is PASSED
+
+2018-09-24 11:09:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-24 11:09:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-24 11:09:43 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.youtube.com' successfully
+
+2018-09-24 11:09:57 - [MESSAGE][PASSED] - Navigate to 'http://www.youtube.com' successfully
+
+2018-09-24 11:09:57 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-09-24 11:09:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-24 11:09:57 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-24 11:10:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-24 11:10:02 - [TEST_STEP][FAILED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2018-09-24 11:10:02 - [TEST_STEP][PASSED] - Statement - status = testCaseContext.getTestCaseStatus(): null
+
+2018-09-24 11:10:02 - [TEST_STEP][PASSED] - Statement - cycle_id = cycle_id: null
+
+2018-09-24 11:10:02 - [TEST_STEP][PASSED] - Statement - If (status != "PASSED"): null
+
+2018-09-24 11:10:02 - [TEST_STEP][FAILED] - qc_api_client.ClientApi.testHttpClientValidateStep: <html><head><title>Apache Tomcat/7.0.47 - Rapport d''erreur</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Etat HTTP 500 - java.lang.IndexOutOfBoundsException: Index: 1, Size: 1</h1><HR size="1" noshade="noshade"><p><b>type</b> Rapport d''exception</p><p><b>message</b> <u>java.lang.IndexOutOfBoundsException: Index: 1, Size: 1</u></p><p><b>description</b> <u>Le serveur a rencontré une erreur interne qui l''a empêché de satisfaire la requête.</u></p><p><b>exception</b> <pre>javax.servlet.ServletException: java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:419)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:381)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:344)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre></p><p><b>cause mère</b> <pre>java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+	java.util.ArrayList.rangeCheck(Unknown Source)
+	java.util.ArrayList.get(Unknown Source)
+	alm.api.vod.katalon_qc.RunTest.findValueInMap(RunTest.java:275)
+	alm.api.vod.katalon_qc.RunTest.validateTestRunStep(RunTest.java:128)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:143)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:160)
+	org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:203)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:97)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:303)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:286)
+	org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1072)
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:399)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:381)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:344)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre></p><p><b>note</b> <u>La trace complète de la cause mère de cette erreur est disponible dans les fichiers journaux de Apache Tomcat/7.0.47.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.47</h3></body></html>
+
+2018-09-24 11:10:02 - [MESSAGE][FAILED] - <html><head><title>Apache Tomcat/7.0.47 - Rapport d''erreur</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Etat HTTP 500 - java.lang.IndexOutOfBoundsException: Index: 1, Size: 1</h1><HR size="1" noshade="noshade"><p><b>type</b> Rapport d''exception</p><p><b>message</b> <u>java.lang.IndexOutOfBoundsException: Index: 1, Size: 1</u></p><p><b>description</b> <u>Le serveur a rencontré une erreur interne qui l''a empêché de satisfaire la requête.</u></p><p><b>exception</b> <pre>javax.servlet.ServletException: java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:419)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:381)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:344)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre></p><p><b>cause mère</b> <pre>java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+	java.util.ArrayList.rangeCheck(Unknown Source)
+	java.util.ArrayList.get(Unknown Source)
+	alm.api.vod.katalon_qc.RunTest.findValueInMap(RunTest.java:275)
+	alm.api.vod.katalon_qc.RunTest.validateTestRunStep(RunTest.java:128)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:143)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:160)
+	org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:203)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:97)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:303)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:286)
+	org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1072)
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:399)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:381)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:344)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre></p><p><b>note</b> <u>La trace complète de la cause mère de cette erreur est disponible dans les fichiers journaux de Apache Tomcat/7.0.47.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.47</h3></body></html>
+
+2018-09-24 11:10:02 - [TEST_STEP][PASSED] - qc_api_client.ClientApi.testHttpClientValidateTest:  Le test a été mis à jour sur QC avec le stauts : PASSED
+
+2018-09-24 11:10:05 - [MESSAGE][PASSED] -  Le test a été mis à jour sur QC avec le stauts : PASSED
+
+2018-09-24 11:10:05 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-24 11:10:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-24 11:09:01 - [TEST_SUITE][FAILED] - Smoke test: Test Cases/Test integration avec qc/testplan 1 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'www.google.com' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PCWIN81', ip: '192.168.231.227', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:183)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1536834780809.run(Script1536834780809.groovy:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537780138976.run(TempTestSuite1537780138976.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-09-24 11:09:01 - [TEST_SUITE][FAILED] - Smoke test: Test Cases/Test integration avec qc/testplan 1 FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'www.google.com' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PCWIN81', ip: '192.168.231.227', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:183)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1536834780809.run(Script1536834780809.groovy:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537780138976.run(TempTestSuite1537780138976.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

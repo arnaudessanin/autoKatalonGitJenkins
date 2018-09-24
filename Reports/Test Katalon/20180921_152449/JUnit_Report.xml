@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Katalon" time="118" tests="1" failures="0" errors="0">
+   <testsuite name="Test Katalon" tests="1" failures="0" errors="0" time="118" timestamp="2018-09-21 15:24:54" hostname="Test - PCWIN81.home" id="Test Suites/Test Katalon">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\Test Katalon\\20180921_152449"/>
+         <property name="logFiles" value="C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\Test Katalon\\20180921_152449\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Test - PCWIN81.home"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+         <property name="browser" value="Firefox 62.0"/>
+         <property name="hostAddress" value="192.168.1.61"/>
+         <property name="sessionId" value="a16fdeb8-58b3-48b3-ab39-368035344d22"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/New Test/test 2" classname="Test Cases/New Test/test 2" status="PASSED">
+         <system-out><![CDATA[2018-09-21 15:24:55 - [TEST_CASE][PASSED] - Test Cases/New Test/test 2: Test Cases/New Test/test 2
+
+2018-09-21 15:24:57 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Browser is opened with url: ''
+
+2018-09-21 15:24:57 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-21 15:26:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-21 15:26:24 - [TEST_STEP][PASSED] - test.katalon.connect.ConnectUser: test.katalon.connect.ConnectUser is PASSED
+
+2018-09-21 15:26:49 - [MESSAGE][PASSED] - Navigate to 'https://login-tb1.staging.orange.fr/?return_url=https%3A%2F%2Fovo.qualif1.orange.fr%2F%23vod%2Fhome' successfully
+
+2018-09-21 15:26:50 - [MESSAGE][PASSED] - Text 'vodpcqualifb@orange.fr' is set on object 'Object Repository/Home page test/OVO authent/user compte'
+
+2018-09-21 15:26:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Home page test/OVO authent/btn continuer' is clicked on
+
+2018-09-21 15:26:51 - [MESSAGE][PASSED] - Text 'Passwd1' is set on object 'Object Repository/Home page test/OVO authent/input password'
+
+2018-09-21 15:26:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Home page test/OVO authent/btn continuer' is clicked on
+
+2018-09-21 15:26:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-21 15:26:52 - [MESSAGE][PASSED] - test.katalon.connect.ConnectUser is PASSED
+
+2018-09-21 15:26:52 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2018-09-21 15:26:52 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-21 15:26:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-21 15:24:54 - [TEST_SUITE][PASSED] - Test Katalon: Test Cases/New Test/test 2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

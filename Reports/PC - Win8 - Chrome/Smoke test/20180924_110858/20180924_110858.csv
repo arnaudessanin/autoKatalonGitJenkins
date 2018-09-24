@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke test,Chrome 69.0.3497.100,,2018-09-24 11:09:01,2018-09-24 11:10:06,"1m - 4,750s",FAILED
+,,,,,,
+Test Cases/Test integration avec qc/testplan 1,Chrome 69.0.3497.100,,2018-09-24 11:09:08,2018-09-24 11:09:37,"29,821s",FAILED
+Start listener action : sampleBeforeTestCase,Chrome 69.0.3497.100,,2018-09-24 11:09:08,2018-09-24 11:09:34,"25,929s",PASSED
+navigateToUrl,Chrome 69.0.3497.100,,2018-09-24 11:09:34,2018-09-24 11:09:34,"0,250s",FAILED
+Start listener action : sampleAfterTestCase,Chrome 69.0.3497.100,,2018-09-24 11:09:34,2018-09-24 11:09:37,"3,395s",PASSED
+,,,,,,
+Test Cases/Test integration avec qc/testplan 3,Chrome 69.0.3497.100,,2018-09-24 11:09:37,2018-09-24 11:10:06,"28,251s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 69.0.3497.100,,2018-09-24 11:09:37,2018-09-24 11:09:39,"1,944s",PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-09-24 11:09:40,2018-09-24 11:09:43,"2,962s",PASSED
+navigateToUrl,Chrome 69.0.3497.100,,2018-09-24 11:09:43,2018-09-24 11:09:57,"14,226s",PASSED
+waitForPageLoad,Chrome 69.0.3497.100,,2018-09-24 11:09:57,2018-09-24 11:09:57,"0,067s",PASSED
+delay,Chrome 69.0.3497.100,,2018-09-24 11:09:57,2018-09-24 11:10:02,"5,017s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 69.0.3497.100,,2018-09-24 11:10:02,2018-09-24 11:10:06,"3,891s",FAILED

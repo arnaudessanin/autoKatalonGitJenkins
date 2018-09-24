@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke test,Chrome 69.0.3497.100,,2018-09-24 11:56:10,2018-09-24 11:57:53,"1m - 43,010s",FAILED
+,,,,,,
+Test Cases/VOD/Functional Test/Smoke Test/PC/09.03.02.02 Texte pour un utilisateur Desktop,Chrome 69.0.3497.100,,2018-09-24 11:56:13,2018-09-24 11:56:54,"41,511s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 69.0.3497.100,,2018-09-24 11:56:13,2018-09-24 11:56:18,"4,886s",PASSED
+vodpckeywords.vodpc_connection.connectUser,Chrome 69.0.3497.100,STEP 1: Lorsqu'un utilisateur EW se connecte --> vérification connexion utilisateur EW ,2018-09-24 11:56:18,2018-09-24 11:56:42,"24,558s",PASSED
+vodpckeywords.vodpc_MesVideos.gotoMesVideos,Chrome 69.0.3497.100,STEP 2: Affichage composant Mes vidéos --> vérifier que : (voir les étapes suivantes),2018-09-24 11:56:42,2018-09-24 11:56:46,"3,080s",PASSED
+verifyMatch,Chrome 69.0.3497.100,--> Verify match title :Voir et revoir vos vidéos louées ou achetées ,2018-09-24 11:56:46,2018-09-24 11:56:46,"0,207s",PASSED
+verifyMatch,Chrome 69.0.3497.100,"--> Verify match text1 :Retrouvez et visionnez les vidéos louées ou achetées sur ordinateur, TV, tablette, smartphone et Clé TV. ",2018-09-24 11:56:46,2018-09-24 11:56:46,"0,048s",PASSED
+verifyMatch,Chrome 69.0.3497.100,--> Verify match text2 :Téléchargez-les sur le lecteur VOD Orange pour les visionner sans connexion.,2018-09-24 11:56:46,2018-09-24 11:56:46,"0,135s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 69.0.3497.100,,2018-09-24 11:56:46,2018-09-24 11:56:54,"8,159s",FAILED
+,,,,,,
+Test Cases/VOD/Functional Test/Smoke Test/PC/13.01.Structure du player,Chrome 69.0.3497.100,,2018-09-24 11:56:54,2018-09-24 11:57:31,"36,990s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 69.0.3497.100,,2018-09-24 11:56:54,2018-09-24 11:56:57,"3,116s",PASSED
+vodpckeywords.vodpc_HTML5_Player.playVODContenu,Chrome 69.0.3497.100,Prerequis: Lancer la bande annonce d'un contenu,2018-09-24 11:56:57,2018-09-24 11:57:09,"11,635s",PASSED
+vodpckeywords.vodpc_HTML5_Player.playerIB_opened,Chrome 69.0.3497.100,STEP 2 : Le player IB VOD s'affiche --> vérifier que le player IB VOD s'affiche,2018-09-24 11:57:09,2018-09-24 11:57:24,"15,119s",PASSED
+vodpckeywords.vodpc_HTML5_Player.PlayerVOD_Structure,Chrome 69.0.3497.100,"STEP 3 : vérifier qu'il est composé de : barre de menus, zone de flux, zone info programme, barre de contrôle",2018-09-24 11:57:24,2018-09-24 11:57:25,"0,380s",PASSED
+delay,Chrome 69.0.3497.100,,2018-09-24 11:57:25,2018-09-24 11:57:30,"5,002s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 69.0.3497.100,,2018-09-24 11:57:30,2018-09-24 11:57:31,"1,568s",FAILED
+,,,,,,
+Test Cases/VOD/Functional Test/Smoke Test/PC/13.06.06 Avance et retour rapides,Chrome 69.0.3497.100,,2018-09-24 11:57:31,2018-09-24 11:57:53,"22,022s",FAILED
+Start listener action : sampleBeforeTestCase,Chrome 69.0.3497.100,,2018-09-24 11:57:31,2018-09-24 11:57:52,"21,204s",ERROR
+vodpckeywords.vodpc_connection.connectUser,Chrome 69.0.3497.100,,2018-09-24 11:57:53,2018-09-24 11:57:53,"0,122s",FAILED
+Start listener action : sampleAfterTestCase,Chrome 69.0.3497.100,,2018-09-24 11:57:53,2018-09-24 11:57:53,"0,421s",PASSED

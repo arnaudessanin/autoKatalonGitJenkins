@@ -17,11 +17,11 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>Test - Validate - InQC</profileName>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <profileName>PC - Win8 - Firefox</profileName>
+            <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Test - Validate -InQC/test validate in qc</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/PC - Win8 - Firefox/Smoke test</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

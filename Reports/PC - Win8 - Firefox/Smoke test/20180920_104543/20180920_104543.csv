@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke test,Firefox 61.0,,2018-09-20 10:45:54,2018-09-20 10:50:32,"4m - 38,134s",FAILED
+,,,,,,
+Test Cases/Test integration avec qc/testplan 3,Firefox 61.0,,2018-09-20 10:46:11,2018-09-20 10:49:19,"3m - 7,879s",PASSED
+Start listener action : sampleBeforeTestCase,Firefox 61.0,,2018-09-20 10:46:12,2018-09-20 10:46:14,"2,504s",PASSED
+openBrowser,Firefox 61.0,,2018-09-20 10:46:14,2018-09-20 10:47:23,"1m - 8,357s",PASSED
+navigateToUrl,Firefox 61.0,,2018-09-20 10:47:23,2018-09-20 10:49:06,"1m - 43,332s",PASSED
+waitForPageLoad,Firefox 61.0,,2018-09-20 10:49:06,2018-09-20 10:49:06,"0,164s",PASSED
+delay,Firefox 61.0,,2018-09-20 10:49:06,2018-09-20 10:49:11,"5,039s",PASSED
+Start listener action : sampleAfterTestCase,Firefox 61.0,,2018-09-20 10:49:11,2018-09-20 10:49:19,"7,850s",PASSED
+,,,,,,
+Test Cases/Test integration avec qc/testplan 2,Firefox 61.0,,2018-09-20 10:49:19,2018-09-20 10:50:05,"45,873s",FAILED
+Start listener action : sampleBeforeTestCase,Firefox 61.0,,2018-09-20 10:49:19,2018-09-20 10:49:22,"3,171s",PASSED
+openBrowser,Firefox 61.0,,2018-09-20 10:49:23,2018-09-20 10:49:55,"32,138s",FAILED
+Start listener action : sampleAfterTestCase,Firefox 61.0,,2018-09-20 10:49:56,2018-09-20 10:50:05,"9,497s",PASSED
+,,,,,,
+Test Cases/Test integration avec qc/testplan 1,Firefox 61.0,,2018-09-20 10:50:05,2018-09-20 10:50:32,"27,046s",PASSED
+Start listener action : sampleBeforeTestCase,Firefox 61.0,,2018-09-20 10:50:05,2018-09-20 10:50:09,"3,632s",PASSED
+openBrowser,Firefox 61.0,,2018-09-20 10:50:09,2018-09-20 10:50:20,"11,061s",PASSED
+navigateToUrl,Firefox 61.0,,2018-09-20 10:50:20,2018-09-20 10:50:26,"6,266s",PASSED
+delay,Firefox 61.0,,2018-09-20 10:50:26,2018-09-20 10:50:31,"5,003s",PASSED
+Start listener action : sampleAfterTestCase,Firefox 61.0,,2018-09-20 10:50:31,2018-09-20 10:50:32,"0,905s",PASSED

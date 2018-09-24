@@ -29,4 +29,19 @@
       <initValue>'10051'</initValue>
       <name>test_validate_in_qc</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Wording VOD/MesVideos').getValue(2, 23)</initValue>
+      <name>VOD_VID_BANNER_EW_TITLE</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Wording VOD/MesVideos').getValue(2, 24)</initValue>
+      <name>VOD_VID_BANNER_EW_TEXT1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Wording VOD/MesVideos').getValue(2, 25)</initValue>
+      <name>VOD_VID_BANNER_EW_TEXT2</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

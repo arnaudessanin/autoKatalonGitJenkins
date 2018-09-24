@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke test" time="43" tests="1" failures="0" errors="0">
+   <testsuite name="Smoke test" tests="1" failures="0" errors="0" time="43" timestamp="2018-09-20 17:54:11" hostname="Test - 192.168.231.227" id="Test Suites/PC - Win8 - Chrome/Smoke test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\PC - Win8 - Chrome\\Smoke test\\20180920_175407"/>
+         <property name="logFiles" value="C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\PC - Win8 - Chrome\\Smoke test\\20180920_175407\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Test - 192.168.231.227"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.231.227"/>
+         <property name="sessionId" value="59c2b620f987485f22fd9d45008798a9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Test integration avec qc/testplan 1" classname="Test Cases/Test integration avec qc/testplan 1" status="PASSED">
+         <system-out><![CDATA[2018-09-20 17:54:36 - [TEST_CASE][PASSED] - Test Cases/Test integration avec qc/testplan 1: Test Cases/Test integration avec qc/testplan 1
+
+2018-09-20 17:54:36 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: qc_api_client.ClientApi.testHttpClientGetAllTestSteps is PASSED
+
+2018-09-20 17:54:36 - [TEST_STEP][PASSED] - Statement - (position_of_test_in_test_suite++): null
+
+2018-09-20 17:54:36 - [TEST_STEP][PASSED] - Statement - position = positions[position_of_test_in_test_suite - 1]: null
+
+2018-09-20 17:54:36 - [TEST_STEP][PASSED] - Statement - run_id = CustomKeywords.qc_api_client.ClientApi.testHttpClientCreateTestRun(cycle_id, position): Test run created with ID: 4102
+
+2018-09-20 17:54:39 - [MESSAGE][PASSED] - Test run created with ID: 4102
+
+2018-09-20 17:54:39 - [TEST_STEP][PASSED] - Statement - println(run_id): null
+
+2018-09-20 17:54:39 - [TEST_STEP][PASSED] - qc_api_client.ClientApi.testHttpClientGetAllTestSteps: qc_api_client.ClientApi.testHttpClientGetAllTestSteps is PASSED
+
+2018-09-20 17:54:40 - [MESSAGE][PASSED] - qc_api_client.ClientApi.testHttpClientGetAllTestSteps is PASSED
+
+2018-09-20 17:54:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-20 17:54:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-20 17:54:43 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.google.com' successfully
+
+2018-09-20 17:54:47 - [MESSAGE][PASSED] - Navigate to 'http://www.google.com' successfully
+
+2018-09-20 17:54:47 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-20 17:54:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-20 17:54:52 - [TEST_STEP][FAILED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2018-09-20 17:54:52 - [TEST_STEP][PASSED] - Statement - status = testCaseContext.getTestCaseStatus(): null
+
+2018-09-20 17:54:53 - [TEST_STEP][PASSED] - Statement - cycle_id = cycle_id: null
+
+2018-09-20 17:54:53 - [TEST_STEP][PASSED] - Statement - If (status != "PASSED"): null
+
+2018-09-20 17:54:53 - [TEST_STEP][FAILED] - qc_api_client.ClientApi.testHttpClientValidateStep: <html><head><title>Apache Tomcat/7.0.47 - Rapport d''erreur</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Etat HTTP 404 - Not Found</h1><HR size="1" noshade="noshade"><p><b>type</b> Rapport d''état</p><p><b>message</b> <u>Not Found</u></p><p><b>description</b> <u>La ressource demandée n''est pas disponible.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.47</h3></body></html>
+
+2018-09-20 17:54:53 - [MESSAGE][FAILED] - <html><head><title>Apache Tomcat/7.0.47 - Rapport d''erreur</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Etat HTTP 404 - Not Found</h1><HR size="1" noshade="noshade"><p><b>type</b> Rapport d''état</p><p><b>message</b> <u>Not Found</u></p><p><b>description</b> <u>La ressource demandée n''est pas disponible.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.47</h3></body></html>
+
+2018-09-20 17:54:53 - [TEST_STEP][PASSED] - qc_api_client.ClientApi.testHttpClientValidateTest:  Le test a été mis à jour sur QC avec le stauts : PASSED
+
+2018-09-20 17:54:53 - [MESSAGE][PASSED] -  Le test a été mis à jour sur QC avec le stauts : PASSED
+
+2018-09-20 17:54:53 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-20 17:54:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-20 17:54:11 - [TEST_SUITE][PASSED] - Smoke test: Test Cases/Test integration avec qc/testplan 1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

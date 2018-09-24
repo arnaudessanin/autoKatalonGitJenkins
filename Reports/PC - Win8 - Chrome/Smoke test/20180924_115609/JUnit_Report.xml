@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke test" time="103" tests="2" failures="1" errors="0">
+   <testsuite name="Smoke test" tests="2" failures="1" errors="0" time="103" timestamp="2018-09-24 11:56:10" hostname="Test - 192.168.231.227" id="Test Suites/PC - Win8 - Chrome/Smoke test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\PC - Win8 - Chrome\\Smoke test\\20180924_115609"/>
+         <property name="logFiles" value="C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\PC - Win8 - Chrome\\Smoke test\\20180924_115609\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\PC - Win8 - Chrome\\Smoke test\\20180924_115609\\1537783005425.png, C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\PC - Win8 - Chrome\\Smoke test\\20180924_115609\\1537783028073.png"/>
+         <property name="hostName" value="Test - 192.168.231.227"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.231.227"/>
+         <property name="sessionId" value="ce24ca46f6628f1bf4dbb31cbc9c940b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/VOD/Functional Test/Smoke Test/PC/09.03.02.02 Texte pour un utilisateur Desktop" classname="Test Cases/VOD/Functional Test/Smoke Test/PC/09.03.02.02 Texte pour un utilisateur Desktop" status="PASSED">
+         <system-out><![CDATA[2018-09-24 11:56:13 - [TEST_CASE][PASSED] - Test Cases/VOD/Functional Test/Smoke Test/PC/09.03.02.02 Texte pour un utilisateur Desktop: Test Cases/VOD/Functional Test/Smoke Test/PC/09.03.02.02 Texte pour un utilisateur Desktop
+
+2018-09-24 11:56:13 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: ''
+
+2018-09-24 11:56:13 - [TEST_STEP][PASSED] - Statement - (position_of_test_in_test_suite++): null
+
+2018-09-24 11:56:13 - [TEST_STEP][PASSED] - Statement - position = positions[position_of_test_in_test_suite - 1]: null
+
+2018-09-24 11:56:13 - [TEST_STEP][PASSED] - Statement - run_id = CustomKeywords.qc_api_client.ClientApi.testHttpClientCreateTestRun(cycle_id, position): Test run created with ID: 4129
+
+2018-09-24 11:56:14 - [MESSAGE][PASSED] - Test run created with ID: 4129
+
+2018-09-24 11:56:14 - [TEST_STEP][PASSED] - Statement - println(run_id): null
+
+2018-09-24 11:56:14 - [TEST_STEP][PASSED] - Statement - number_of_test_steps = CustomKeywords.qc_api_client.ClientApi.testHttpClientGetAllTestSteps(run_id): qc_api_client.ClientApi.testHttpClientGetAllTestSteps is PASSED
+
+2018-09-24 11:56:14 - [MESSAGE][PASSED] - qc_api_client.ClientApi.testHttpClientGetAllTestSteps is PASSED
+
+2018-09-24 11:56:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-24 11:56:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-24 11:56:18 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_connection.connectUser: Object: 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is clicked on
+
+2018-09-24 11:56:24 - [MESSAGE][PASSED] - Navigate to 'https://login-tb1.staging.orange.fr/?return_url=https%3A%2F%2Fovo.qualif1.orange.fr%2F%23vod%2Fhome' successfully
+
+2018-09-24 11:56:24 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Identification page object/login_input' is present
+
+2018-09-24 11:56:24 - [MESSAGE][PASSED] - Text 'vodpcqualifb@orange.fr' is set on object 'Object Repository/VOD Objects/PC/Identification page object/login_input'
+
+2018-09-24 11:56:24 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Identification page object/btn_continuer' is clicked on
+
+2018-09-24 11:56:25 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Identification page object/saissisez mot de passe input' is present
+
+2018-09-24 11:56:25 - [MESSAGE][PASSED] - Text 'Passwd1' is set on object 'Object Repository/VOD Objects/PC/Identification page object/saissisez mot de passe input'
+
+2018-09-24 11:56:25 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Identification page object/btn_continuer' is clicked on
+
+2018-09-24 11:56:25 - [MESSAGE][PASSED] - Authentication of client vodpcqualifb@orange.fr is successful
+
+2018-09-24 11:56:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 11:56:42 - [MESSAGE][PASSED] - Current window's url is: 'https://ovo.qualif1.orange.fr/#vod/home'
+
+2018-09-24 11:56:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-24 11:56:42 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is present and visible in viewport
+
+2018-09-24 11:56:42 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is clicked on
+
+2018-09-24 11:56:42 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_MesVideos.gotoMesVideos: Object 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is present but is not visible in viewport
+
+2018-09-24 11:56:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-24 11:56:43 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Home Page apres Identification/Menu convergeant (mc)/mc Mes videos' is visible
+
+2018-09-24 11:56:43 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Home Page apres Identification/Menu convergeant (mc)/mc Mes videos' is clicked on
+
+2018-09-24 11:56:43 - [MESSAGE][PASSED] - Menu convergeant Mes vidéos accessed
+
+2018-09-24 11:56:46 - [MESSAGE][WARNING] - Object 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is present but is not visible in viewport
+[[ATTACHMENT|C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\PC - Win8 - Chrome\\Smoke test\\20180924_115609\\1537783005425.png]]
+
+2018-09-24 11:56:46 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Voir et revoir vos vidéos louées ou achetées' and expected text 'Voir et revoir vos vidéos louées ou achetées' are matched 
+
+2018-09-24 11:56:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/VOD Objects/PC/Menu Convergeant Mes videos/titre banner-marketing' is: 'Voir et revoir vos vidéos louées ou achetées'
+
+2018-09-24 11:56:46 - [MESSAGE][PASSED] - Actual text 'Voir et revoir vos vidéos louées ou achetées' and expected text 'Voir et revoir vos vidéos louées ou achetées' are matched 
+
+2018-09-24 11:56:46 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Retrouvez et visionnez les vidéos louées ou achetées sur ordinateur, TV, tablette, smartphone et Clé TV.' and expected text 'Retrouvez et visionnez les vidéos louées ou achetées sur ordinateur, TV, tablette, smartphone et Clé TV.' are matched 
+
+2018-09-24 11:56:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/VOD Objects/PC/Menu Convergeant Mes videos/titre1 banner-marketing' is: 'Retrouvez et visionnez les vidéos louées ou achetées sur ordinateur, TV, tablette, smartphone et Clé TV.'
+
+2018-09-24 11:56:46 - [MESSAGE][PASSED] - Actual text 'Retrouvez et visionnez les vidéos louées ou achetées sur ordinateur, TV, tablette, smartphone et Clé TV.' and expected text 'Retrouvez et visionnez les vidéos louées ou achetées sur ordinateur, TV, tablette, smartphone et Clé TV.' are matched 
+
+2018-09-24 11:56:46 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Téléchargez-les sur le lecteur VOD Orange pour les visionner sans connexion.' and expected text 'Téléchargez-les sur le lecteur VOD Orange pour les visionner sans connexion.' are matched 
+
+2018-09-24 11:56:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/VOD Objects/PC/Menu Convergeant Mes videos/titre2 banner-marketing' is: 'Téléchargez-les sur le lecteur VOD Orange pour les visionner sans connexion.'
+
+2018-09-24 11:56:46 - [MESSAGE][PASSED] - Actual text 'Téléchargez-les sur le lecteur VOD Orange pour les visionner sans connexion.' and expected text 'Téléchargez-les sur le lecteur VOD Orange pour les visionner sans connexion.' are matched 
+
+2018-09-24 11:56:46 - [TEST_STEP][FAILED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2018-09-24 11:56:46 - [TEST_STEP][PASSED] - Statement - status = testCaseContext.getTestCaseStatus(): null
+
+2018-09-24 11:56:46 - [TEST_STEP][PASSED] - Statement - cycle_id = cycle_id: null
+
+2018-09-24 11:56:46 - [TEST_STEP][PASSED] - Statement - If (status != "PASSED"): null
+
+2018-09-24 11:56:46 - [TEST_STEP][FAILED] - Statement - Else: Step 1 updated with status Passed
+
+2018-09-24 11:56:46 - [TEST_STEP][FAILED] - Statement - For ([i = 0, i < java.lang.Integer.parseInt(number_of_test_steps), (i++)]): Step 1 updated with status Passed
+
+2018-09-24 11:56:46 - [TEST_STEP][FAILED] - qc_api_client.ClientApi.testHttpClientValidateStep: <html><head><title>Apache Tomcat/7.0.47 - Rapport d''erreur</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Etat HTTP 500 - java.lang.ArrayIndexOutOfBoundsException: -1</h1><HR size="1" noshade="noshade"><p><b>type</b> Rapport d''exception</p><p><b>message</b> <u>java.lang.ArrayIndexOutOfBoundsException: -1</u></p><p><b>description</b> <u>Le serveur a rencontré une erreur interne qui l''a empêché de satisfaire la requête.</u></p><p><b>exception</b> <pre>javax.servlet.ServletException: java.lang.ArrayIndexOutOfBoundsException: -1
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:419)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:381)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:344)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre></p><p><b>cause mère</b> <pre>java.lang.ArrayIndexOutOfBoundsException: -1
+	java.util.ArrayList.elementData(Unknown Source)
+	java.util.ArrayList.get(Unknown Source)
+	alm.api.vod.katalon_qc.RunTest.findValueInMap(RunTest.java:275)
+	alm.api.vod.katalon_qc.RunTest.validateTestRunStep(RunTest.java:128)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:143)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:160)
+	org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:203)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:97)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:303)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:286)
+	org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1072)
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:399)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:381)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:344)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre></p><p><b>note</b> <u>La trace complète de la cause mère de cette erreur est disponible dans les fichiers journaux de Apache Tomcat/7.0.47.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.47</h3></body></html>
+
+2018-09-24 11:56:48 - [MESSAGE][FAILED] - <html><head><title>Apache Tomcat/7.0.47 - Rapport d''erreur</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Etat HTTP 500 - java.lang.ArrayIndexOutOfBoundsException: -1</h1><HR size="1" noshade="noshade"><p><b>type</b> Rapport d''exception</p><p><b>message</b> <u>java.lang.ArrayIndexOutOfBoundsException: -1</u></p><p><b>description</b> <u>Le serveur a rencontré une erreur interne qui l''a empêché de satisfaire la requête.</u></p><p><b>exception</b> <pre>javax.servlet.ServletException: java.lang.ArrayIndexOutOfBoundsException: -1
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:419)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:381)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:344)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre></p><p><b>cause mère</b> <pre>java.lang.ArrayIndexOutOfBoundsException: -1
+	java.util.ArrayList.elementData(Unknown Source)
+	java.util.ArrayList.get(Unknown Source)
+	alm.api.vod.katalon_qc.RunTest.findValueInMap(RunTest.java:275)
+	alm.api.vod.katalon_qc.RunTest.validateTestRunStep(RunTest.java:128)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:143)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:160)
+	org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:203)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:97)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:303)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:286)
+	org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1072)
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:399)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:381)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:344)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre></p><p><b>note</b> <u>La trace complète de la cause mère de cette erreur est disponible dans les fichiers journaux de Apache Tomcat/7.0.47.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.47</h3></body></html>
+
+2018-09-24 11:56:49 - [TEST_STEP][PASSED] - qc_api_client.ClientApi.testHttpClientValidateStep: Step 1 updated with status Passed
+
+2018-09-24 11:56:49 - [MESSAGE][PASSED] - Step 1 updated with status Passed
+
+2018-09-24 11:56:49 - [TEST_STEP][PASSED] - qc_api_client.ClientApi.testHttpClientValidateTest:  Le test a été mis à jour sur QC avec le stauts : PASSED
+
+2018-09-24 11:56:50 - [MESSAGE][PASSED] -  Le test a été mis à jour sur QC avec le stauts : PASSED
+
+2018-09-24 11:56:50 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-24 11:56:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/VOD/Functional Test/Smoke Test/PC/13.01.Structure du player" classname="Test Cases/VOD/Functional Test/Smoke Test/PC/13.01.Structure du player" status="PASSED">
+         <system-out><![CDATA[2018-09-24 11:56:54 - [TEST_CASE][PASSED] - Test Cases/VOD/Functional Test/Smoke Test/PC/13.01.Structure du player: Test Cases/VOD/Functional Test/Smoke Test/PC/13.01.Structure du player
+
+2018-09-24 11:56:54 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: ''
+
+2018-09-24 11:56:54 - [TEST_STEP][PASSED] - Statement - (position_of_test_in_test_suite++): null
+
+2018-09-24 11:56:54 - [TEST_STEP][PASSED] - Statement - position = positions[position_of_test_in_test_suite - 1]: null
+
+2018-09-24 11:56:54 - [TEST_STEP][PASSED] - Statement - run_id = CustomKeywords.qc_api_client.ClientApi.testHttpClientCreateTestRun(cycle_id, position): Test run created with ID: 4130
+
+2018-09-24 11:56:55 - [MESSAGE][PASSED] - Test run created with ID: 4130
+
+2018-09-24 11:56:55 - [TEST_STEP][PASSED] - Statement - println(run_id): null
+
+2018-09-24 11:56:55 - [TEST_STEP][PASSED] - Statement - number_of_test_steps = CustomKeywords.qc_api_client.ClientApi.testHttpClientGetAllTestSteps(run_id): qc_api_client.ClientApi.testHttpClientGetAllTestSteps is PASSED
+
+2018-09-24 11:56:55 - [MESSAGE][PASSED] - qc_api_client.ClientApi.testHttpClientGetAllTestSteps is PASSED
+
+2018-09-24 11:56:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-24 11:56:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-24 11:56:57 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_HTML5_Player.playVODContenu: vodpckeywords.vodpc_HTML5_Player.playVODContenu is PASSED
+
+2018-09-24 11:57:07 - [MESSAGE][PASSED] - Navigate to 'https://ovo.qualif1.orange.fr/#vod/movieDescription/ANGRYBIRDSXW0103160' successfully
+
+2018-09-24 11:57:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-24 11:57:07 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is present and visible in viewport
+
+2018-09-24 11:57:08 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is clicked on
+
+2018-09-24 11:57:08 - [MESSAGE][WARNING] - Object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/button regarder' is NOT visible
+[[ATTACHMENT|C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\PC - Win8 - Chrome\\Smoke test\\20180924_115609\\1537783028073.png]]
+
+2018-09-24 11:57:08 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/play triangle' is visible
+
+2018-09-24 11:57:09 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/play triangle' is clicked on
+
+2018-09-24 11:57:09 - [MESSAGE][PASSED] - vodpckeywords.vodpc_HTML5_Player.playVODContenu is PASSED
+
+2018-09-24 11:57:09 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_HTML5_Player.playerIB_opened: Player IB ouvert et vidéo en lecture
+
+2018-09-24 11:57:24 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-09-24 11:57:24 - [MESSAGE][PASSED] - Execute JavaScript 'return arguments[0].currentTime;' successfully
+
+2018-09-24 11:57:24 - [MESSAGE][PASSED] - Player IB ouvert et vidéo en lecture
+
+2018-09-24 11:57:24 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_HTML5_Player.PlayerVOD_Structure: barre de contrôle présent
+
+2018-09-24 11:57:24 - [MESSAGE][PASSED] - Execute JavaScript 'var evObj = document.createEvent('MouseEvents');evObj.initMouseEvent("mouseover",true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);arguments[0].dispatchEvent(evObj);' successfully
+
+2018-09-24 11:57:24 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/Barre menu player/barre menu' is present and visible in viewport
+
+2018-09-24 11:57:24 - [MESSAGE][PASSED] - barre de menu présent
+
+2018-09-24 11:57:24 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/player' is present and visible in viewport
+
+2018-09-24 11:57:24 - [MESSAGE][PASSED] - flux vidéo présent
+
+2018-09-24 11:57:24 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/Zone Info Prog/zone info programme' is present and visible in viewport
+
+2018-09-24 11:57:24 - [MESSAGE][PASSED] - zone info programme présent
+
+2018-09-24 11:57:25 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/Barre de control player/barre de control' is present and visible in viewport
+
+2018-09-24 11:57:25 - [MESSAGE][PASSED] - barre de contrôle présent
+
+2018-09-24 11:57:25 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-24 11:57:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-24 11:57:30 - [TEST_STEP][FAILED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2018-09-24 11:57:30 - [TEST_STEP][PASSED] - Statement - status = testCaseContext.getTestCaseStatus(): null
+
+2018-09-24 11:57:30 - [TEST_STEP][PASSED] - Statement - cycle_id = cycle_id: null
+
+2018-09-24 11:57:30 - [TEST_STEP][PASSED] - Statement - If (status != "PASSED"): null
+
+2018-09-24 11:57:30 - [TEST_STEP][FAILED] - Statement - Else: <html><head><title>Apache Tomcat/7.0.47 - Rapport d''erreur</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Etat HTTP 500 - java.lang.ArrayIndexOutOfBoundsException</h1><HR size="1" noshade="noshade"><p><b>type</b> Rapport d''exception</p><p><b>message</b> <u>java.lang.ArrayIndexOutOfBoundsException</u></p><p><b>description</b> <u>Le serveur a rencontré une erreur interne qui l''a empêché de satisfaire la requête.</u></p><p><b>exception</b> <pre>javax.servlet.ServletException: java.lang.ArrayIndexOutOfBoundsException
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:419)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:381)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:344)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre></p><p><b>cause mère</b> <pre>java.lang.ArrayIndexOutOfBoundsException
+</pre></p><p><b>note</b> <u>La trace complète de la cause mère de cette erreur est disponible dans les fichiers journaux de Apache Tomcat/7.0.47.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.47</h3></body></html>
+
+2018-09-24 11:57:30 - [TEST_STEP][FAILED] - Statement - For ([i = 0, i < java.lang.Integer.parseInt(number_of_test_steps), (i++)]): <html><head><title>Apache Tomcat/7.0.47 - Rapport d''erreur</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Etat HTTP 500 - java.lang.ArrayIndexOutOfBoundsException</h1><HR size="1" noshade="noshade"><p><b>type</b> Rapport d''exception</p><p><b>message</b> <u>java.lang.ArrayIndexOutOfBoundsException</u></p><p><b>description</b> <u>Le serveur a rencontré une erreur interne qui l''a empêché de satisfaire la requête.</u></p><p><b>exception</b> <pre>javax.servlet.ServletException: java.lang.ArrayIndexOutOfBoundsException
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:419)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:381)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:344)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre></p><p><b>cause mère</b> <pre>java.lang.ArrayIndexOutOfBoundsException
+</pre></p><p><b>note</b> <u>La trace complète de la cause mère de cette erreur est disponible dans les fichiers journaux de Apache Tomcat/7.0.47.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.47</h3></body></html>
+
+2018-09-24 11:57:30 - [TEST_STEP][FAILED] - qc_api_client.ClientApi.testHttpClientValidateStep: <html><head><title>Apache Tomcat/7.0.47 - Rapport d''erreur</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Etat HTTP 500 - java.lang.ArrayIndexOutOfBoundsException</h1><HR size="1" noshade="noshade"><p><b>type</b> Rapport d''exception</p><p><b>message</b> <u>java.lang.ArrayIndexOutOfBoundsException</u></p><p><b>description</b> <u>Le serveur a rencontré une erreur interne qui l''a empêché de satisfaire la requête.</u></p><p><b>exception</b> <pre>javax.servlet.ServletException: java.lang.ArrayIndexOutOfBoundsException
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:419)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:381)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:344)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre></p><p><b>cause mère</b> <pre>java.lang.ArrayIndexOutOfBoundsException
+</pre></p><p><b>note</b> <u>La trace complète de la cause mère de cette erreur est disponible dans les fichiers journaux de Apache Tomcat/7.0.47.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.47</h3></body></html>
+
+2018-09-24 11:57:30 - [MESSAGE][FAILED] - <html><head><title>Apache Tomcat/7.0.47 - Rapport d''erreur</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Etat HTTP 500 - java.lang.ArrayIndexOutOfBoundsException</h1><HR size="1" noshade="noshade"><p><b>type</b> Rapport d''exception</p><p><b>message</b> <u>java.lang.ArrayIndexOutOfBoundsException</u></p><p><b>description</b> <u>Le serveur a rencontré une erreur interne qui l''a empêché de satisfaire la requête.</u></p><p><b>exception</b> <pre>javax.servlet.ServletException: java.lang.ArrayIndexOutOfBoundsException
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:419)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:381)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:344)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre></p><p><b>cause mère</b> <pre>java.lang.ArrayIndexOutOfBoundsException
+</pre></p><p><b>note</b> <u>La trace complète de la cause mère de cette erreur est disponible dans les fichiers journaux de Apache Tomcat/7.0.47.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.47</h3></body></html>
+
+2018-09-24 11:57:30 - [TEST_STEP][PASSED] - qc_api_client.ClientApi.testHttpClientValidateTest:  Le test a été mis à jour sur QC avec le stauts : PASSED
+
+2018-09-24 11:57:30 - [MESSAGE][PASSED] -  Le test a été mis à jour sur QC avec le stauts : PASSED
+
+2018-09-24 11:57:30 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-24 11:57:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/VOD/Functional Test/Smoke Test/PC/13.06.06 Avance et retour rapides" classname="Test Cases/VOD/Functional Test/Smoke Test/PC/13.06.06 Avance et retour rapides" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://login-tb1.staging.orange.fr/?return_url=https%3A%2F%2Fovo.qualif1.orange.fr%2F%23vod%2Fhome' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PCWIN81', ip: '192.168.231.227', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:183)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$0.call(Unknown Source)
+	at vodpckeywords.vodpc_connection.connectUser(vodpc_connection.groovy:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at vodpckeywords.vodpc_connection.invokeMethod(vodpc_connection.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1531916404261.run(Script1531916404261.groovy:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537782969131.run(TempTestSuite1537782969131.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-09-24 11:57:31 - [TEST_CASE][FAILED] - Test Cases/VOD/Functional Test/Smoke Test/PC/13.06.06 Avance et retour rapides: Test Cases/VOD/Functional Test/Smoke Test/PC/13.06.06 Avance et retour rapides FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://login-tb1.staging.orange.fr/?return_url=https%3A%2F%2Fovo.qualif1.orange.fr%2F%23vod%2Fhome' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PCWIN81', ip: '192.168.231.227', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:183)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$0.call(Unknown Source)
+	at vodpckeywords.vodpc_connection.connectUser(vodpc_connection.groovy:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at vodpckeywords.vodpc_connection.invokeMethod(vodpc_connection.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1531916404261.run(Script1531916404261.groovy:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537782969131.run(TempTestSuite1537782969131.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-09-24 11:57:31 - [TEST_STEP][ERROR] - Start listener action : sampleBeforeTestCase: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PCWIN81', ip: '192.168.231.227', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: CChromeDriver)
+
+2018-09-24 11:57:31 - [TEST_STEP][PASSED] - Statement - (position_of_test_in_test_suite++): null
+
+2018-09-24 11:57:31 - [TEST_STEP][PASSED] - Statement - position = positions[position_of_test_in_test_suite - 1]: null
+
+2018-09-24 11:57:31 - [TEST_STEP][PASSED] - Statement - run_id = CustomKeywords.qc_api_client.ClientApi.testHttpClientCreateTestRun(cycle_id, position): Test run created with ID: 4131
+
+2018-09-24 11:57:32 - [MESSAGE][PASSED] - Test run created with ID: 4131
+
+2018-09-24 11:57:32 - [TEST_STEP][PASSED] - Statement - println(run_id): null
+
+2018-09-24 11:57:32 - [TEST_STEP][PASSED] - Statement - number_of_test_steps = CustomKeywords.qc_api_client.ClientApi.testHttpClientGetAllTestSteps(run_id): qc_api_client.ClientApi.testHttpClientGetAllTestSteps is PASSED
+
+2018-09-24 11:57:32 - [MESSAGE][PASSED] - qc_api_client.ClientApi.testHttpClientGetAllTestSteps is PASSED
+
+2018-09-24 11:57:32 - [TEST_STEP][ERROR] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PCWIN81', ip: '192.168.231.227', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: CChromeDriver)
+
+2018-09-24 11:57:52 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PCWIN81', ip: '192.168.231.227', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: CChromeDriver)
+
+2018-09-24 11:57:52 - [MESSAGE][ERROR] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PCWIN81', ip: '192.168.231.227', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: CChromeDriver)
+
+2018-09-24 11:57:53 - [TEST_STEP][FAILED] - vodpckeywords.vodpc_connection.connectUser: Unable to navigate to 'https://login-tb1.staging.orange.fr/?return_url=https%3A%2F%2Fovo.qualif1.orange.fr%2F%23vod%2Fhome' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PCWIN81', ip: '192.168.231.227', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-09-24 11:57:53 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-09-24 11:57:53 - [MESSAGE][FAILED] - Unable to navigate to 'https://login-tb1.staging.orange.fr/?return_url=https%3A%2F%2Fovo.qualif1.orange.fr%2F%23vod%2Fhome' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PCWIN81', ip: '192.168.231.227', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-09-24 11:57:53 - [MESSAGE][FAILED] - Unable to navigate to 'https://login-tb1.staging.orange.fr/?return_url=https%3A%2F%2Fovo.qualif1.orange.fr%2F%23vod%2Fhome' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PCWIN81', ip: '192.168.231.227', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-09-24 11:57:53 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2018-09-24 11:57:53 - [TEST_STEP][PASSED] - Statement - status = testCaseContext.getTestCaseStatus(): null
+
+2018-09-24 11:57:53 - [TEST_STEP][PASSED] - Statement - cycle_id = cycle_id: null
+
+2018-09-24 11:57:53 - [TEST_STEP][PASSED] - Statement - If (status != "PASSED"): null
+
+2018-09-24 11:57:53 - [TEST_STEP][PASSED] - Statement - status = "failed": null
+
+2018-09-24 11:57:53 - [TEST_STEP][PASSED] - qc_api_client.ClientApi.testHttpClientValidateTest:  Le test a été mis à jour sur QC avec le stauts : failed
+
+2018-09-24 11:57:53 - [MESSAGE][PASSED] -  Le test a été mis à jour sur QC avec le stauts : failed
+
+2018-09-24 11:57:53 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-24 11:57:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-09-24 11:57:31 - [TEST_CASE][FAILED] - Test Cases/VOD/Functional Test/Smoke Test/PC/13.06.06 Avance et retour rapides: Test Cases/VOD/Functional Test/Smoke Test/PC/13.06.06 Avance et retour rapides FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://login-tb1.staging.orange.fr/?return_url=https%3A%2F%2Fovo.qualif1.orange.fr%2F%23vod%2Fhome' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PCWIN81', ip: '192.168.231.227', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:183)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$0.call(Unknown Source)
+	at vodpckeywords.vodpc_connection.connectUser(vodpc_connection.groovy:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at vodpckeywords.vodpc_connection.invokeMethod(vodpc_connection.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1531916404261.run(Script1531916404261.groovy:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537782969131.run(TempTestSuite1537782969131.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-24 11:56:10 - [TEST_SUITE][FAILED] - Smoke test: Test Cases/VOD/Functional Test/Smoke Test/PC/13.06.06 Avance et retour rapides FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://login-tb1.staging.orange.fr/?return_url=https%3A%2F%2Fovo.qualif1.orange.fr%2F%23vod%2Fhome' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PCWIN81', ip: '192.168.231.227', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:183)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$0.call(Unknown Source)
+	at vodpckeywords.vodpc_connection.connectUser(vodpc_connection.groovy:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at vodpckeywords.vodpc_connection.invokeMethod(vodpc_connection.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1531916404261.run(Script1531916404261.groovy:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537782969131.run(TempTestSuite1537782969131.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-09-24 11:56:10 - [TEST_SUITE][FAILED] - Smoke test: Test Cases/VOD/Functional Test/Smoke Test/PC/13.06.06 Avance et retour rapides FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://login-tb1.staging.orange.fr/?return_url=https%3A%2F%2Fovo.qualif1.orange.fr%2F%23vod%2Fhome' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PCWIN81', ip: '192.168.231.227', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:183)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$0.call(Unknown Source)
+	at vodpckeywords.vodpc_connection.connectUser(vodpc_connection.groovy:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at vodpckeywords.vodpc_connection.invokeMethod(vodpc_connection.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1531916404261.run(Script1531916404261.groovy:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537782969131.run(TempTestSuite1537782969131.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

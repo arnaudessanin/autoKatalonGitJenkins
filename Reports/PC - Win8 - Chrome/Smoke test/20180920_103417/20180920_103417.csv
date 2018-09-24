@@ -1,0 +1,22 @@
+Suite/Test/Step NameSuite/Test/Step Name,BBrroowwsseer,DesDecsrcrippttiionn,Start time,End time,Duration,Status
+Smoke test,Chrome 69.0.3497.100,,2018-09-20 10:34:21,2018-09-20 10:42:00,"7m - 39,189s",FAILED
+,,,,,,
+Test Cases/Test integration avec qc/testplan 1,Chrome 69.0.3497.100,,2018-09-20 10:34:33,2018-09-20 10:35:02,"28,339s",FAILED
+Start listener action : sampleBeforeTestCase,Chrome 69.0.3497.100,,2018-09-20 10:34:33,2018-09-20 10:34:34,"0,930s",PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-09-20 10:34:34,2018-09-20 10:35:01,"26,635s",FAILED
+Start listener action : sampleAfterTestCase,Chrome 69.0.3497.100,,2018-09-20 10:35:01,2018-09-20 10:35:02,"0,485s",PASSED
+,,,,,,
+Test Cases/Test integration avec qc/testplan 3,Chrome 69.0.3497.100,,2018-09-20 10:35:02,2018-09-20 10:38:26,"3m - 24,532s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 69.0.3497.100,,2018-09-20 10:35:02,2018-09-20 10:35:02,"0,623s",PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-09-20 10:35:03,2018-09-20 10:36:58,"1m - 55,235s",PASSED
+navigateToUrl,Chrome 69.0.3497.100,,2018-09-20 10:36:58,2018-09-20 10:38:12,"1m - 14,348s",PASSED
+waitForPageLoad,Chrome 69.0.3497.100,,2018-09-20 10:38:12,2018-09-20 10:38:15,"2,895s",PASSED
+delay,Chrome 69.0.3497.100,,2018-09-20 10:38:15,2018-09-20 10:38:21,"5,643s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 69.0.3497.100,,2018-09-20 10:38:21,2018-09-20 10:38:26,"5,631s",PASSED
+,,,,,,
+Test Cases/Test integration avec qc/testplan 2,Chrome 69.0.3497.100,,2018-09-20 10:38:26,2018-09-20 10:42:00,"3m - 33,351s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 69.0.3497.100,,2018-09-20 10:38:26,2018-09-20 10:38:28,"1,551s",PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-09-20 10:38:29,2018-09-20 10:39:02,"32,736s",PASSED
+navigateToUrl,Chrome 69.0.3497.100,,2018-09-20 10:39:02,2018-09-20 10:41:23,"2m - 21,471s",PASSED
+waitForPageLoad,Chrome 69.0.3497.100,,2018-09-20 10:41:23,2018-09-20 10:41:25,"1,739s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 69.0.3497.100,,2018-09-20 10:41:25,2018-09-20 10:42:00,"34,906s",PASSED

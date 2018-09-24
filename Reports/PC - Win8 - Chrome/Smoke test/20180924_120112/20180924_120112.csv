@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke test,Chrome 69.0.3497.100,,2018-09-24 12:01:16,2018-09-24 12:04:04,"2m - 48,124s",PASSED
+,,,,,,
+Test Cases/VOD/Functional Test/Smoke Test/PC/09.03.02.02 Texte pour un utilisateur Desktop,Chrome 69.0.3497.100,,2018-09-24 12:01:18,2018-09-24 12:01:52,"33,725s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 69.0.3497.100,,2018-09-24 12:01:19,2018-09-24 12:01:25,"6,706s",PASSED
+vodpckeywords.vodpc_connection.connectUser,Chrome 69.0.3497.100,STEP 1: Lorsqu'un utilisateur EW se connecte --> vérification connexion utilisateur EW ,2018-09-24 12:01:25,2018-09-24 12:01:49,"23,182s",PASSED
+vodpckeywords.vodpc_MesVideos.gotoMesVideos,Chrome 69.0.3497.100,STEP 2: Affichage composant Mes vidéos --> vérifier que : (voir les étapes suivantes),2018-09-24 12:01:49,2018-09-24 12:01:50,"1,360s",PASSED
+verifyMatch,Chrome 69.0.3497.100,--> Verify match title :Voir et revoir vos vidéos louées ou achetées ,2018-09-24 12:01:50,2018-09-24 12:01:50,"0,093s",PASSED
+verifyMatch,Chrome 69.0.3497.100,"--> Verify match text1 :Retrouvez et visionnez les vidéos louées ou achetées sur ordinateur, TV, tablette, smartphone et Clé TV. ",2018-09-24 12:01:50,2018-09-24 12:01:50,"0,057s",PASSED
+verifyMatch,Chrome 69.0.3497.100,--> Verify match text2 :Téléchargez-les sur le lecteur VOD Orange pour les visionner sans connexion.,2018-09-24 12:01:50,2018-09-24 12:01:50,"0,120s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 69.0.3497.100,,2018-09-24 12:01:50,2018-09-24 12:01:52,"1,663s",FAILED
+,,,,,,
+Test Cases/VOD/Functional Test/Smoke Test/PC/13.01.Structure du player,Chrome 69.0.3497.100,,2018-09-24 12:01:52,2018-09-24 12:02:30,"38,528s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 69.0.3497.100,,2018-09-24 12:01:52,2018-09-24 12:01:55,"3,348s",PASSED
+vodpckeywords.vodpc_HTML5_Player.playVODContenu,Chrome 69.0.3497.100,Prerequis: Lancer la bande annonce d'un contenu,2018-09-24 12:01:55,2018-09-24 12:02:07,"11,818s",PASSED
+vodpckeywords.vodpc_HTML5_Player.playerIB_opened,Chrome 69.0.3497.100,STEP 2 : Le player IB VOD s'affiche --> vérifier que le player IB VOD s'affiche,2018-09-24 12:02:07,2018-09-24 12:02:22,"15,107s",PASSED
+vodpckeywords.vodpc_HTML5_Player.PlayerVOD_Structure,Chrome 69.0.3497.100,"STEP 3 : vérifier qu'il est composé de : barre de menus, zone de flux, zone info programme, barre de contrôle",2018-09-24 12:02:22,2018-09-24 12:02:23,"0,388s",PASSED
+delay,Chrome 69.0.3497.100,,2018-09-24 12:02:23,2018-09-24 12:02:28,"5,002s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 69.0.3497.100,,2018-09-24 12:02:28,2018-09-24 12:02:30,"2,683s",PASSED
+,,,,,,
+Test Cases/VOD/Functional Test/Smoke Test/PC/13.06.06 Avance et retour rapides,Chrome 69.0.3497.100,,2018-09-24 12:02:30,2018-09-24 12:04:04,"1m - 33,388s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 69.0.3497.100,,2018-09-24 12:02:31,2018-09-24 12:02:37,"6,631s",PASSED
+vodpckeywords.vodpc_connection.connectUser,Chrome 69.0.3497.100,,2018-09-24 12:02:37,2018-09-24 12:03:08,"30,286s",PASSED
+vodpckeywords.vodpc_HTML5_Player.playVODContenu,Chrome 69.0.3497.100,,2018-09-24 12:03:08,2018-09-24 12:03:15,"7,511s",PASSED
+vodpckeywords.vodpc_HTML5_Player.playerIB_opened,Chrome 69.0.3497.100,Prerequis: Ouvrir une bande annonce --> Verifier que le player IB est lancé,2018-09-24 12:03:15,2018-09-24 12:03:30,"15,048s",PASSED
+vodpckeywords.vodpc_HTML5_Player.avance_et_retour_rapides,Chrome 69.0.3497.100,Step 2 : Etre en lecture à vitesse normale. Activer la touche avance rapide --> la lecture passe à la prémière vitesse accélerée en avant,2018-09-24 12:03:30,2018-09-24 12:03:32,"1,585s",PASSED
+vodpckeywords.vodpc_HTML5_Player.avance_et_retour_rapides,Chrome 69.0.3497.100,Step 3 : Etre en lecture à prémière vitesse accélérée en avant. Activer la touche avance rapide -->  la lecture passe à la vitesse supérieure accélerée en avant,2018-09-24 12:03:32,2018-09-24 12:03:33,"1,142s",PASSED
+vodpckeywords.vodpc_HTML5_Player.avance_et_retour_rapides,Chrome 69.0.3497.100,Step 4 : Continuer jusqu'a atteindre la vitesse avant maximale. Activer la touche avance rapide -->  la lecture revient sur la prémière vitesse accélerée en avant,2018-09-24 12:03:33,2018-09-24 12:03:35,"2,166s",PASSED
+vodpckeywords.vodpc_HTML5_Player.avance_et_retour_rapides,Chrome 69.0.3497.100,Step 5 : Etre en lecture accélérée en arrière. Activer la touche avance rapide --> la lecture passe à la prémière vitesse accélerée en arrière,2018-09-24 12:03:35,2018-09-24 12:03:36,"1,212s",PASSED
+vodpckeywords.vodpc_HTML5_Player.avance_et_retour_rapides,Chrome 69.0.3497.100,Step 6 : Appuyer sur le bouton Lecture quand la lecture est à l'une des vitesses avant --> lecture en marche avant à vitesse normale,2018-09-24 12:03:36,2018-09-24 12:03:46,"9,255s",PASSED
+vodpckeywords.vodpc_HTML5_Player.avance_et_retour_rapides,Chrome 69.0.3497.100,Step 7 : Etre en lecture à vitesse normale. Activer la touche retour rapide --> la lecture passe à la prémière vitesse accélerée en arrière,2018-09-24 12:03:46,2018-09-24 12:03:47,"1,238s",PASSED
+vodpckeywords.vodpc_HTML5_Player.avance_et_retour_rapides,Chrome 69.0.3497.100,Step 8 : Etre en lecture à prémière vitesse accélérée en arrière. Activer la touche arrière rapide -->  la lecture passe à la vitesse supérieure accélerée en arrière,2018-09-24 12:03:47,2018-09-24 12:03:48,"1,147s",PASSED
+vodpckeywords.vodpc_HTML5_Player.avance_et_retour_rapides,Chrome 69.0.3497.100,Step 9 : Continuer jusqu'a atteindre la vitesse en arrière maximale. Activer la touche retour rapide -->  la lecture revient sur la prémière vitesse accélerée en arrière,2018-09-24 12:03:48,2018-09-24 12:03:50,"2,331s",PASSED
+vodpckeywords.vodpc_HTML5_Player.avance_et_retour_rapides,Chrome 69.0.3497.100,Step 10 : Etre en lecture accélérée en arrière. Activer la touche retour rapide --> la lecture passe à la prémière vitesse accélerée en arrière,2018-09-24 12:03:50,2018-09-24 12:03:53,"2,310s",PASSED
+vodpckeywords.vodpc_HTML5_Player.avance_et_retour_rapides,Chrome 69.0.3497.100,Step 6 : Appuyer sur le bouton Lecture quand la lecture est à l'une des vitesses arrière --> lecture en marche avant à vitesse normale,2018-09-24 12:03:53,2018-09-24 12:04:02,"9,156s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 69.0.3497.100,,2018-09-24 12:04:02,2018-09-24 12:04:04,"2,094s",FAILED

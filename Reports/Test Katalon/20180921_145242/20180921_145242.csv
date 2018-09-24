@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Katalon,Chrome 69.0.3497.100,,2018-09-21 14:52:45,2018-09-21 14:52:56,"11,049s",PASSED
+,,,,,,
+Test Cases/New Test/test 2,Chrome 69.0.3497.100,,2018-09-21 14:52:45,2018-09-21 14:52:56,"10,602s",PASSED
+Start listener action : BeforeTestCase,Chrome 69.0.3497.100,,2018-09-21 14:52:45,2018-09-21 14:52:48,"2,823s",PASSED
+test.katalon.connect.ConnectUser,Chrome 69.0.3497.100,,2018-09-21 14:52:48,2018-09-21 14:52:55,"6,830s",PASSED
+Start listener action : AfterTestCase,Chrome 69.0.3497.100,,2018-09-21 14:52:55,2018-09-21 14:52:56,"0,743s",PASSED

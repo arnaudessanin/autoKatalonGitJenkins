@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke test,Chrome 69.0.3497.100,,2018-09-20 18:06:20,2018-09-20 18:06:50,"29,521s",PASSED
+,,,,,,
+Test Cases/Test integration avec qc/testplan 1,Chrome 69.0.3497.100,,2018-09-20 18:06:22,2018-09-20 18:06:50,"28,059s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 69.0.3497.100,,2018-09-20 18:06:22,2018-09-20 18:06:22,"0,775s",PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-09-20 18:06:22,2018-09-20 18:06:33,"10,930s",PASSED
+navigateToUrl,Chrome 69.0.3497.100,,2018-09-20 18:06:33,2018-09-20 18:06:39,"5,642s",PASSED
+delay,Chrome 69.0.3497.100,,2018-09-20 18:06:39,2018-09-20 18:06:44,"5,029s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 69.0.3497.100,,2018-09-20 18:06:44,2018-09-20 18:06:50,"5,541s",PASSED

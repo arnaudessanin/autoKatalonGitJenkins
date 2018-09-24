@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>GetSearch_Result</name>
-   <tag>Functional</tag>
-   <comment></comment>
-   <testCaseGuid>239ae368-2e16-4a89-bd95-966a6f56ab56</testCaseGuid>
-</TestCaseEntity>

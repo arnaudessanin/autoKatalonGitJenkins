@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke test,,,2018-09-24 11:52:18,2018-09-24 11:52:27,"9,057s",FAILED
+,,,,,,
+Test Cases/VOD/Functional Test/Smoke Test/PC/09.03.02.02 Texte pour un utilisateur Desktop,,,2018-09-24 11:52:20,2018-09-24 11:52:23,"2,435s",FAILED
+Start listener action : sampleBeforeTestCase,,,2018-09-24 11:52:21,2018-09-24 11:52:22,"1,229s",PASSED
+vodpckeywords.vodpc_connection.connectUser,,STEP 1: Lorsqu'un utilisateur EW se connecte --> vérification connexion utilisateur EW ,2018-09-24 11:52:22,2018-09-24 11:52:22,"0,254s",FAILED
+Start listener action : sampleAfterTestCase,,,2018-09-24 11:52:22,2018-09-24 11:52:23,"0,471s",PASSED
+,,,,,,
+Test Cases/VOD/Functional Test/Smoke Test/PC/13.01.Structure du player,,,2018-09-24 11:52:23,2018-09-24 11:52:25,"1,928s",ERROR
+Start listener action : sampleBeforeTestCase,,,2018-09-24 11:52:23,2018-09-24 11:52:24,"1,190s",PASSED
+vodpckeywords.vodpc_HTML5_Player.playVODContenu,,Prerequis: Lancer la bande annonce d'un contenu,2018-09-24 11:52:24,2018-09-24 11:52:24,"0,007s",ERROR
+Start listener action : sampleAfterTestCase,,,2018-09-24 11:52:24,2018-09-24 11:52:25,"0,578s",PASSED
+,,,,,,
+Test Cases/VOD/Functional Test/Smoke Test/PC/13.06.06 Avance et retour rapides,,,2018-09-24 11:52:25,2018-09-24 11:52:27,"1,976s",FAILED
+Start listener action : sampleBeforeTestCase,,,2018-09-24 11:52:25,2018-09-24 11:52:26,"1,305s",PASSED
+vodpckeywords.vodpc_connection.connectUser,,,2018-09-24 11:52:26,2018-09-24 11:52:26,"0,013s",FAILED
+Start listener action : sampleAfterTestCase,,,2018-09-24 11:52:26,2018-09-24 11:52:27,"0,483s",PASSED

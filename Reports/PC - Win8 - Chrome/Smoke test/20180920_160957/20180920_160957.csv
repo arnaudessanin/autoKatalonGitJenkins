@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke test,Chrome 69.0.3497.100,,2018-09-20 16:10:07,2018-09-20 16:13:46,"3m - 39,671s",FAILED
+,,,,,,
+Test Cases/Test integration avec qc/testplan 1,Chrome 69.0.3497.100,,2018-09-20 16:10:45,2018-09-20 16:11:23,"38,385s",FAILED
+Start listener action : sampleBeforeTestCase,Chrome 69.0.3497.100,,2018-09-20 16:10:45,2018-09-20 16:10:50,"5,045s",PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-09-20 16:10:50,2018-09-20 16:11:19,"28,574s",FAILED
+Start listener action : sampleAfterTestCase,Chrome 69.0.3497.100,,2018-09-20 16:11:19,2018-09-20 16:11:23,"4,602s",PASSED
+,,,,,,
+Test Cases/Test integration avec qc/testplan 3,Chrome 69.0.3497.100,,2018-09-20 16:11:23,2018-09-20 16:13:07,"1m - 43,665s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 69.0.3497.100,,2018-09-20 16:11:23,2018-09-20 16:11:36,"13,192s",PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-09-20 16:11:37,2018-09-20 16:12:41,"1m - 4,015s",PASSED
+navigateToUrl,Chrome 69.0.3497.100,,2018-09-20 16:12:41,2018-09-20 16:12:56,"15,286s",PASSED
+waitForPageLoad,Chrome 69.0.3497.100,,2018-09-20 16:12:56,2018-09-20 16:12:56,"0,253s",PASSED
+delay,Chrome 69.0.3497.100,,2018-09-20 16:12:56,2018-09-20 16:13:01,"5,017s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 69.0.3497.100,,2018-09-20 16:13:01,2018-09-20 16:13:07,"5,759s",PASSED
+,,,,,,
+Test Cases/Test integration avec qc/testplan 2,Chrome 69.0.3497.100,,2018-09-20 16:13:07,2018-09-20 16:13:46,"39,303s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 69.0.3497.100,,2018-09-20 16:13:07,2018-09-20 16:13:10,"2,956s",PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-09-20 16:13:10,2018-09-20 16:13:13,"2,468s",PASSED
+navigateToUrl,Chrome 69.0.3497.100,,2018-09-20 16:13:13,2018-09-20 16:13:44,"31,500s",PASSED
+waitForPageLoad,Chrome 69.0.3497.100,,2018-09-20 16:13:44,2018-09-20 16:13:44,"0,017s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 69.0.3497.100,,2018-09-20 16:13:44,2018-09-20 16:13:46,"2,205s",PASSED

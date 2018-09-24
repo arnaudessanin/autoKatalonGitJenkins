@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke test" time="168" tests="3" failures="0" errors="0">
+   <testsuite name="Smoke test" tests="3" failures="0" errors="0" time="168" timestamp="2018-09-24 12:01:16" hostname="Test - 192.168.231.227" id="Test Suites/PC - Win8 - Chrome/Smoke test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\PC - Win8 - Chrome\\Smoke test\\20180924_120112"/>
+         <property name="logFiles" value="C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\PC - Win8 - Chrome\\Smoke test\\20180924_120112\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\PC - Win8 - Chrome\\Smoke test\\20180924_120112\\1537783309655.png, C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\PC - Win8 - Chrome\\Smoke test\\20180924_120112\\1537783327210.png, C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\PC - Win8 - Chrome\\Smoke test\\20180924_120112\\1537783388834.png"/>
+         <property name="hostName" value="Test - 192.168.231.227"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.231.227"/>
+         <property name="sessionId" value="14c21bea1ca36bb3c0e34bc497491eb5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/VOD/Functional Test/Smoke Test/PC/09.03.02.02 Texte pour un utilisateur Desktop" classname="Test Cases/VOD/Functional Test/Smoke Test/PC/09.03.02.02 Texte pour un utilisateur Desktop" status="PASSED">
+         <system-out><![CDATA[2018-09-24 12:01:18 - [TEST_CASE][PASSED] - Test Cases/VOD/Functional Test/Smoke Test/PC/09.03.02.02 Texte pour un utilisateur Desktop: Test Cases/VOD/Functional Test/Smoke Test/PC/09.03.02.02 Texte pour un utilisateur Desktop
+
+2018-09-24 12:01:19 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: ''
+
+2018-09-24 12:01:19 - [TEST_STEP][PASSED] - Statement - (position_of_test_in_test_suite++): null
+
+2018-09-24 12:01:19 - [TEST_STEP][PASSED] - Statement - position = positions[position_of_test_in_test_suite - 1]: null
+
+2018-09-24 12:01:19 - [TEST_STEP][PASSED] - Statement - run_id = CustomKeywords.qc_api_client.ClientApi.testHttpClientCreateTestRun(cycle_id, position): Test run created with ID: 4132
+
+2018-09-24 12:01:19 - [MESSAGE][PASSED] - Test run created with ID: 4132
+
+2018-09-24 12:01:19 - [TEST_STEP][PASSED] - Statement - println(run_id): null
+
+2018-09-24 12:01:19 - [TEST_STEP][PASSED] - Statement - number_of_test_steps = CustomKeywords.qc_api_client.ClientApi.testHttpClientGetAllTestSteps(run_id): qc_api_client.ClientApi.testHttpClientGetAllTestSteps is PASSED
+
+2018-09-24 12:01:20 - [MESSAGE][PASSED] - qc_api_client.ClientApi.testHttpClientGetAllTestSteps is PASSED
+
+2018-09-24 12:01:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-24 12:01:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-24 12:01:25 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_connection.connectUser: Object: 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is clicked on
+
+2018-09-24 12:01:28 - [MESSAGE][PASSED] - Navigate to 'https://login-tb1.staging.orange.fr/?return_url=https%3A%2F%2Fovo.qualif1.orange.fr%2F%23vod%2Fhome' successfully
+
+2018-09-24 12:01:28 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Identification page object/login_input' is present
+
+2018-09-24 12:01:29 - [MESSAGE][PASSED] - Text 'vodpcqualifb@orange.fr' is set on object 'Object Repository/VOD Objects/PC/Identification page object/login_input'
+
+2018-09-24 12:01:29 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Identification page object/btn_continuer' is clicked on
+
+2018-09-24 12:01:29 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Identification page object/saissisez mot de passe input' is present
+
+2018-09-24 12:01:30 - [MESSAGE][PASSED] - Text 'Passwd1' is set on object 'Object Repository/VOD Objects/PC/Identification page object/saissisez mot de passe input'
+
+2018-09-24 12:01:30 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Identification page object/btn_continuer' is clicked on
+
+2018-09-24 12:01:30 - [MESSAGE][PASSED] - Authentication of client vodpcqualifb@orange.fr is successful
+
+2018-09-24 12:01:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 12:01:48 - [MESSAGE][PASSED] - Current window's url is: 'https://ovo.qualif1.orange.fr/#vod/home'
+
+2018-09-24 12:01:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-24 12:01:49 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is present and visible in viewport
+
+2018-09-24 12:01:49 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is clicked on
+
+2018-09-24 12:01:49 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_MesVideos.gotoMesVideos: Object 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is present but is not visible in viewport
+
+2018-09-24 12:01:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-24 12:01:49 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Home Page apres Identification/Menu convergeant (mc)/mc Mes videos' is visible
+
+2018-09-24 12:01:49 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Home Page apres Identification/Menu convergeant (mc)/mc Mes videos' is clicked on
+
+2018-09-24 12:01:49 - [MESSAGE][PASSED] - Menu convergeant Mes vidéos accessed
+
+2018-09-24 12:01:50 - [MESSAGE][WARNING] - Object 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is present but is not visible in viewport
+[[ATTACHMENT|C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\PC - Win8 - Chrome\\Smoke test\\20180924_120112\\1537783309655.png]]
+
+2018-09-24 12:01:50 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Voir et revoir vos vidéos louées ou achetées' and expected text 'Voir et revoir vos vidéos louées ou achetées' are matched 
+
+2018-09-24 12:01:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/VOD Objects/PC/Menu Convergeant Mes videos/titre banner-marketing' is: 'Voir et revoir vos vidéos louées ou achetées'
+
+2018-09-24 12:01:50 - [MESSAGE][PASSED] - Actual text 'Voir et revoir vos vidéos louées ou achetées' and expected text 'Voir et revoir vos vidéos louées ou achetées' are matched 
+
+2018-09-24 12:01:50 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Retrouvez et visionnez les vidéos louées ou achetées sur ordinateur, TV, tablette, smartphone et Clé TV.' and expected text 'Retrouvez et visionnez les vidéos louées ou achetées sur ordinateur, TV, tablette, smartphone et Clé TV.' are matched 
+
+2018-09-24 12:01:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/VOD Objects/PC/Menu Convergeant Mes videos/titre1 banner-marketing' is: 'Retrouvez et visionnez les vidéos louées ou achetées sur ordinateur, TV, tablette, smartphone et Clé TV.'
+
+2018-09-24 12:01:50 - [MESSAGE][PASSED] - Actual text 'Retrouvez et visionnez les vidéos louées ou achetées sur ordinateur, TV, tablette, smartphone et Clé TV.' and expected text 'Retrouvez et visionnez les vidéos louées ou achetées sur ordinateur, TV, tablette, smartphone et Clé TV.' are matched 
+
+2018-09-24 12:01:50 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Téléchargez-les sur le lecteur VOD Orange pour les visionner sans connexion.' and expected text 'Téléchargez-les sur le lecteur VOD Orange pour les visionner sans connexion.' are matched 
+
+2018-09-24 12:01:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/VOD Objects/PC/Menu Convergeant Mes videos/titre2 banner-marketing' is: 'Téléchargez-les sur le lecteur VOD Orange pour les visionner sans connexion.'
+
+2018-09-24 12:01:50 - [MESSAGE][PASSED] - Actual text 'Téléchargez-les sur le lecteur VOD Orange pour les visionner sans connexion.' and expected text 'Téléchargez-les sur le lecteur VOD Orange pour les visionner sans connexion.' are matched 
+
+2018-09-24 12:01:50 - [TEST_STEP][FAILED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2018-09-24 12:01:50 - [TEST_STEP][PASSED] - Statement - status = testCaseContext.getTestCaseStatus(): null
+
+2018-09-24 12:01:50 - [TEST_STEP][PASSED] - Statement - cycle_id = cycle_id: null
+
+2018-09-24 12:01:50 - [TEST_STEP][PASSED] - Statement - If (status != "PASSED"): null
+
+2018-09-24 12:01:50 - [TEST_STEP][FAILED] - Statement - Else: <html><head><title>Apache Tomcat/7.0.47 - Rapport d''erreur</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Etat HTTP 500 - java.lang.IndexOutOfBoundsException: Index: 10, Size: 2</h1><HR size="1" noshade="noshade"><p><b>type</b> Rapport d''exception</p><p><b>message</b> <u>java.lang.IndexOutOfBoundsException: Index: 10, Size: 2</u></p><p><b>description</b> <u>Le serveur a rencontré une erreur interne qui l''a empêché de satisfaire la requête.</u></p><p><b>exception</b> <pre>javax.servlet.ServletException: java.lang.IndexOutOfBoundsException: Index: 10, Size: 2
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:419)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:381)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:344)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre></p><p><b>cause mère</b> <pre>java.lang.IndexOutOfBoundsException: Index: 10, Size: 2
+	java.util.ArrayList.rangeCheck(Unknown Source)
+	java.util.ArrayList.get(Unknown Source)
+	alm.api.vod.katalon_qc.RunTest.findValueInMap(RunTest.java:275)
+	alm.api.vod.katalon_qc.RunTest.validateTestRunStep(RunTest.java:128)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:143)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:160)
+	org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:203)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:97)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:303)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:286)
+	org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1072)
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:399)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:381)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:344)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre></p><p><b>note</b> <u>La trace complète de la cause mère de cette erreur est disponible dans les fichiers journaux de Apache Tomcat/7.0.47.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.47</h3></body></html>
+
+2018-09-24 12:01:50 - [TEST_STEP][FAILED] - Statement - For ([i = 0, i < java.lang.Integer.parseInt(number_of_test_steps), (i++)]): <html><head><title>Apache Tomcat/7.0.47 - Rapport d''erreur</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Etat HTTP 500 - java.lang.IndexOutOfBoundsException: Index: 10, Size: 2</h1><HR size="1" noshade="noshade"><p><b>type</b> Rapport d''exception</p><p><b>message</b> <u>java.lang.IndexOutOfBoundsException: Index: 10, Size: 2</u></p><p><b>description</b> <u>Le serveur a rencontré une erreur interne qui l''a empêché de satisfaire la requête.</u></p><p><b>exception</b> <pre>javax.servlet.ServletException: java.lang.IndexOutOfBoundsException: Index: 10, Size: 2
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:419)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:381)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:344)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre></p><p><b>cause mère</b> <pre>java.lang.IndexOutOfBoundsException: Index: 10, Size: 2
+	java.util.ArrayList.rangeCheck(Unknown Source)
+	java.util.ArrayList.get(Unknown Source)
+	alm.api.vod.katalon_qc.RunTest.findValueInMap(RunTest.java:275)
+	alm.api.vod.katalon_qc.RunTest.validateTestRunStep(RunTest.java:128)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:143)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:160)
+	org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:203)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:97)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:303)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:286)
+	org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1072)
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:399)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:381)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:344)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre></p><p><b>note</b> <u>La trace complète de la cause mère de cette erreur est disponible dans les fichiers journaux de Apache Tomcat/7.0.47.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.47</h3></body></html>
+
+2018-09-24 12:01:50 - [TEST_STEP][PASSED] - qc_api_client.ClientApi.testHttpClientValidateStep: Step 1 updated with status Passed
+
+2018-09-24 12:01:51 - [MESSAGE][PASSED] - Step 1 updated with status Passed
+
+2018-09-24 12:01:51 - [TEST_STEP][FAILED] - qc_api_client.ClientApi.testHttpClientValidateStep: <html><head><title>Apache Tomcat/7.0.47 - Rapport d''erreur</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Etat HTTP 500 - java.lang.IndexOutOfBoundsException: Index: 10, Size: 2</h1><HR size="1" noshade="noshade"><p><b>type</b> Rapport d''exception</p><p><b>message</b> <u>java.lang.IndexOutOfBoundsException: Index: 10, Size: 2</u></p><p><b>description</b> <u>Le serveur a rencontré une erreur interne qui l''a empêché de satisfaire la requête.</u></p><p><b>exception</b> <pre>javax.servlet.ServletException: java.lang.IndexOutOfBoundsException: Index: 10, Size: 2
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:419)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:381)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:344)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre></p><p><b>cause mère</b> <pre>java.lang.IndexOutOfBoundsException: Index: 10, Size: 2
+	java.util.ArrayList.rangeCheck(Unknown Source)
+	java.util.ArrayList.get(Unknown Source)
+	alm.api.vod.katalon_qc.RunTest.findValueInMap(RunTest.java:275)
+	alm.api.vod.katalon_qc.RunTest.validateTestRunStep(RunTest.java:128)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:143)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:160)
+	org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:203)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:97)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:303)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:286)
+	org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1072)
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:399)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:381)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:344)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre></p><p><b>note</b> <u>La trace complète de la cause mère de cette erreur est disponible dans les fichiers journaux de Apache Tomcat/7.0.47.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.47</h3></body></html>
+
+2018-09-24 12:01:51 - [MESSAGE][FAILED] - <html><head><title>Apache Tomcat/7.0.47 - Rapport d''erreur</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Etat HTTP 500 - java.lang.IndexOutOfBoundsException: Index: 10, Size: 2</h1><HR size="1" noshade="noshade"><p><b>type</b> Rapport d''exception</p><p><b>message</b> <u>java.lang.IndexOutOfBoundsException: Index: 10, Size: 2</u></p><p><b>description</b> <u>Le serveur a rencontré une erreur interne qui l''a empêché de satisfaire la requête.</u></p><p><b>exception</b> <pre>javax.servlet.ServletException: java.lang.IndexOutOfBoundsException: Index: 10, Size: 2
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:419)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:381)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:344)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre></p><p><b>cause mère</b> <pre>java.lang.IndexOutOfBoundsException: Index: 10, Size: 2
+	java.util.ArrayList.rangeCheck(Unknown Source)
+	java.util.ArrayList.get(Unknown Source)
+	alm.api.vod.katalon_qc.RunTest.findValueInMap(RunTest.java:275)
+	alm.api.vod.katalon_qc.RunTest.validateTestRunStep(RunTest.java:128)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:143)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:160)
+	org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:203)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:97)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:303)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:286)
+	org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1072)
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:399)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:381)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:344)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre></p><p><b>note</b> <u>La trace complète de la cause mère de cette erreur est disponible dans les fichiers journaux de Apache Tomcat/7.0.47.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.47</h3></body></html>
+
+2018-09-24 12:01:51 - [TEST_STEP][PASSED] - qc_api_client.ClientApi.testHttpClientValidateTest:  Le test a été mis à jour sur QC avec le stauts : PASSED
+
+2018-09-24 12:01:51 - [MESSAGE][PASSED] -  Le test a été mis à jour sur QC avec le stauts : PASSED
+
+2018-09-24 12:01:51 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-24 12:01:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/VOD/Functional Test/Smoke Test/PC/13.01.Structure du player" classname="Test Cases/VOD/Functional Test/Smoke Test/PC/13.01.Structure du player" status="PASSED">
+         <system-out><![CDATA[2018-09-24 12:01:52 - [TEST_CASE][PASSED] - Test Cases/VOD/Functional Test/Smoke Test/PC/13.01.Structure du player: Test Cases/VOD/Functional Test/Smoke Test/PC/13.01.Structure du player
+
+2018-09-24 12:01:52 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: ''
+
+2018-09-24 12:01:52 - [TEST_STEP][PASSED] - Statement - (position_of_test_in_test_suite++): null
+
+2018-09-24 12:01:52 - [TEST_STEP][PASSED] - Statement - position = positions[position_of_test_in_test_suite - 1]: null
+
+2018-09-24 12:01:52 - [TEST_STEP][PASSED] - Statement - run_id = CustomKeywords.qc_api_client.ClientApi.testHttpClientCreateTestRun(cycle_id, position): Test run created with ID: 4133
+
+2018-09-24 12:01:53 - [MESSAGE][PASSED] - Test run created with ID: 4133
+
+2018-09-24 12:01:53 - [TEST_STEP][PASSED] - Statement - println(run_id): null
+
+2018-09-24 12:01:53 - [TEST_STEP][PASSED] - Statement - number_of_test_steps = CustomKeywords.qc_api_client.ClientApi.testHttpClientGetAllTestSteps(run_id): qc_api_client.ClientApi.testHttpClientGetAllTestSteps is PASSED
+
+2018-09-24 12:01:53 - [MESSAGE][PASSED] - qc_api_client.ClientApi.testHttpClientGetAllTestSteps is PASSED
+
+2018-09-24 12:01:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-24 12:01:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-24 12:01:55 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_HTML5_Player.playVODContenu: vodpckeywords.vodpc_HTML5_Player.playVODContenu is PASSED
+
+2018-09-24 12:02:06 - [MESSAGE][PASSED] - Navigate to 'https://ovo.qualif1.orange.fr/#vod/movieDescription/ANGRYBIRDSXW0103160' successfully
+
+2018-09-24 12:02:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-24 12:02:06 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is present and visible in viewport
+
+2018-09-24 12:02:07 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is clicked on
+
+2018-09-24 12:02:07 - [MESSAGE][WARNING] - Object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/button regarder' is NOT visible
+[[ATTACHMENT|C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\PC - Win8 - Chrome\\Smoke test\\20180924_120112\\1537783327210.png]]
+
+2018-09-24 12:02:07 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/play triangle' is visible
+
+2018-09-24 12:02:07 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/play triangle' is clicked on
+
+2018-09-24 12:02:07 - [MESSAGE][PASSED] - vodpckeywords.vodpc_HTML5_Player.playVODContenu is PASSED
+
+2018-09-24 12:02:07 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_HTML5_Player.playerIB_opened: Player IB ouvert et vidéo en lecture
+
+2018-09-24 12:02:22 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-09-24 12:02:22 - [MESSAGE][PASSED] - Execute JavaScript 'return arguments[0].currentTime;' successfully
+
+2018-09-24 12:02:22 - [MESSAGE][PASSED] - Player IB ouvert et vidéo en lecture
+
+2018-09-24 12:02:22 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_HTML5_Player.PlayerVOD_Structure: barre de contrôle présent
+
+2018-09-24 12:02:23 - [MESSAGE][PASSED] - Execute JavaScript 'var evObj = document.createEvent('MouseEvents');evObj.initMouseEvent("mouseover",true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);arguments[0].dispatchEvent(evObj);' successfully
+
+2018-09-24 12:02:23 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/Barre menu player/barre menu' is present and visible in viewport
+
+2018-09-24 12:02:23 - [MESSAGE][PASSED] - barre de menu présent
+
+2018-09-24 12:02:23 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/player' is present and visible in viewport
+
+2018-09-24 12:02:23 - [MESSAGE][PASSED] - flux vidéo présent
+
+2018-09-24 12:02:23 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/Zone Info Prog/zone info programme' is present and visible in viewport
+
+2018-09-24 12:02:23 - [MESSAGE][PASSED] - zone info programme présent
+
+2018-09-24 12:02:23 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/Barre de control player/barre de control' is present and visible in viewport
+
+2018-09-24 12:02:23 - [MESSAGE][PASSED] - barre de contrôle présent
+
+2018-09-24 12:02:23 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-24 12:02:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-24 12:02:28 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2018-09-24 12:02:28 - [TEST_STEP][PASSED] - Statement - status = testCaseContext.getTestCaseStatus(): null
+
+2018-09-24 12:02:28 - [TEST_STEP][PASSED] - Statement - cycle_id = cycle_id: null
+
+2018-09-24 12:02:28 - [TEST_STEP][PASSED] - Statement - If (status != "PASSED"): null
+
+2018-09-24 12:02:28 - [TEST_STEP][PASSED] - Statement - Else: Step 1 updated with status Passed
+
+2018-09-24 12:02:28 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < java.lang.Integer.parseInt(number_of_test_steps), (i++)]): Step 1 updated with status Passed
+
+2018-09-24 12:02:28 - [TEST_STEP][PASSED] - qc_api_client.ClientApi.testHttpClientValidateStep: Step 1 updated with status Passed
+
+2018-09-24 12:02:29 - [MESSAGE][PASSED] - Step 1 updated with status Passed
+
+2018-09-24 12:02:29 - [TEST_STEP][PASSED] - qc_api_client.ClientApi.testHttpClientValidateTest:  Le test a été mis à jour sur QC avec le stauts : PASSED
+
+2018-09-24 12:02:30 - [MESSAGE][PASSED] -  Le test a été mis à jour sur QC avec le stauts : PASSED
+
+2018-09-24 12:02:30 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-24 12:02:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/VOD/Functional Test/Smoke Test/PC/13.06.06 Avance et retour rapides" classname="Test Cases/VOD/Functional Test/Smoke Test/PC/13.06.06 Avance et retour rapides" status="PASSED">
+         <system-out><![CDATA[2018-09-24 12:02:30 - [TEST_CASE][PASSED] - Test Cases/VOD/Functional Test/Smoke Test/PC/13.06.06 Avance et retour rapides: Test Cases/VOD/Functional Test/Smoke Test/PC/13.06.06 Avance et retour rapides
+
+2018-09-24 12:02:31 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: ''
+
+2018-09-24 12:02:31 - [TEST_STEP][PASSED] - Statement - (position_of_test_in_test_suite++): null
+
+2018-09-24 12:02:31 - [TEST_STEP][PASSED] - Statement - position = positions[position_of_test_in_test_suite - 1]: null
+
+2018-09-24 12:02:31 - [TEST_STEP][PASSED] - Statement - run_id = CustomKeywords.qc_api_client.ClientApi.testHttpClientCreateTestRun(cycle_id, position): Test run created with ID: 4134
+
+2018-09-24 12:02:31 - [MESSAGE][PASSED] - Test run created with ID: 4134
+
+2018-09-24 12:02:31 - [TEST_STEP][PASSED] - Statement - println(run_id): null
+
+2018-09-24 12:02:31 - [TEST_STEP][PASSED] - Statement - number_of_test_steps = CustomKeywords.qc_api_client.ClientApi.testHttpClientGetAllTestSteps(run_id): qc_api_client.ClientApi.testHttpClientGetAllTestSteps is PASSED
+
+2018-09-24 12:02:31 - [MESSAGE][PASSED] - qc_api_client.ClientApi.testHttpClientGetAllTestSteps is PASSED
+
+2018-09-24 12:02:31 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-24 12:02:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-24 12:02:37 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_connection.connectUser: Object: 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is clicked on
+
+2018-09-24 12:02:40 - [MESSAGE][PASSED] - Navigate to 'https://login-tb1.staging.orange.fr/?return_url=https%3A%2F%2Fovo.qualif1.orange.fr%2F%23vod%2Fhome' successfully
+
+2018-09-24 12:02:41 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Identification page object/login_input' is present
+
+2018-09-24 12:02:41 - [MESSAGE][PASSED] - Text 'vodpcqualifb@orange.fr' is set on object 'Object Repository/VOD Objects/PC/Identification page object/login_input'
+
+2018-09-24 12:02:41 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Identification page object/btn_continuer' is clicked on
+
+2018-09-24 12:02:42 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Identification page object/saissisez mot de passe input' is present
+
+2018-09-24 12:02:42 - [MESSAGE][PASSED] - Text 'Passwd1' is set on object 'Object Repository/VOD Objects/PC/Identification page object/saissisez mot de passe input'
+
+2018-09-24 12:02:42 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Identification page object/btn_continuer' is clicked on
+
+2018-09-24 12:02:42 - [MESSAGE][PASSED] - Authentication of client vodpcqualifb@orange.fr is successful
+
+2018-09-24 12:02:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-24 12:03:07 - [MESSAGE][PASSED] - Current window's url is: 'https://ovo.qualif1.orange.fr/#vod/home'
+
+2018-09-24 12:03:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-24 12:03:08 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is present and visible in viewport
+
+2018-09-24 12:03:08 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is clicked on
+
+2018-09-24 12:03:08 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_HTML5_Player.playVODContenu: vodpckeywords.vodpc_HTML5_Player.playVODContenu is PASSED
+
+2018-09-24 12:03:08 - [MESSAGE][PASSED] - Navigate to 'https://ovo.qualif1.orange.fr/#vod/movieDescription/ANGRYBIRDSXW0103160' successfully
+
+2018-09-24 12:03:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-24 12:03:09 - [MESSAGE][WARNING] - Object 'Object Repository/VOD Objects/PC/Home Page/accepter cookie' is present but is not visible in viewport
+[[ATTACHMENT|C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\PC - Win8 - Chrome\\Smoke test\\20180924_120112\\1537783388834.png]]
+
+2018-09-24 12:03:09 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/button regarder' is visible
+
+2018-09-24 12:03:10 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/button regarder' is clicked on
+
+2018-09-24 12:03:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-24 12:03:15 - [MESSAGE][PASSED] - vodpckeywords.vodpc_HTML5_Player.playVODContenu is PASSED
+
+2018-09-24 12:03:15 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_HTML5_Player.playerIB_opened: Player IB ouvert et vidéo en lecture
+
+2018-09-24 12:03:30 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-09-24 12:03:30 - [MESSAGE][PASSED] - Execute JavaScript 'return arguments[0].currentTime;' successfully
+
+2018-09-24 12:03:30 - [MESSAGE][PASSED] - Player IB ouvert et vidéo en lecture
+
+2018-09-24 12:03:30 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_HTML5_Player.avance_et_retour_rapides: Delayed 1 second(s)
+
+2018-09-24 12:03:30 - [MESSAGE][PASSED] - Execute JavaScript 'var evObj = document.createEvent('MouseEvents');evObj.initMouseEvent("mouseover",true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);arguments[0].dispatchEvent(evObj);' successfully
+
+2018-09-24 12:03:31 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Video Player/Barre de control player/avance rapide' is clicked on
+
+2018-09-24 12:03:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/feedback avance et retour rapide' is: 'X 4'
+
+2018-09-24 12:03:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/feedback avance et retour rapide texte' is: 'Avance rapide'
+
+2018-09-24 12:03:31 - [MESSAGE][PASSED] - prémière vitesse accélerée en avant : X 4
+
+2018-09-24 12:03:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 12:03:32 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_HTML5_Player.avance_et_retour_rapides: Delayed 1 second(s)
+
+2018-09-24 12:03:32 - [MESSAGE][PASSED] - Execute JavaScript 'var evObj = document.createEvent('MouseEvents');evObj.initMouseEvent("mouseover",true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);arguments[0].dispatchEvent(evObj);' successfully
+
+2018-09-24 12:03:32 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Video Player/Barre de control player/avance rapide' is clicked on
+
+2018-09-24 12:03:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/feedback avance et retour rapide' is: 'X 8'
+
+2018-09-24 12:03:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/feedback avance et retour rapide texte' is: 'Avance rapide'
+
+2018-09-24 12:03:32 - [MESSAGE][PASSED] - vitesse supérieure accélerée en avant : X 8
+
+2018-09-24 12:03:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 12:03:33 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_HTML5_Player.avance_et_retour_rapides: Delayed 1 second(s)
+
+2018-09-24 12:03:33 - [MESSAGE][PASSED] - Execute JavaScript 'var evObj = document.createEvent('MouseEvents');evObj.initMouseEvent("mouseover",true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);arguments[0].dispatchEvent(evObj);' successfully
+
+2018-09-24 12:03:33 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Video Player/Barre de control player/avance rapide' is clicked on
+
+2018-09-24 12:03:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/feedback avance et retour rapide' is: 'X 4'
+
+2018-09-24 12:03:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/feedback avance et retour rapide texte' is: 'Avance rapide'
+
+2018-09-24 12:03:33 - [MESSAGE][PASSED] - prémière vitesse accélerée en avant : X 4
+
+2018-09-24 12:03:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 12:03:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 12:03:35 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_HTML5_Player.avance_et_retour_rapides: Delayed 1 second(s)
+
+2018-09-24 12:03:35 - [MESSAGE][PASSED] - Execute JavaScript 'var evObj = document.createEvent('MouseEvents');evObj.initMouseEvent("mouseover",true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);arguments[0].dispatchEvent(evObj);' successfully
+
+2018-09-24 12:03:35 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Video Player/Barre de control player/retour rapide' is clicked on
+
+2018-09-24 12:03:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/feedback avance et retour rapide' is: 'X 4'
+
+2018-09-24 12:03:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/feedback avance et retour rapide texte' is: 'Retour rapide'
+
+2018-09-24 12:03:35 - [MESSAGE][PASSED] - prémière vitesse accélerée en arrière : X 4
+
+2018-09-24 12:03:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 12:03:36 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_HTML5_Player.avance_et_retour_rapides: Delayed 5 second(s)
+
+2018-09-24 12:03:40 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-09-24 12:03:40 - [MESSAGE][PASSED] - Execute JavaScript 'var evObj = document.createEvent('MouseEvents');evObj.initMouseEvent("mouseover",true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);arguments[0].dispatchEvent(evObj);' successfully
+
+2018-09-24 12:03:41 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Video Player/Barre de control player/play or pause button' is clicked on
+
+2018-09-24 12:03:41 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/feedback play' is visible
+
+2018-09-24 12:03:41 - [MESSAGE][PASSED] - lecture en marche avant à vitesse normale et affichage de feedback play
+
+2018-09-24 12:03:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-24 12:03:46 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_HTML5_Player.avance_et_retour_rapides: Delayed 1 second(s)
+
+2018-09-24 12:03:46 - [MESSAGE][PASSED] - Execute JavaScript 'var evObj = document.createEvent('MouseEvents');evObj.initMouseEvent("mouseover",true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);arguments[0].dispatchEvent(evObj);' successfully
+
+2018-09-24 12:03:46 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Video Player/Barre de control player/retour rapide' is clicked on
+
+2018-09-24 12:03:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/feedback avance et retour rapide' is: 'X 4'
+
+2018-09-24 12:03:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/feedback avance et retour rapide texte' is: 'Retour rapide'
+
+2018-09-24 12:03:46 - [MESSAGE][PASSED] - prémière vitesse accélerée en arrière : X 4
+
+2018-09-24 12:03:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 12:03:47 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_HTML5_Player.avance_et_retour_rapides: Delayed 1 second(s)
+
+2018-09-24 12:03:47 - [MESSAGE][PASSED] - Execute JavaScript 'var evObj = document.createEvent('MouseEvents');evObj.initMouseEvent("mouseover",true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);arguments[0].dispatchEvent(evObj);' successfully
+
+2018-09-24 12:03:47 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Video Player/Barre de control player/retour rapide' is clicked on
+
+2018-09-24 12:03:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/feedback avance et retour rapide' is: 'X 8'
+
+2018-09-24 12:03:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/feedback avance et retour rapide texte' is: 'Retour rapide'
+
+2018-09-24 12:03:47 - [MESSAGE][PASSED] - vitesse supérieure accélerée en arrière : X 8
+
+2018-09-24 12:03:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 12:03:48 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_HTML5_Player.avance_et_retour_rapides: Delayed 1 second(s)
+
+2018-09-24 12:03:48 - [MESSAGE][PASSED] - Execute JavaScript 'var evObj = document.createEvent('MouseEvents');evObj.initMouseEvent("mouseover",true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);arguments[0].dispatchEvent(evObj);' successfully
+
+2018-09-24 12:03:48 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Video Player/Barre de control player/avance rapide' is clicked on
+
+2018-09-24 12:03:48 - [MESSAGE][PASSED] - Execute JavaScript 'var evObj = document.createEvent('MouseEvents');evObj.initMouseEvent("mouseover",true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);arguments[0].dispatchEvent(evObj);' successfully
+
+2018-09-24 12:03:48 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Video Player/Barre de control player/avance rapide' is clicked on
+
+2018-09-24 12:03:48 - [MESSAGE][PASSED] - Execute JavaScript 'var evObj = document.createEvent('MouseEvents');evObj.initMouseEvent("mouseover",true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);arguments[0].dispatchEvent(evObj);' successfully
+
+2018-09-24 12:03:48 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Video Player/Barre de control player/retour rapide' is clicked on
+
+2018-09-24 12:03:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/feedback avance et retour rapide' is: 'X 4'
+
+2018-09-24 12:03:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/feedback avance et retour rapide texte' is: 'Retour rapide'
+
+2018-09-24 12:03:48 - [MESSAGE][PASSED] - prémière vitesse accélerée en arrière : X 4
+
+2018-09-24 12:03:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 12:03:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 12:03:50 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_HTML5_Player.avance_et_retour_rapides: Delayed 1 second(s)
+
+2018-09-24 12:03:50 - [MESSAGE][PASSED] - Execute JavaScript 'var evObj = document.createEvent('MouseEvents');evObj.initMouseEvent("mouseover",true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);arguments[0].dispatchEvent(evObj);' successfully
+
+2018-09-24 12:03:50 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Video Player/Barre de control player/retour rapide' is clicked on
+
+2018-09-24 12:03:50 - [MESSAGE][PASSED] - Execute JavaScript 'var evObj = document.createEvent('MouseEvents');evObj.initMouseEvent("mouseover",true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);arguments[0].dispatchEvent(evObj);' successfully
+
+2018-09-24 12:03:51 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Video Player/Barre de control player/retour rapide' is clicked on
+
+2018-09-24 12:03:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/feedback avance et retour rapide' is: 'X 4'
+
+2018-09-24 12:03:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/feedback avance et retour rapide texte' is: 'Retour rapide'
+
+2018-09-24 12:03:51 - [MESSAGE][PASSED] - prémière vitesse accélerée en arrière : X 4
+
+2018-09-24 12:03:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 12:03:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-09-24 12:03:53 - [TEST_STEP][PASSED] - vodpckeywords.vodpc_HTML5_Player.avance_et_retour_rapides: Delayed 5 second(s)
+
+2018-09-24 12:03:57 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-09-24 12:03:57 - [MESSAGE][PASSED] - Execute JavaScript 'var evObj = document.createEvent('MouseEvents');evObj.initMouseEvent("mouseover",true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);arguments[0].dispatchEvent(evObj);' successfully
+
+2018-09-24 12:03:57 - [MESSAGE][PASSED] - Object: 'Object Repository/VOD Objects/PC/Video Player/Barre de control player/play or pause button' is clicked on
+
+2018-09-24 12:03:57 - [MESSAGE][PASSED] - Object 'Object Repository/VOD Objects/PC/Video Player/zone de flux video/feedback play' is visible
+
+2018-09-24 12:03:57 - [MESSAGE][PASSED] - lecture en marche avant à vitesse normale et affichage de feedback play
+
+2018-09-24 12:04:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-24 12:04:02 - [TEST_STEP][FAILED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2018-09-24 12:04:02 - [TEST_STEP][PASSED] - Statement - status = testCaseContext.getTestCaseStatus(): null
+
+2018-09-24 12:04:02 - [TEST_STEP][PASSED] - Statement - cycle_id = cycle_id: null
+
+2018-09-24 12:04:02 - [TEST_STEP][PASSED] - Statement - If (status != "PASSED"): null
+
+2018-09-24 12:04:02 - [TEST_STEP][FAILED] - Statement - Else: <html><head><title>Apache Tomcat/7.0.47 - Rapport d''erreur</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Etat HTTP 500 - java.lang.IndexOutOfBoundsException: Index: 10, Size: 2</h1><HR size="1" noshade="noshade"><p><b>type</b> Rapport d''exception</p><p><b>message</b> <u>java.lang.IndexOutOfBoundsException: Index: 10, Size: 2</u></p><p><b>description</b> <u>Le serveur a rencontré une erreur interne qui l''a empêché de satisfaire la requête.</u></p><p><b>exception</b> <pre>javax.servlet.ServletException: java.lang.IndexOutOfBoundsException: Index: 10, Size: 2
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:419)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:381)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:344)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre></p><p><b>cause mère</b> <pre>java.lang.IndexOutOfBoundsException: Index: 10, Size: 2
+	java.util.ArrayList.rangeCheck(Unknown Source)
+	java.util.ArrayList.get(Unknown Source)
+	alm.api.vod.katalon_qc.RunTest.findValueInMap(RunTest.java:275)
+	alm.api.vod.katalon_qc.RunTest.validateTestRunStep(RunTest.java:128)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:143)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:160)
+	org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:203)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:97)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:303)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:286)
+	org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1072)
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:399)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:381)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:344)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre></p><p><b>note</b> <u>La trace complète de la cause mère de cette erreur est disponible dans les fichiers journaux de Apache Tomcat/7.0.47.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.47</h3></body></html>
+
+2018-09-24 12:04:02 - [TEST_STEP][FAILED] - Statement - For ([i = 0, i < java.lang.Integer.parseInt(number_of_test_steps), (i++)]): <html><head><title>Apache Tomcat/7.0.47 - Rapport d''erreur</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Etat HTTP 500 - java.lang.IndexOutOfBoundsException: Index: 10, Size: 2</h1><HR size="1" noshade="noshade"><p><b>type</b> Rapport d''exception</p><p><b>message</b> <u>java.lang.IndexOutOfBoundsException: Index: 10, Size: 2</u></p><p><b>description</b> <u>Le serveur a rencontré une erreur interne qui l''a empêché de satisfaire la requête.</u></p><p><b>exception</b> <pre>javax.servlet.ServletException: java.lang.IndexOutOfBoundsException: Index: 10, Size: 2
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:419)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:381)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:344)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre></p><p><b>cause mère</b> <pre>java.lang.IndexOutOfBoundsException: Index: 10, Size: 2
+	java.util.ArrayList.rangeCheck(Unknown Source)
+	java.util.ArrayList.get(Unknown Source)
+	alm.api.vod.katalon_qc.RunTest.findValueInMap(RunTest.java:275)
+	alm.api.vod.katalon_qc.RunTest.validateTestRunStep(RunTest.java:128)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:143)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:160)
+	org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:203)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:97)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:303)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:286)
+	org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1072)
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:399)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:381)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:344)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre></p><p><b>note</b> <u>La trace complète de la cause mère de cette erreur est disponible dans les fichiers journaux de Apache Tomcat/7.0.47.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.47</h3></body></html>
+
+2018-09-24 12:04:02 - [TEST_STEP][PASSED] - qc_api_client.ClientApi.testHttpClientValidateStep: Step 1 updated with status Passed
+
+2018-09-24 12:04:03 - [MESSAGE][PASSED] - Step 1 updated with status Passed
+
+2018-09-24 12:04:03 - [TEST_STEP][FAILED] - qc_api_client.ClientApi.testHttpClientValidateStep: <html><head><title>Apache Tomcat/7.0.47 - Rapport d''erreur</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Etat HTTP 500 - java.lang.IndexOutOfBoundsException: Index: 10, Size: 2</h1><HR size="1" noshade="noshade"><p><b>type</b> Rapport d''exception</p><p><b>message</b> <u>java.lang.IndexOutOfBoundsException: Index: 10, Size: 2</u></p><p><b>description</b> <u>Le serveur a rencontré une erreur interne qui l''a empêché de satisfaire la requête.</u></p><p><b>exception</b> <pre>javax.servlet.ServletException: java.lang.IndexOutOfBoundsException: Index: 10, Size: 2
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:419)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:381)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:344)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre></p><p><b>cause mère</b> <pre>java.lang.IndexOutOfBoundsException: Index: 10, Size: 2
+	java.util.ArrayList.rangeCheck(Unknown Source)
+	java.util.ArrayList.get(Unknown Source)
+	alm.api.vod.katalon_qc.RunTest.findValueInMap(RunTest.java:275)
+	alm.api.vod.katalon_qc.RunTest.validateTestRunStep(RunTest.java:128)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:143)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:160)
+	org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:203)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:97)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:303)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:286)
+	org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1072)
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:399)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:381)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:344)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre></p><p><b>note</b> <u>La trace complète de la cause mère de cette erreur est disponible dans les fichiers journaux de Apache Tomcat/7.0.47.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.47</h3></body></html>
+
+2018-09-24 12:04:03 - [MESSAGE][FAILED] - <html><head><title>Apache Tomcat/7.0.47 - Rapport d''erreur</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>Etat HTTP 500 - java.lang.IndexOutOfBoundsException: Index: 10, Size: 2</h1><HR size="1" noshade="noshade"><p><b>type</b> Rapport d''exception</p><p><b>message</b> <u>java.lang.IndexOutOfBoundsException: Index: 10, Size: 2</u></p><p><b>description</b> <u>Le serveur a rencontré une erreur interne qui l''a empêché de satisfaire la requête.</u></p><p><b>exception</b> <pre>javax.servlet.ServletException: java.lang.IndexOutOfBoundsException: Index: 10, Size: 2
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:419)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:381)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:344)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre></p><p><b>cause mère</b> <pre>java.lang.IndexOutOfBoundsException: Index: 10, Size: 2
+	java.util.ArrayList.rangeCheck(Unknown Source)
+	java.util.ArrayList.get(Unknown Source)
+	alm.api.vod.katalon_qc.RunTest.findValueInMap(RunTest.java:275)
+	alm.api.vod.katalon_qc.RunTest.validateTestRunStep(RunTest.java:128)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	java.lang.reflect.Method.invoke(Unknown Source)
+	org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:143)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:160)
+	org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:203)
+	org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:97)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347)
+	org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102)
+	org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:303)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)
+	org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:315)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:297)
+	org.glassfish.jersey.internal.Errors.process(Errors.java:267)
+	org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)
+	org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:286)
+	org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1072)
+	org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:399)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:381)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:344)
+	org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre></p><p><b>note</b> <u>La trace complète de la cause mère de cette erreur est disponible dans les fichiers journaux de Apache Tomcat/7.0.47.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.47</h3></body></html>
+
+2018-09-24 12:04:03 - [TEST_STEP][PASSED] - qc_api_client.ClientApi.testHttpClientValidateTest:  Le test a été mis à jour sur QC avec le stauts : PASSED
+
+2018-09-24 12:04:03 - [MESSAGE][PASSED] -  Le test a été mis à jour sur QC avec le stauts : PASSED
+
+2018-09-24 12:04:03 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-24 12:04:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-24 12:01:16 - [TEST_SUITE][PASSED] - Smoke test: Test Cases/VOD/Functional Test/Smoke Test/PC/13.06.06 Avance et retour rapides]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

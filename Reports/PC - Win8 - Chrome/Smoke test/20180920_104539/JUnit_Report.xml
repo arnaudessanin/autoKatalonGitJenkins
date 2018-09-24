@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke test" time="257" tests="3" failures="0" errors="0">
+   <testsuite name="Smoke test" tests="3" failures="0" errors="0" time="257" timestamp="2018-09-20 10:45:52" hostname="Test - 192.168.231.227" id="Test Suites/PC - Win8 - Chrome/Smoke test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\PC - Win8 - Chrome\\Smoke test\\20180920_104539"/>
+         <property name="logFiles" value="C:\\Users\\Test\\Katalon Studio\\GUI Tests\\Reports\\PC - Win8 - Chrome\\Smoke test\\20180920_104539\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Test - 192.168.231.227"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.231.227"/>
+         <property name="sessionId" value="9bd94bce58b9fd26a3236fe2cfe8cfc9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Test integration avec qc/testplan 1" classname="Test Cases/Test integration avec qc/testplan 1" status="PASSED">
+         <system-out><![CDATA[2018-09-20 10:46:11 - [TEST_CASE][PASSED] - Test Cases/Test integration avec qc/testplan 1: Test Cases/Test integration avec qc/testplan 1
+
+2018-09-20 10:46:12 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Test run created with ID: 4070
+
+2018-09-20 10:46:12 - [TEST_STEP][PASSED] - Statement - (position_of_test_in_test_suite++): null
+
+2018-09-20 10:46:12 - [TEST_STEP][PASSED] - Statement - position = positions[position_of_test_in_test_suite - 1]: null
+
+2018-09-20 10:46:12 - [TEST_STEP][PASSED] - qc_api_client.ClientApi.testHttpClientCreateTestRun: Test run created with ID: 4070
+
+2018-09-20 10:46:15 - [MESSAGE][PASSED] - Test run created with ID: 4070
+
+2018-09-20 10:46:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-20 10:47:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-20 10:47:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.google.com' successfully
+
+2018-09-20 10:47:47 - [MESSAGE][PASSED] - Navigate to 'http://www.google.com' successfully
+
+2018-09-20 10:47:47 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-20 10:47:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-20 10:47:52 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2018-09-20 10:47:52 - [TEST_STEP][PASSED] - Statement - status = testCaseContext.getTestCaseStatus(): null
+
+2018-09-20 10:47:52 - [TEST_STEP][PASSED] - Statement - cycle_id = cycle_id: null
+
+2018-09-20 10:47:52 - [TEST_STEP][PASSED] - Statement - If (status != "PASSED"): null
+
+2018-09-20 10:47:52 - [TEST_STEP][PASSED] - qc_api_client.ClientApi.testHttpClientValidateTest:  Le test a été mis à jour sur QC avec le stauts : PASSED
+
+2018-09-20 10:47:57 - [MESSAGE][PASSED] -  Le test a été mis à jour sur QC avec le stauts : PASSED
+
+2018-09-20 10:47:57 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-20 10:47:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test integration avec qc/testplan 3" classname="Test Cases/Test integration avec qc/testplan 3" status="PASSED">
+         <system-out><![CDATA[2018-09-20 10:47:59 - [TEST_CASE][PASSED] - Test Cases/Test integration avec qc/testplan 3: Test Cases/Test integration avec qc/testplan 3
+
+2018-09-20 10:47:59 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Test run created with ID: 4073
+
+2018-09-20 10:47:59 - [TEST_STEP][PASSED] - Statement - (position_of_test_in_test_suite++): null
+
+2018-09-20 10:47:59 - [TEST_STEP][PASSED] - Statement - position = positions[position_of_test_in_test_suite - 1]: null
+
+2018-09-20 10:47:59 - [TEST_STEP][PASSED] - qc_api_client.ClientApi.testHttpClientCreateTestRun: Test run created with ID: 4073
+
+2018-09-20 10:48:04 - [MESSAGE][PASSED] - Test run created with ID: 4073
+
+2018-09-20 10:48:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-20 10:48:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-20 10:48:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.youtube.com' successfully
+
+2018-09-20 10:48:52 - [MESSAGE][PASSED] - Navigate to 'http://www.youtube.com' successfully
+
+2018-09-20 10:48:52 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-09-20 10:48:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-20 10:48:53 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-20 10:48:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-20 10:48:58 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2018-09-20 10:48:58 - [TEST_STEP][PASSED] - Statement - status = testCaseContext.getTestCaseStatus(): null
+
+2018-09-20 10:48:58 - [TEST_STEP][PASSED] - Statement - cycle_id = cycle_id: null
+
+2018-09-20 10:48:58 - [TEST_STEP][PASSED] - Statement - If (status != "PASSED"): null
+
+2018-09-20 10:48:58 - [TEST_STEP][PASSED] - qc_api_client.ClientApi.testHttpClientValidateTest:  Le test a été mis à jour sur QC avec le stauts : PASSED
+
+2018-09-20 10:49:04 - [MESSAGE][PASSED] -  Le test a été mis à jour sur QC avec le stauts : PASSED
+
+2018-09-20 10:49:04 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-20 10:49:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test integration avec qc/testplan 2" classname="Test Cases/Test integration avec qc/testplan 2" status="PASSED">
+         <system-out><![CDATA[2018-09-20 10:49:07 - [TEST_CASE][PASSED] - Test Cases/Test integration avec qc/testplan 2: Test Cases/Test integration avec qc/testplan 2
+
+2018-09-20 10:49:07 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Test run created with ID: 4074
+
+2018-09-20 10:49:07 - [TEST_STEP][PASSED] - Statement - (position_of_test_in_test_suite++): null
+
+2018-09-20 10:49:07 - [TEST_STEP][PASSED] - Statement - position = positions[position_of_test_in_test_suite - 1]: null
+
+2018-09-20 10:49:07 - [TEST_STEP][PASSED] - qc_api_client.ClientApi.testHttpClientCreateTestRun: Test run created with ID: 4074
+
+2018-09-20 10:49:12 - [MESSAGE][PASSED] - Test run created with ID: 4074
+
+2018-09-20 10:49:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-20 10:49:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-20 10:49:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.cnn.com' successfully
+
+2018-09-20 10:50:04 - [MESSAGE][PASSED] - Navigate to 'http://www.cnn.com' successfully
+
+2018-09-20 10:50:04 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-09-20 10:50:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-20 10:50:04 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2018-09-20 10:50:04 - [TEST_STEP][PASSED] - Statement - status = testCaseContext.getTestCaseStatus(): null
+
+2018-09-20 10:50:04 - [TEST_STEP][PASSED] - Statement - cycle_id = cycle_id: null
+
+2018-09-20 10:50:04 - [TEST_STEP][PASSED] - Statement - If (status != "PASSED"): null
+
+2018-09-20 10:50:04 - [TEST_STEP][PASSED] - qc_api_client.ClientApi.testHttpClientValidateTest:  Le test a été mis à jour sur QC avec le stauts : PASSED
+
+2018-09-20 10:50:08 - [MESSAGE][PASSED] -  Le test a été mis à jour sur QC avec le stauts : PASSED
+
+2018-09-20 10:50:08 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-20 10:50:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-20 10:45:52 - [TEST_SUITE][PASSED] - Smoke test: Test Cases/Test integration avec qc/testplan 2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
